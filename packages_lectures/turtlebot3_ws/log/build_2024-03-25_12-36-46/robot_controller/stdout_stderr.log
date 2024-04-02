@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 33%] Built target talker
+[ 66%] Built target listener
+[35m[1mConsolidate compiler generated dependencies of target random[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/random.dir/src/random.cpp.o[0m
+[100%] [32m[1mLinking CXX executable random[0m
+[100%] Built target random
+-- Install configuration: ""
+-- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/talker
+-- Set runtime path of "/home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/talker" to ""
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/listener
+-- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/random
+-- Set runtime path of "/home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/random" to ""
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+-- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/path.sh
+-- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/path.dsv
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.bash
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.sh
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.zsh
+-- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.dsv
+-- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/package.dsv
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/package.xml

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from two_server_controllers/srv/Goto.srv
+// generated code does not contain a copyright notice
+
+
+module two_server_controllers {
+  module srv {
+    struct Goto_Request {
+      float x;
+
+      float y;
+
+      float speed;
+    };
+    struct Goto_Response {
+      int32 succes;
+    };
+  };
+};

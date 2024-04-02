@@ -1,0 +1,57 @@
+[0.304s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[0.410s] [35m[1mConsolidate compiler generated dependencies of target go_to[0m
+[0.460s] [ 50%] [32mBuilding CXX object CMakeFiles/go_to.dir/src/goto.cpp.o[0m
+[7.297s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In constructor ‘[01m[KGoTo::GoTo()[m[K’:
+[7.298s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocity_publisher_[m[K’?
+[7.298s]    14 |     [01;31m[Kvelocity_publisher[m[K =
+[7.298s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.298s]       |     [32m[Kvelocity_publisher_[m[K
+[7.314s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose_subscriber_[m[K’?
+[7.314s]    17 |     [01;31m[Kpose_subscriber[m[K =
+[7.314s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[7.314s]       |     [32m[Kpose_subscriber_[m[K
+[7.314s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:18:11:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[7.315s]    18 |     this->[01;31m[Kcreate_subscription<turtlesim::msg:::Pose>[m[K("/turtle1/pose", 10, std::bind(&GoTo::pose_callback, this, std::placeholders::_1));
+[7.315s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.328s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:18:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGoTo::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (GoTo::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >), GoTo*, const std::_Placeholder<1>&>::type)[m[K’
+[7.328s]    18 |     [01;31m[Kthis->create_subscription<turtlesim::msg:::Pose>("/turtle1/pose", 10, std::bind(&GoTo::pose_callback, this, std::placeholders::_1))[m[K;
+[7.328s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.329s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.329s]                  from [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:3[m[K:
+[7.330s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[7.330s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[7.330s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.330s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.331s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:18:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.331s]    18 |     [01;31m[Kthis->create_subscription<turtlesim::msg:::Pose>("/turtle1/pose", 10, std::bind(&GoTo::pose_callback, this, std::placeholders::_1))[m[K;
+[7.331s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.332s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:20:79:[m[K [01;31m[Kerror: [m[K‘[01m[KGotTo[m[K’ has not been declared
+[7.332s]    20 | create_wall_timer(std::chrono::nanoseconds(10), std::bind(&[01;31m[KGotTo[m[K::go_to_goal, this));
+[7.332s]       |                                                            [01;31m[K^~~~~[m[K
+[7.332s] 
+[7.333s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgo_to[m[K’ has not been declared
+[7.333s]    21 |     [01;31m[Kgo_to[m[K::set_goal();
+[7.333s]       |     [01;31m[K^~~~~[m[K
+[7.349s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.349s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:128:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kgo_to[m[K’ was not declared in this scope
+[7.350s]   128 |   rclcpp::spin(std::make_shared<[01;31m[Kgo_to[m[K>());
+[7.350s]       |                                 [01;31m[K^~~~~[m[K
+[7.350s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:128:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[7.350s]   128 |   rclcpp::spin([01;31m[Kstd::make_shared<go_to>()[m[K);
+[7.351s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.351s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[7.351s]                  from [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:3[m[K:
+[7.351s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[7.352s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[7.352s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[7.352s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.353s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:128:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.353s]   128 |   rclcpp::spin([01;31m[Kstd::make_shared<go_to>()[m[K);
+[7.354s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[9.112s] gmake[2]: *** [CMakeFiles/go_to.dir/build.make:76: CMakeFiles/go_to.dir/src/goto.cpp.o] Error 1
+[9.113s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to.dir/all] Error 2
+[9.115s] gmake: *** [Makefile:146: all] Error 2
+[9.116s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

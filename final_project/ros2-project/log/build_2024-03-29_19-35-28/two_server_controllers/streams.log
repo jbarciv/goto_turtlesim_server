@@ -1,0 +1,48 @@
+[0.032s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target go_to_goal[0m
+[0.169s] [ 50%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto.cpp.o[0m
+[5.779s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In constructor ‘[01m[KGoToGoal::GoToGoal()[m[K’:
+[5.779s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[5.780s]    18 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::nanoseconds(10), std::bind(&GoToGoal::go_to_goal, this));
+[5.780s]       |     [01;31m[K^~~~~~[m[K
+[5.780s]       |     [32m[Ktimer_t[m[K
+[5.780s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:18:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kgo_to_goal[m[K’ is not a member of ‘[01m[KGoToGoal[m[K’
+[5.781s]    18 | er(std::chrono::nanoseconds(10), std::bind(&GoToGoal::[01;31m[Kgo_to_goal[m[K, this));
+[5.781s]       |                                                       [01;31m[K^~~~~~~~~~[m[K
+[5.781s] 
+[5.792s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::pose_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.793s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+[5.793s]    34 |     [01;31m[Kx1[m[K = pose->x;
+[5.793s]       |     [01;31m[K^~[m[K
+[5.794s]       |     [32m[Ky1[m[K
+[5.811s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:35:8:[m[K [01;31m[Kerror: [m[Kassignment of function ‘[01m[Kdouble y1(double)[m[K’
+[5.811s]    35 |     [01;31m[Ky1 = pose->y[m[K;
+[5.812s]       |     [01;31m[K~~~^~~~~~~~~[m[K
+[5.820s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+[5.820s]    36 |     [01;31m[Ktheta[m[K = pose->theta;
+[5.820s]       |     [01;31m[K^~~~~[m[K
+[5.829s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::set_goal()[m[K’:
+[5.829s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:44:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx2[m[K’ was not declared in this scope
+[5.829s]    44 |     std::cin >> [01;31m[Kx2[m[K;
+[5.830s]       |                 [01;31m[K^~[m[K
+[5.837s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:46:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ky2[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[5.837s]    46 |     std::cin >> [01;31m[Ky2[m[K;
+[5.837s]       |                 [01;31m[K^~[m[K
+[5.837s]       |                 [32m[Kyn[m[K
+[5.848s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:48:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kavg_speed[m[K’ was not declared in this scope
+[5.851s]    48 |     std::cin >> [01;31m[Kavg_speed[m[K;
+[5.852s]       |                 [01;31m[K^~~~~~~~~[m[K
+[5.852s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::update_pose(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.852s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:89:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.852s]    89 | oid update_pose([01;35m[Kconst turtlesim::msg::Pose::SharedPtr pose_msg[m[K) {
+[5.852s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.852s] 
+[5.864s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::move2goal()[m[K’:
+[5.865s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:138:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[5.865s]   138 |             [01;31m[Ktimer_[m[K->sleep();
+[5.865s]       |             [01;31m[K^~~~~~[m[K
+[5.865s]       |             [32m[Ktimer_t[m[K
+[11.457s] gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto.cpp.o] Error 1
+[11.460s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to_goal.dir/all] Error 2
+[11.460s] gmake: *** [Makefile:146: all] Error 2
+[11.462s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

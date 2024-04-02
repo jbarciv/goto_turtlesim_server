@@ -1,0 +1,36 @@
+[0.744s] Invoking command in '/home/fssja/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/turtlebot3_navigation2 -- -j2 -l2
+[1.167s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.213s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.624s] -- Configuring done
+[3.749s] -- Generating done
+[3.752s] -- Build files have been written to: /home/fssja/turtlebot3_ws/build/turtlebot3_navigation2
+[3.827s] Invoked command in '/home/fssja/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/turtlebot3_navigation2 -- -j2 -l2
+[3.882s] Invoking command in '/home/fssja/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/fssja/turtlebot3_ws/build/turtlebot3_navigation2
+[3.900s] -- Install configuration: ""
+[3.926s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[3.945s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[3.946s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[3.946s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[3.947s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[3.947s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[3.948s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[3.948s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[3.949s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[3.949s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[3.951s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[3.952s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[3.953s] -- Installing: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[3.954s] -- Installing: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[3.955s] -- Installing: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[3.956s] -- Installing: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[3.958s] -- Installing: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[3.959s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[3.959s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[3.960s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[3.961s] -- Installing: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[3.962s] -- Installing: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[3.963s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[3.964s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[3.964s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[3.965s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[3.976s] Invoked command in '/home/fssja/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/fssja/turtlebot3_ws/build/turtlebot3_navigation2

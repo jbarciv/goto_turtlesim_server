@@ -1,0 +1,58 @@
+[0.043s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[0.187s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.515s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.981s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.035s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.104s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.716s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.759s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.422s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.164s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[3.605s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.730s] -- Found two_server_controllers: 0.0.0 (/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/cmake)
+[3.738s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.633s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.026s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.192s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.192s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.192s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.761s] -- Configuring done
+[7.093s] -- Generating done
+[7.136s] -- Build files have been written to: /home/fssja/ros2-project/build/two_server_controllers
+[7.204s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_generator_c[0m
+[7.227s] [  9%] Built target two_server_controllers__rosidl_generator_c
+[7.230s] [ 12%] Built target two_server_controllers__cpp
+[7.281s] [ 15%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o[0m
+[7.288s] [ 15%] Built target ament_cmake_python_copy_two_server_controllers
+[7.311s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_cpp[0m
+[7.346s] [ 24%] Built target two_server_controllers__rosidl_typesupport_cpp
+[7.376s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_fastrtps_c[0m
+[7.402s] [ 33%] Built target two_server_controllers__rosidl_typesupport_fastrtps_c
+[7.430s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_fastrtps_cpp[0m
+[7.454s] [ 42%] Built target two_server_controllers__rosidl_typesupport_fastrtps_cpp
+[7.480s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_introspection_c[0m
+[7.504s] [ 51%] Built target two_server_controllers__rosidl_typesupport_introspection_c
+[7.529s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_c[0m
+[7.549s] [ 60%] Built target two_server_controllers__rosidl_typesupport_c
+[7.580s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_introspection_cpp[0m
+[7.638s] [ 69%] Built target two_server_controllers__rosidl_typesupport_introspection_cpp
+[8.001s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktwo_server_controllers/srv/goto.hpp: No such file or directory
+[8.002s]     2 | #include [01;31m[K"two_server_controllers/srv/goto.hpp"[m[K
+[8.004s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.005s] compilation terminated.
+[8.033s] gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o] Error 1
+[8.035s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/go_to_goal.dir/all] Error 2
+[8.036s] gmake[1]: *** Waiting for unfinished jobs....
+[8.375s] running egg_info
+[8.376s] writing two_server_controllers.egg-info/PKG-INFO
+[8.376s] writing dependency_links to two_server_controllers.egg-info/dependency_links.txt
+[8.377s] writing top-level names to two_server_controllers.egg-info/top_level.txt
+[8.383s] reading manifest file 'two_server_controllers.egg-info/SOURCES.txt'
+[8.384s] writing manifest file 'two_server_controllers.egg-info/SOURCES.txt'
+[8.445s] [ 69%] Built target ament_cmake_python_build_two_server_controllers_egg
+[8.446s] gmake: *** [Makefile:146: all] Error 2
+[8.451s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

@@ -1,0 +1,317 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000745] (two_server_controllers) JobQueued: {'identifier': 'two_server_controllers', 'dependencies': OrderedDict([('custom_interfaces', '/home/fssja/ros2-project/install/custom_interfaces')])}
+[0.000817] (two_server_controllers) JobStarted: {'identifier': 'two_server_controllers'}
+[0.032533] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'cmake'}
+[0.035392] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'build'}
+[0.037675] (two_server_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/ros2-project/build/two_server_controllers', '--', '-j2', '-l2'], 'cwd': '/home/fssja/ros2-project/build/two_server_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/ros2-project/install/custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja/ros2-project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1221'), ('SYSTEMD_EXEC_PID', '1558'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4075'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30200'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1363,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1363'), ('INVOCATION_ID', 'a631d89606ba4707a2320f2b7d42e888'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J5EIL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0259b53c-8a0e-42c9-96a7-8e290ea766d6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2-project/build/two_server_controllers'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.094602] (-) TimerEvent: {}
+[0.153006] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go_to_goal\x1b[0m\n'}
+[0.194739] (-) TimerEvent: {}
+[0.217688] (two_server_controllers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o\x1b[0m\n'}
+[0.294869] (-) TimerEvent: {}
+[0.395551] (-) TimerEvent: {}
+[0.496452] (-) TimerEvent: {}
+[0.598118] (-) TimerEvent: {}
+[0.698839] (-) TimerEvent: {}
+[0.799892] (-) TimerEvent: {}
+[0.900691] (-) TimerEvent: {}
+[1.001509] (-) TimerEvent: {}
+[1.102339] (-) TimerEvent: {}
+[1.203353] (-) TimerEvent: {}
+[1.304026] (-) TimerEvent: {}
+[1.404690] (-) TimerEvent: {}
+[1.505349] (-) TimerEvent: {}
+[1.606012] (-) TimerEvent: {}
+[1.706673] (-) TimerEvent: {}
+[1.807319] (-) TimerEvent: {}
+[1.908995] (-) TimerEvent: {}
+[2.012308] (-) TimerEvent: {}
+[2.112941] (-) TimerEvent: {}
+[2.213607] (-) TimerEvent: {}
+[2.314269] (-) TimerEvent: {}
+[2.414928] (-) TimerEvent: {}
+[2.515784] (-) TimerEvent: {}
+[2.616489] (-) TimerEvent: {}
+[2.716941] (-) TimerEvent: {}
+[2.892276] (-) TimerEvent: {}
+[2.992986] (-) TimerEvent: {}
+[3.093774] (-) TimerEvent: {}
+[3.194808] (-) TimerEvent: {}
+[3.295383] (-) TimerEvent: {}
+[3.395972] (-) TimerEvent: {}
+[3.496680] (-) TimerEvent: {}
+[3.597611] (-) TimerEvent: {}
+[3.698628] (-) TimerEvent: {}
+[3.800316] (-) TimerEvent: {}
+[3.904139] (-) TimerEvent: {}
+[4.006633] (-) TimerEvent: {}
+[4.108293] (-) TimerEvent: {}
+[4.209278] (-) TimerEvent: {}
+[4.310070] (-) TimerEvent: {}
+[4.410846] (-) TimerEvent: {}
+[4.511668] (-) TimerEvent: {}
+[4.612598] (-) TimerEvent: {}
+[4.713633] (-) TimerEvent: {}
+[4.814420] (-) TimerEvent: {}
+[4.914907] (-) TimerEvent: {}
+[5.015464] (-) TimerEvent: {}
+[5.115920] (-) TimerEvent: {}
+[5.216363] (-) TimerEvent: {}
+[5.316802] (-) TimerEvent: {}
+[5.417266] (-) TimerEvent: {}
+[5.517697] (-) TimerEvent: {}
+[5.618549] (-) TimerEvent: {}
+[5.719026] (-) TimerEvent: {}
+[5.819503] (-) TimerEvent: {}
+[5.919985] (-) TimerEvent: {}
+[6.020440] (-) TimerEvent: {}
+[6.120911] (-) TimerEvent: {}
+[6.221380] (-) TimerEvent: {}
+[6.321825] (-) TimerEvent: {}
+[6.422412] (-) TimerEvent: {}
+[6.523321] (-) TimerEvent: {}
+[6.623791] (-) TimerEvent: {}
+[6.724248] (-) TimerEvent: {}
+[6.824704] (-) TimerEvent: {}
+[6.925149] (-) TimerEvent: {}
+[7.025785] (-) TimerEvent: {}
+[7.126513] (-) TimerEvent: {}
+[7.227147] (-) TimerEvent: {}
+[7.264719] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[7.265168] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[7.265370] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[7.265554] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.265740] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.265920] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.266098] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[7.266278] (two_server_controllers) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (GoToGoal::*)(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >), GoToGoal*, const std::_Placeholder<1>&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.266462] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (GoToGoal::*)(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >), GoToGoal*, const std::_Placeholder<1>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.266668] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (GoToGoal::*)(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >); _BoundArgs = {GoToGoal*, const std::_Placeholder<1>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.266856] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:33:\x1b[m\x1b[K   required from here\n'}
+[7.267031] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[7.267213] (two_server_controllers) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[7.267409] (two_server_controllers) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[7.274720] (two_server_controllers) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[7.275216] (two_server_controllers) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.275460] (two_server_controllers) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[7.275795] (two_server_controllers) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.276015] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (2 >= (((long unsigned int)std::integral_constant<long unsigned int, 2>::value) + 1)) : (2 == (((long unsigned int)std::integral_constant<long unsigned int, 2>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[7.327289] (-) TimerEvent: {}
+[7.428332] (-) TimerEvent: {}
+[7.528771] (-) TimerEvent: {}
+[7.629483] (-) TimerEvent: {}
+[7.730273] (-) TimerEvent: {}
+[7.830848] (-) TimerEvent: {}
+[7.933395] (-) TimerEvent: {}
+[8.034074] (-) TimerEvent: {}
+[8.134868] (-) TimerEvent: {}
+[8.198707] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36\x1b[m\x1b[K,\n'}
+[8.199106] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28\x1b[m\x1b[K,\n'}
+[8.199347] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.199651] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.199924] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.200109] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.200288] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.200495] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.200705] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.200884] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.201055] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[8.201251] (two_server_controllers) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; typename std::enable_if<(! rclcpp::detail::can_be_nullptr<CallbackT>::value), int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.201453] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.201651] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.201872] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:19:66:\x1b[m\x1b[K   required from here\n'}
+[8.202045] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrCallback>(std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.202250] (two_server_controllers) StderrLine: {'line': b'   78 |       \x1b[01;31m\x1b[Kcallback_.template emplace<SharedPtrCallback>(callback)\x1b[m\x1b[K;\n'}
+[8.202418] (two_server_controllers) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.203655] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[8.203893] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.204085] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.204255] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.204438] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.204606] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.204772] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.204938] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.205107] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.205272] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.205437] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[8.205605] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1485:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.205810] (two_server_controllers) StderrLine: {'line': b' 1485 |         \x1b[01;36m\x1b[Kemplace\x1b[m\x1b[K(_Args&&... __args)\n'}
+[8.205997] (two_server_controllers) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.206163] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1485:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.206330] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[8.206525] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[8.206694] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[8.206859] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[8.207025] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[8.207194] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[8.207360] (two_server_controllers) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>&]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.207534] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1485:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; _Args = {std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.207976] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; typename std::enable_if<(! rclcpp::detail::can_be_nullptr<CallbackT>::value), int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.208169] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.208363] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.208542] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:19:66:\x1b[m\x1b[K   required from here\n'}
+[8.208711] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2579:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.208886] (two_server_controllers) StderrLine: {'line': b' 2579 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[8.209053] (two_server_controllers) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.209253] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[8.209424] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.209590] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.209755] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.210310] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.210722] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.210925] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.211100] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.211294] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.211488] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.211694] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[8.211871] (two_server_controllers) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; typename std::enable_if<(! rclcpp::detail::can_be_nullptr<CallbackT>::value), int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.212053] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.212268] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.212458] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:19:66:\x1b[m\x1b[K   required from here\n'}
+[8.213496] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1495:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.213754] (two_server_controllers) StderrLine: {'line': b' 1495 |         \x1b[01;36m\x1b[Kemplace\x1b[m\x1b[K(initializer_list<_Up> __il, _Args&&... __args)\n'}
+[8.213930] (two_server_controllers) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.214120] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1495:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.214294] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36\x1b[m\x1b[K,\n'}
+[8.214484] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28\x1b[m\x1b[K,\n'}
+[8.214655] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.214833] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.215007] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.215180] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.215352] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.215528] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.215765] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.215945] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.216120] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[8.216296] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (GoToGoal::*(GoToGoal*, std::_Placeholder<1>))(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Value>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.216502] (two_server_controllers) StderrLine: {'line': b'   78 |       \x1b[01;36m\x1b[Kcallback_.template emplace<SharedPtrCallback>(callback)\x1b[m\x1b[K;\n'}
+[8.216692] (two_server_controllers) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.216866] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[8.217087] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.217260] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.217428] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.217594] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.217764] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.217931] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.218101] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.218269] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.218438] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.218603] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[8.218770] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1505:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.218969] (two_server_controllers) StderrLine: {'line': b' 1505 |         \x1b[01;36m\x1b[Kemplace\x1b[m\x1b[K(_Args&&... __args)\n'}
+[8.219152] (two_server_controllers) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.219317] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1505:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.219497] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36\x1b[m\x1b[K,\n'}
+[8.219684] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28\x1b[m\x1b[K,\n'}
+[8.219865] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.220051] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.220220] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.220385] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.220551] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.220716] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.220883] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.221048] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.221214] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[8.221391] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.221586] (two_server_controllers) StderrLine: {'line': b'   78 |       \x1b[01;31m\x1b[Kcallback_.template emplace<SharedPtrCallback>(callback)\x1b[m\x1b[K;\n'}
+[8.221753] (two_server_controllers) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.221921] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a constant of type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99, got \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrCallback\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[8.222097] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[8.222276] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.222442] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.222608] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.222774] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.222940] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.223106] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.223271] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.223438] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.223632] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.223802] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[8.223982] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1551:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.224184] (two_server_controllers) StderrLine: {'line': b' 1551 |         \x1b[01;36m\x1b[Kemplace\x1b[m\x1b[K(initializer_list<_Up> __il, _Args&&... __args)\n'}
+[8.224351] (two_server_controllers) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.224516] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1551:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.224682] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36\x1b[m\x1b[K,\n'}
+[8.224847] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28\x1b[m\x1b[K,\n'}
+[8.225024] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.225189] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.225355] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.225520] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.225686] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.225850] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.226016] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.226182] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.226347] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[8.226513] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.226723] (two_server_controllers) StderrLine: {'line': b'   78 |       \x1b[01;31m\x1b[Kcallback_.template emplace<SharedPtrCallback>(callback)\x1b[m\x1b[K;\n'}
+[8.226902] (two_server_controllers) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.227068] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a constant of type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99, got \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrCallback\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[8.235006] (-) TimerEvent: {}
+[8.335657] (-) TimerEvent: {}
+[8.436220] (-) TimerEvent: {}
+[8.536789] (-) TimerEvent: {}
+[8.637384] (-) TimerEvent: {}
+[8.737979] (-) TimerEvent: {}
+[8.838714] (-) TimerEvent: {}
+[8.939313] (-) TimerEvent: {}
+[9.040133] (-) TimerEvent: {}
+[9.140668] (-) TimerEvent: {}
+[9.241203] (-) TimerEvent: {}
+[9.341770] (-) TimerEvent: {}
+[9.442561] (-) TimerEvent: {}
+[9.543099] (-) TimerEvent: {}
+[9.643704] (-) TimerEvent: {}
+[9.744459] (-) TimerEvent: {}
+[9.845027] (-) TimerEvent: {}
+[9.945592] (-) TimerEvent: {}
+[10.046077] (-) TimerEvent: {}
+[10.146571] (-) TimerEvent: {}
+[10.247330] (-) TimerEvent: {}
+[10.347819] (-) TimerEvent: {}
+[10.448295] (-) TimerEvent: {}
+[10.549283] (-) TimerEvent: {}
+[10.649870] (-) TimerEvent: {}
+[10.750756] (-) TimerEvent: {}
+[10.851412] (-) TimerEvent: {}
+[10.951940] (-) TimerEvent: {}
+[11.052485] (-) TimerEvent: {}
+[11.152924] (-) TimerEvent: {}
+[11.253494] (-) TimerEvent: {}
+[11.353974] (-) TimerEvent: {}
+[11.454523] (-) TimerEvent: {}
+[11.555415] (-) TimerEvent: {}
+[11.656309] (-) TimerEvent: {}
+[11.756965] (-) TimerEvent: {}
+[11.857451] (-) TimerEvent: {}
+[11.957908] (-) TimerEvent: {}
+[12.058562] (-) TimerEvent: {}
+[12.159426] (-) TimerEvent: {}
+[12.259902] (-) TimerEvent: {}
+[12.360344] (-) TimerEvent: {}
+[12.460805] (-) TimerEvent: {}
+[12.561271] (-) TimerEvent: {}
+[12.661741] (-) TimerEvent: {}
+[12.762205] (-) TimerEvent: {}
+[12.862673] (-) TimerEvent: {}
+[12.963139] (-) TimerEvent: {}
+[13.063632] (-) TimerEvent: {}
+[13.164072] (-) TimerEvent: {}
+[13.264539] (-) TimerEvent: {}
+[13.365016] (-) TimerEvent: {}
+[13.465473] (-) TimerEvent: {}
+[13.565907] (-) TimerEvent: {}
+[13.666393] (-) TimerEvent: {}
+[13.766872] (-) TimerEvent: {}
+[13.867381] (-) TimerEvent: {}
+[13.968030] (-) TimerEvent: {}
+[14.068998] (-) TimerEvent: {}
+[14.169488] (-) TimerEvent: {}
+[14.269961] (-) TimerEvent: {}
+[14.336825] (two_server_controllers) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o] Error 1\n'}
+[14.337801] (two_server_controllers) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to_goal.dir/all] Error 2\n'}
+[14.339046] (two_server_controllers) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.341544] (two_server_controllers) CommandEnded: {'returncode': 2}
+[14.370096] (-) TimerEvent: {}
+[14.426700] (two_server_controllers) JobEnded: {'identifier': 'two_server_controllers', 'rc': 2}
+[14.438760] (-) EventReactorShutdown: {}

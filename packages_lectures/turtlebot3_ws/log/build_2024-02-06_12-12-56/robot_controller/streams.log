@@ -1,0 +1,42 @@
+[0.819s] Invoking command in '/home/fssja/turtlebot3_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/robot_controller -- -j2 -l2
+[1.067s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.827s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.157s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.172s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.198s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.699s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.706s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.483s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.299s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.376s] -- Configuring done
+[5.547s] -- Generating done
+[5.566s] -- Build files have been written to: /home/fssja/turtlebot3_ws/build/robot_controller
+[5.741s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[5.862s] [ 25%] [32m[1mLinking CXX executable talker[0m
+[7.297s] [ 50%] Built target talker
+[7.380s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[7.486s] [100%] Built target listener
+[7.528s] Invoked command in '/home/fssja/turtlebot3_ws/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/robot_controller -- -j2 -l2
+[7.717s] Invoking command in '/home/fssja/turtlebot3_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/fssja/turtlebot3_ws/build/robot_controller
+[7.745s] -- Install configuration: ""
+[7.797s] -- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/talker
+[7.802s] -- Set runtime path of "/home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/talker" to ""
+[7.803s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/listener
+[7.813s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[7.814s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[7.816s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[7.817s] -- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[7.818s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/path.sh
+[7.819s] -- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/path.dsv
+[7.820s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.bash
+[7.820s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.sh
+[7.821s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.zsh
+[7.821s] -- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.dsv
+[7.822s] -- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/package.dsv
+[7.823s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[7.831s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[7.832s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[7.832s] -- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/package.xml
+[7.843s] Invoked command in '/home/fssja/turtlebot3_ws/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/fssja/turtlebot3_ws/build/robot_controller

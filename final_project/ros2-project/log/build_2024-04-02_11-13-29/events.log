@@ -1,0 +1,496 @@
+[0.000000] (-) TimerEvent: {}
+[0.001484] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001980] (two_server_controllers) JobQueued: {'identifier': 'two_server_controllers', 'dependencies': OrderedDict([('custom_interfaces', '/home/fssja/ros2-project/install/custom_interfaces')])}
+[0.003688] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.033659] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.035525] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.037209] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/ros2-project/build/custom_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/fssja/ros2-project/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/ros2-project/install/custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1272'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1915'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30280'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1409,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1409'), ('INVOCATION_ID', '8faebb076bb94f4da76414ab0a5506cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WE3CL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6fbcca38-3492-45c7-aa64-5e93b5f8b61c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2-project/build/custom_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.099324] (-) TimerEvent: {}
+[0.165603] (custom_interfaces) StdoutLine: {'line': b'[  9%] Built target custom_interfaces__rosidl_generator_c\n'}
+[0.167264] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__cpp\n'}
+[0.199541] (-) TimerEvent: {}
+[0.253452] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[0.299983] (-) TimerEvent: {}
+[0.307153] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[0.329299] (custom_interfaces) StdoutLine: {'line': b'[ 32%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.381249] (custom_interfaces) StdoutLine: {'line': b'[ 41%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.400113] (-) TimerEvent: {}
+[0.412205] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[0.444878] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.481757] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.500253] (-) TimerEvent: {}
+[0.579335] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[0.600368] (-) TimerEvent: {}
+[0.655666] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[0.701660] (-) TimerEvent: {}
+[0.778209] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__rosidl_generator_py\n'}
+[0.801755] (-) TimerEvent: {}
+[0.902335] (-) TimerEvent: {}
+[0.911282] (custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.002471] (-) TimerEvent: {}
+[1.061884] (custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.102598] (-) TimerEvent: {}
+[1.196881] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.202723] (-) TimerEvent: {}
+[1.303166] (-) TimerEvent: {}
+[1.403611] (-) TimerEvent: {}
+[1.471900] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.477016] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[1.478554] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[1.480692] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[1.494678] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[1.497280] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[1.507960] (-) TimerEvent: {}
+[1.608408] (-) TimerEvent: {}
+[1.610588] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[1.651122] (custom_interfaces) CommandEnded: {'returncode': 0}
+[1.708506] (-) TimerEvent: {}
+[1.809612] (-) TimerEvent: {}
+[1.828706] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[1.852122] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fssja/ros2-project/build/custom_interfaces'], 'cwd': '/home/fssja/ros2-project/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/ros2-project/install/custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1272'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1915'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30280'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1409,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1409'), ('INVOCATION_ID', '8faebb076bb94f4da76414ab0a5506cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WE3CL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6fbcca38-3492-45c7-aa64-5e93b5f8b61c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2-project/build/custom_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[1.875318] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.877072] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[1.879155] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.881396] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.883227] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.883786] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__struct.h\n'}
+[1.884244] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__functions.h\n'}
+[1.888160] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__type_support.h\n'}
+[1.888695] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__functions.c\n'}
+[1.889105] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/goto.h\n'}
+[1.889533] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.889994] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.890545] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[1.891099] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[1.891988] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[1.892888] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.893366] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.893825] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.894296] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__rosidl_typesupport_fastrtps_c.h\n'}
+[1.896516] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.897134] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.898003] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.898924] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.899477] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.901685] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.902423] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__type_support.c\n'}
+[1.903051] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__rosidl_typesupport_introspection_c.h\n'}
+[1.905255] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.905827] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.906659] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.909778] (-) TimerEvent: {}
+[1.910296] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[1.911253] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.912141] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.914991] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.915572] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__builder.hpp\n'}
+[1.915996] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__struct.hpp\n'}
+[1.916451] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__traits.hpp\n'}
+[1.916869] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/goto.hpp\n'}
+[1.917828] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.918483] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.920724] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.921324] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[1.921825] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.922270] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.927692] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.929077] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.930145] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.930785] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.931272] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.931750] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.932200] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/goto__type_support.cpp\n'}
+[1.933484] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.934968] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.938415] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[1.939100] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[1.944050] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.944647] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.945551] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.946977] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.947961] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.948901] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[1.949446] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[1.950512] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_goto_s.c\n'}
+[1.951157] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[1.951897] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_goto.py\n'}
+[1.956563] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[1.956870] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.957075] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.957276] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.957471] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.959047] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.959370] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[1.959572] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.010251] (-) TimerEvent: {}
+[2.080399] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[2.081072] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[2.091772] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.093711] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.095220] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.096781] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[2.097986] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/srv/Goto.idl\n'}
+[2.098667] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/srv/Goto.srv\n'}
+[2.099145] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/srv/Goto_Request.msg\n'}
+[2.099586] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/srv/Goto_Response.msg\n'}
+[2.100053] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[2.100555] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[2.100987] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[2.101409] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.101830] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[2.102259] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[2.102673] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[2.103087] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[2.103498] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[2.103926] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[2.104425] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[2.105304] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[2.106046] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.106583] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.107243] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.107795] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.108532] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.109454] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.110420] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.110765] (-) TimerEvent: {}
+[2.111488] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.112308] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.113536] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.114357] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.115077] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.115558] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.116692] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.117428] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.119649] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.120010] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.121684] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.122421] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.122662] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.123877] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.124114] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.124315] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.124509] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.124698] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[2.124890] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[2.141109] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[2.141526] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.217683] (-) TimerEvent: {}
+[2.318325] (-) TimerEvent: {}
+[2.418608] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[2.420297] (-) TimerEvent: {}
+[2.421228] (two_server_controllers) JobStarted: {'identifier': 'two_server_controllers'}
+[2.457077] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'cmake'}
+[2.459248] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'build'}
+[2.460167] (two_server_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/ros2-project/build/two_server_controllers', '--', '-j2', '-l2'], 'cwd': '/home/fssja/ros2-project/build/two_server_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/ros2-project/install/custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1272'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1915'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30280'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1409,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1409'), ('INVOCATION_ID', '8faebb076bb94f4da76414ab0a5506cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WE3CL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6fbcca38-3492-45c7-aa64-5e93b5f8b61c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2-project/build/two_server_controllers'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[2.521910] (-) TimerEvent: {}
+[2.622336] (-) TimerEvent: {}
+[2.682049] (two_server_controllers) StdoutLine: {'line': b'[ 50%] Built target the_client\n'}
+[2.723962] (-) TimerEvent: {}
+[2.726039] (two_server_controllers) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o\x1b[0m\n'}
+[2.824102] (-) TimerEvent: {}
+[2.924549] (-) TimerEvent: {}
+[3.025062] (-) TimerEvent: {}
+[3.125503] (-) TimerEvent: {}
+[3.225956] (-) TimerEvent: {}
+[3.326632] (-) TimerEvent: {}
+[3.427145] (-) TimerEvent: {}
+[3.527787] (-) TimerEvent: {}
+[3.630421] (-) TimerEvent: {}
+[3.731236] (-) TimerEvent: {}
+[3.831712] (-) TimerEvent: {}
+[3.938014] (-) TimerEvent: {}
+[4.039961] (-) TimerEvent: {}
+[4.140421] (-) TimerEvent: {}
+[4.240895] (-) TimerEvent: {}
+[4.341437] (-) TimerEvent: {}
+[4.442308] (-) TimerEvent: {}
+[4.542967] (-) TimerEvent: {}
+[4.643595] (-) TimerEvent: {}
+[4.744071] (-) TimerEvent: {}
+[4.845185] (-) TimerEvent: {}
+[4.945645] (-) TimerEvent: {}
+[5.046095] (-) TimerEvent: {}
+[5.146551] (-) TimerEvent: {}
+[5.247040] (-) TimerEvent: {}
+[5.347714] (-) TimerEvent: {}
+[5.448600] (-) TimerEvent: {}
+[5.549388] (-) TimerEvent: {}
+[5.649931] (-) TimerEvent: {}
+[5.750462] (-) TimerEvent: {}
+[5.850897] (-) TimerEvent: {}
+[5.951614] (-) TimerEvent: {}
+[6.052499] (-) TimerEvent: {}
+[6.152922] (-) TimerEvent: {}
+[6.253973] (-) TimerEvent: {}
+[6.355242] (-) TimerEvent: {}
+[6.455768] (-) TimerEvent: {}
+[6.556259] (-) TimerEvent: {}
+[6.656707] (-) TimerEvent: {}
+[6.757141] (-) TimerEvent: {}
+[6.857589] (-) TimerEvent: {}
+[6.958052] (-) TimerEvent: {}
+[7.058505] (-) TimerEvent: {}
+[7.158946] (-) TimerEvent: {}
+[7.259397] (-) TimerEvent: {}
+[7.359878] (-) TimerEvent: {}
+[7.460334] (-) TimerEvent: {}
+[7.560782] (-) TimerEvent: {}
+[7.661221] (-) TimerEvent: {}
+[7.761677] (-) TimerEvent: {}
+[7.862522] (-) TimerEvent: {}
+[7.963343] (-) TimerEvent: {}
+[8.064305] (-) TimerEvent: {}
+[8.165135] (-) TimerEvent: {}
+[8.265978] (-) TimerEvent: {}
+[8.367315] (-) TimerEvent: {}
+[8.467894] (-) TimerEvent: {}
+[8.568333] (-) TimerEvent: {}
+[8.668770] (-) TimerEvent: {}
+[8.769223] (-) TimerEvent: {}
+[8.869668] (-) TimerEvent: {}
+[8.970332] (-) TimerEvent: {}
+[9.071221] (-) TimerEvent: {}
+[9.171900] (-) TimerEvent: {}
+[9.272368] (-) TimerEvent: {}
+[9.372850] (-) TimerEvent: {}
+[9.473323] (-) TimerEvent: {}
+[9.573813] (-) TimerEvent: {}
+[9.674303] (-) TimerEvent: {}
+[9.774783] (-) TimerEvent: {}
+[9.875253] (-) TimerEvent: {}
+[9.975733] (-) TimerEvent: {}
+[10.076226] (-) TimerEvent: {}
+[10.176707] (-) TimerEvent: {}
+[10.277191] (-) TimerEvent: {}
+[10.377679] (-) TimerEvent: {}
+[10.478156] (-) TimerEvent: {}
+[10.578676] (-) TimerEvent: {}
+[10.679166] (-) TimerEvent: {}
+[10.779660] (-) TimerEvent: {}
+[10.880157] (-) TimerEvent: {}
+[10.980631] (-) TimerEvent: {}
+[11.081116] (-) TimerEvent: {}
+[11.181590] (-) TimerEvent: {}
+[11.282093] (-) TimerEvent: {}
+[11.382588] (-) TimerEvent: {}
+[11.483085] (-) TimerEvent: {}
+[11.583657] (-) TimerEvent: {}
+[11.684168] (-) TimerEvent: {}
+[11.784691] (-) TimerEvent: {}
+[11.885446] (-) TimerEvent: {}
+[11.986082] (-) TimerEvent: {}
+[12.086734] (-) TimerEvent: {}
+[12.187213] (-) TimerEvent: {}
+[12.287692] (-) TimerEvent: {}
+[12.388189] (-) TimerEvent: {}
+[12.488671] (-) TimerEvent: {}
+[12.589140] (-) TimerEvent: {}
+[12.689618] (-) TimerEvent: {}
+[12.790105] (-) TimerEvent: {}
+[12.890755] (-) TimerEvent: {}
+[12.991396] (-) TimerEvent: {}
+[13.091907] (-) TimerEvent: {}
+[13.192382] (-) TimerEvent: {}
+[13.293057] (-) TimerEvent: {}
+[13.393630] (-) TimerEvent: {}
+[13.494158] (-) TimerEvent: {}
+[13.594774] (-) TimerEvent: {}
+[13.695253] (-) TimerEvent: {}
+[13.795749] (-) TimerEvent: {}
+[13.896363] (-) TimerEvent: {}
+[13.996995] (-) TimerEvent: {}
+[14.097483] (-) TimerEvent: {}
+[14.197977] (-) TimerEvent: {}
+[14.298640] (-) TimerEvent: {}
+[14.399275] (-) TimerEvent: {}
+[14.499765] (-) TimerEvent: {}
+[14.600266] (-) TimerEvent: {}
+[14.700748] (-) TimerEvent: {}
+[14.801230] (-) TimerEvent: {}
+[14.901717] (-) TimerEvent: {}
+[15.002204] (-) TimerEvent: {}
+[15.102691] (-) TimerEvent: {}
+[15.203145] (-) TimerEvent: {}
+[15.303643] (-) TimerEvent: {}
+[15.404160] (-) TimerEvent: {}
+[15.504645] (-) TimerEvent: {}
+[15.605129] (-) TimerEvent: {}
+[15.705815] (-) TimerEvent: {}
+[15.806276] (-) TimerEvent: {}
+[15.906763] (-) TimerEvent: {}
+[16.007254] (-) TimerEvent: {}
+[16.107752] (-) TimerEvent: {}
+[16.208252] (-) TimerEvent: {}
+[16.308745] (-) TimerEvent: {}
+[16.409238] (-) TimerEvent: {}
+[16.509709] (-) TimerEvent: {}
+[16.610193] (-) TimerEvent: {}
+[16.710679] (-) TimerEvent: {}
+[16.811178] (-) TimerEvent: {}
+[16.911682] (-) TimerEvent: {}
+[17.012177] (-) TimerEvent: {}
+[17.112671] (-) TimerEvent: {}
+[17.213266] (-) TimerEvent: {}
+[17.313822] (-) TimerEvent: {}
+[17.414313] (-) TimerEvent: {}
+[17.514806] (-) TimerEvent: {}
+[17.615294] (-) TimerEvent: {}
+[17.716038] (-) TimerEvent: {}
+[17.816686] (-) TimerEvent: {}
+[17.917155] (-) TimerEvent: {}
+[18.017632] (-) TimerEvent: {}
+[18.118122] (-) TimerEvent: {}
+[18.218615] (-) TimerEvent: {}
+[18.319105] (-) TimerEvent: {}
+[18.419598] (-) TimerEvent: {}
+[18.520099] (-) TimerEvent: {}
+[18.620688] (-) TimerEvent: {}
+[18.721196] (-) TimerEvent: {}
+[18.821695] (-) TimerEvent: {}
+[18.922199] (-) TimerEvent: {}
+[19.022669] (-) TimerEvent: {}
+[19.123163] (-) TimerEvent: {}
+[19.223678] (-) TimerEvent: {}
+[19.324262] (-) TimerEvent: {}
+[19.424735] (-) TimerEvent: {}
+[19.525219] (-) TimerEvent: {}
+[19.625727] (-) TimerEvent: {}
+[19.726255] (-) TimerEvent: {}
+[19.826778] (-) TimerEvent: {}
+[19.927383] (-) TimerEvent: {}
+[20.028143] (-) TimerEvent: {}
+[20.128622] (-) TimerEvent: {}
+[20.229094] (-) TimerEvent: {}
+[20.329536] (-) TimerEvent: {}
+[20.429981] (-) TimerEvent: {}
+[20.530467] (-) TimerEvent: {}
+[20.630958] (-) TimerEvent: {}
+[20.731443] (-) TimerEvent: {}
+[20.831947] (-) TimerEvent: {}
+[20.932426] (-) TimerEvent: {}
+[21.032905] (-) TimerEvent: {}
+[21.133357] (-) TimerEvent: {}
+[21.233835] (-) TimerEvent: {}
+[21.334326] (-) TimerEvent: {}
+[21.434817] (-) TimerEvent: {}
+[21.535301] (-) TimerEvent: {}
+[21.635781] (-) TimerEvent: {}
+[21.736276] (-) TimerEvent: {}
+[21.836762] (-) TimerEvent: {}
+[21.937240] (-) TimerEvent: {}
+[22.037719] (-) TimerEvent: {}
+[22.138202] (-) TimerEvent: {}
+[22.238682] (-) TimerEvent: {}
+[22.339165] (-) TimerEvent: {}
+[22.439645] (-) TimerEvent: {}
+[22.540131] (-) TimerEvent: {}
+[22.640611] (-) TimerEvent: {}
+[22.741088] (-) TimerEvent: {}
+[22.841581] (-) TimerEvent: {}
+[22.942056] (-) TimerEvent: {}
+[23.042532] (-) TimerEvent: {}
+[23.143025] (-) TimerEvent: {}
+[23.243514] (-) TimerEvent: {}
+[23.343976] (-) TimerEvent: {}
+[23.444455] (-) TimerEvent: {}
+[23.544930] (-) TimerEvent: {}
+[23.645398] (-) TimerEvent: {}
+[23.745883] (-) TimerEvent: {}
+[23.846386] (-) TimerEvent: {}
+[23.946876] (-) TimerEvent: {}
+[24.047356] (-) TimerEvent: {}
+[24.147834] (-) TimerEvent: {}
+[24.248509] (-) TimerEvent: {}
+[24.350151] (-) TimerEvent: {}
+[24.450620] (-) TimerEvent: {}
+[24.551103] (-) TimerEvent: {}
+[24.651591] (-) TimerEvent: {}
+[24.752083] (-) TimerEvent: {}
+[24.852569] (-) TimerEvent: {}
+[24.953063] (-) TimerEvent: {}
+[25.053533] (-) TimerEvent: {}
+[25.154023] (-) TimerEvent: {}
+[25.254504] (-) TimerEvent: {}
+[25.354980] (-) TimerEvent: {}
+[25.455455] (-) TimerEvent: {}
+[25.555952] (-) TimerEvent: {}
+[25.656428] (-) TimerEvent: {}
+[25.756853] (-) TimerEvent: {}
+[25.857328] (-) TimerEvent: {}
+[25.958190] (-) TimerEvent: {}
+[26.058671] (-) TimerEvent: {}
+[26.159151] (-) TimerEvent: {}
+[26.259631] (-) TimerEvent: {}
+[26.360120] (-) TimerEvent: {}
+[26.460594] (-) TimerEvent: {}
+[26.561073] (-) TimerEvent: {}
+[26.661552] (-) TimerEvent: {}
+[26.762038] (-) TimerEvent: {}
+[26.862505] (-) TimerEvent: {}
+[26.963149] (-) TimerEvent: {}
+[27.064138] (-) TimerEvent: {}
+[27.165026] (-) TimerEvent: {}
+[27.265721] (-) TimerEvent: {}
+[27.366460] (-) TimerEvent: {}
+[27.467250] (-) TimerEvent: {}
+[27.567702] (-) TimerEvent: {}
+[27.668192] (-) TimerEvent: {}
+[27.768658] (-) TimerEvent: {}
+[27.869096] (-) TimerEvent: {}
+[27.969565] (-) TimerEvent: {}
+[28.070031] (-) TimerEvent: {}
+[28.170627] (-) TimerEvent: {}
+[28.271279] (-) TimerEvent: {}
+[28.371771] (-) TimerEvent: {}
+[28.472283] (-) TimerEvent: {}
+[28.572766] (-) TimerEvent: {}
+[28.619761] (two_server_controllers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable go_to_goal\x1b[0m\n'}
+[28.673007] (-) TimerEvent: {}
+[28.773495] (-) TimerEvent: {}
+[28.873952] (-) TimerEvent: {}
+[28.974643] (-) TimerEvent: {}
+[29.075279] (-) TimerEvent: {}
+[29.175824] (-) TimerEvent: {}
+[29.276435] (-) TimerEvent: {}
+[29.377200] (-) TimerEvent: {}
+[29.478016] (-) TimerEvent: {}
+[29.578827] (-) TimerEvent: {}
+[29.679419] (-) TimerEvent: {}
+[29.780228] (-) TimerEvent: {}
+[29.880960] (-) TimerEvent: {}
+[29.981587] (-) TimerEvent: {}
+[30.082093] (-) TimerEvent: {}
+[30.182606] (-) TimerEvent: {}
+[30.283082] (-) TimerEvent: {}
+[30.383545] (-) TimerEvent: {}
+[30.484207] (-) TimerEvent: {}
+[30.584830] (-) TimerEvent: {}
+[30.677076] (two_server_controllers) StdoutLine: {'line': b'[100%] Built target go_to_goal\n'}
+[30.685165] (-) TimerEvent: {}
+[30.699691] (two_server_controllers) CommandEnded: {'returncode': 0}
+[30.763630] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'install'}
+[30.765902] (two_server_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fssja/ros2-project/build/two_server_controllers'], 'cwd': '/home/fssja/ros2-project/build/two_server_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/ros2-project/install/custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1272'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1915'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30280'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1409,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1409'), ('INVOCATION_ID', '8faebb076bb94f4da76414ab0a5506cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WE3CL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6fbcca38-3492-45c7-aa64-5e93b5f8b61c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2-project/build/two_server_controllers'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[30.783525] (two_server_controllers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.792203] (-) TimerEvent: {}
+[30.792486] (two_server_controllers) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2-project/install/two_server_controllers/lib/two_server_controllers/go_to_goal\n'}
+[30.797142] (two_server_controllers) StdoutLine: {'line': b'-- Set runtime path of "/home/fssja/ros2-project/install/two_server_controllers/lib/two_server_controllers/go_to_goal" to ""\n'}
+[30.798007] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/lib/two_server_controllers/the_client\n'}
+[30.798708] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/ament_index/resource_index/package_run_dependencies/two_server_controllers\n'}
+[30.799328] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/ament_index/resource_index/parent_prefix_path/two_server_controllers\n'}
+[30.800000] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/environment/ament_prefix_path.sh\n'}
+[30.800469] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/environment/ament_prefix_path.dsv\n'}
+[30.801204] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/environment/path.sh\n'}
+[30.801411] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/environment/path.dsv\n'}
+[30.801597] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/local_setup.bash\n'}
+[30.801780] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/local_setup.sh\n'}
+[30.801964] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/local_setup.zsh\n'}
+[30.802175] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/local_setup.dsv\n'}
+[30.802358] (two_server_controllers) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.dsv\n'}
+[30.802540] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/ament_index/resource_index/packages/two_server_controllers\n'}
+[30.802717] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/cmake/two_server_controllersConfig.cmake\n'}
+[30.802893] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/cmake/two_server_controllersConfig-version.cmake\n'}
+[30.803068] (two_server_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.xml\n'}
+[30.812577] (two_server_controllers) CommandEnded: {'returncode': 0}
+[30.893206] (-) TimerEvent: {}
+[30.905268] (two_server_controllers) JobEnded: {'identifier': 'two_server_controllers', 'rc': 0}
+[30.908982] (-) EventReactorShutdown: {}

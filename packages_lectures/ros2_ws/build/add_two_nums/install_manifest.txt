@@ -1,0 +1,17 @@
+/home/fssja/ros2_ws/install/add_two_nums/lib/add_two_nums/server
+/home/fssja/ros2_ws/install/add_two_nums/lib/add_two_nums/client
+/home/fssja/ros2_ws/install/add_two_nums/share/ament_index/resource_index/package_run_dependencies/add_two_nums
+/home/fssja/ros2_ws/install/add_two_nums/share/ament_index/resource_index/parent_prefix_path/add_two_nums
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/environment/ament_prefix_path.sh
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/environment/ament_prefix_path.dsv
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/environment/path.sh
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/environment/path.dsv
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/local_setup.bash
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/local_setup.sh
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/local_setup.zsh
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/local_setup.dsv
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/package.dsv
+/home/fssja/ros2_ws/install/add_two_nums/share/ament_index/resource_index/packages/add_two_nums
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/cmake/add_two_numsConfig.cmake
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/cmake/add_two_numsConfig-version.cmake
+/home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/package.xml

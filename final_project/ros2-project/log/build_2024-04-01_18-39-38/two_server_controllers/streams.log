@@ -1,0 +1,47 @@
+[0.037s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[0.099s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.474s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.553s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.559s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.574s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.820s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.125s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.549s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.914s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.027s] -- Found two_server_controllers: 0.0.0 (/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/cmake)
+[2.028s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.500s] Error parsing '/home/fssja/ros2-project/src/two_server_controllers/package.xml':
+[3.239s] Traceback (most recent call last):
+[3.240s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.240s]     main()
+[3.240s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.240s]     raise e
+[3.240s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.241s]     package = parse_package_string(
+[3.241s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[3.359s]     pkg.validate(warnings=warnings)
+[3.363s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[3.366s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[3.367s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/fssja/ros2-project/src/two_server_controllers/package.xml':
+[3.368s] The package "two_server_controllers" must not "build_depend" on a package with the same name as this package
+[3.374s] The package "two_server_controllers" must not "build_export_depend" on a package with the same name as this package
+[3.375s] The package "two_server_controllers" must not "exec_depend" on a package with the same name as this package
+[3.534s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.534s]   execute_process(/usr/bin/python3
+[3.535s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.535s]   /home/fssja/ros2-project/src/two_server_controllers/package.xml
+[3.535s]   /home/fssja/ros2-project/build/two_server_controllers/ament_cmake_core/package.cmake)
+[3.536s]   returned error code 1
+[3.536s] Call Stack (most recent call first):
+[3.536s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.536s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[3.537s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[3.537s] 
+[3.537s] [0m
+[3.541s] -- Configuring incomplete, errors occurred!
+[3.541s] See also "/home/fssja/ros2-project/build/two_server_controllers/CMakeFiles/CMakeOutput.log".
+[3.564s] gmake: *** [Makefile:788: cmake_check_build_system] Error 1
+[3.568s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

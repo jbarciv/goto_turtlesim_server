@@ -1,0 +1,17 @@
+/home/fssja/ros2_ws/install/publish_and_subscribe/lib/publish_and_subscribe/talker
+/home/fssja/ros2_ws/install/publish_and_subscribe/lib/publish_and_subscribe/listener
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/ament_index/resource_index/package_run_dependencies/publish_and_subscribe
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/ament_index/resource_index/parent_prefix_path/publish_and_subscribe
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/environment/ament_prefix_path.sh
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/environment/ament_prefix_path.dsv
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/environment/path.sh
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/environment/path.dsv
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/local_setup.bash
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/local_setup.sh
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/local_setup.zsh
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/local_setup.dsv
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/package.dsv
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/ament_index/resource_index/packages/publish_and_subscribe
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/cmake/publish_and_subscribeConfig.cmake
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/cmake/publish_and_subscribeConfig-version.cmake
+/home/fssja/ros2_ws/install/publish_and_subscribe/share/publish_and_subscribe/package.xml

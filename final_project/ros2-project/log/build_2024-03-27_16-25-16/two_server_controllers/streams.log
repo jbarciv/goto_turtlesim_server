@@ -1,0 +1,10 @@
+[0.362s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[0.562s] [ 50%] [32mBuilding CXX object CMakeFiles/go_to.dir/src/go_to.cpp.o[0m
+[1.292s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/go_to.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/Twist.hpp: No such file or directory
+[1.292s]     6 | #include [01;31m[K"geometry_msgs/Twist.hpp"[m[K
+[1.292s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.293s] compilation terminated.
+[1.299s] gmake[2]: *** [CMakeFiles/go_to.dir/build.make:76: CMakeFiles/go_to.dir/src/go_to.cpp.o] Error 1
+[1.305s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to.dir/all] Error 2
+[1.305s] gmake: *** [Makefile:146: all] Error 2
+[1.312s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

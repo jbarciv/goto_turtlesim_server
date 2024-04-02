@@ -1,0 +1,4 @@
+source;share/add_two_nums/local_setup.bash
+source;share/add_two_nums/local_setup.dsv
+source;share/add_two_nums/local_setup.sh
+source;share/add_two_nums/local_setup.zsh

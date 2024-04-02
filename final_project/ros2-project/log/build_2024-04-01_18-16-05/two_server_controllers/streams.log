@@ -1,0 +1,34 @@
+[0.029s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[0.157s] [  3%] Built target two_server_controllers__cpp
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_generator_c[0m
+[0.228s] [ 12%] Built target two_server_controllers__rosidl_generator_c
+[0.297s] [ 12%] Built target ament_cmake_python_copy_two_server_controllers
+[0.322s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_cpp[0m
+[0.360s] [ 21%] Built target two_server_controllers__rosidl_typesupport_cpp
+[0.386s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_fastrtps_c[0m
+[0.427s] [ 30%] Built target two_server_controllers__rosidl_typesupport_fastrtps_c
+[0.463s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_fastrtps_cpp[0m
+[0.510s] [ 39%] Built target two_server_controllers__rosidl_typesupport_fastrtps_cpp
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_introspection_c[0m
+[0.590s] [ 48%] Built target two_server_controllers__rosidl_typesupport_introspection_c
+[0.630s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_c[0m
+[0.672s] [ 57%] Built target two_server_controllers__rosidl_typesupport_c
+[0.699s] [35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_introspection_cpp[0m
+[0.740s] [ 66%] Built target two_server_controllers__rosidl_typesupport_introspection_cpp
+[1.517s] running egg_info
+[1.519s] writing two_server_controllers.egg-info/PKG-INFO
+[1.519s] writing dependency_links to two_server_controllers.egg-info/dependency_links.txt
+[1.520s] writing top-level names to two_server_controllers.egg-info/top_level.txt
+[1.532s] reading manifest file 'two_server_controllers.egg-info/SOURCES.txt'
+[1.532s] writing manifest file 'two_server_controllers.egg-info/SOURCES.txt'
+[1.607s] [ 66%] Built target ament_cmake_python_build_two_server_controllers_egg
+[1.698s] [ 66%] Built target two_server_controllers
+[1.783s] [ 69%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o[0m
+[2.428s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktwo_servers_controllers/srv/goto.hpp: No such file or directory
+[2.428s]     2 | #include [01;31m[K"two_servers_controllers/srv/goto.hpp"[m[K
+[2.428s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.429s] compilation terminated.
+[2.453s] gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o] Error 1
+[2.464s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/go_to_goal.dir/all] Error 2
+[2.464s] gmake: *** [Makefile:146: all] Error 2
+[2.464s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

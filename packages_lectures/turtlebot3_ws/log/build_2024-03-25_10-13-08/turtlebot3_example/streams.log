@@ -1,0 +1,26 @@
+[3.042s] Invoking command in '/home/fssja/turtlebot3_ws/src/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums PYTHONPATH=/home/fssja/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/fssja/turtlebot3_ws/build/turtlebot3_example/build install --record /home/fssja/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed
+[3.770s] running egg_info
+[3.772s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[3.803s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[3.804s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[3.805s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[3.806s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[3.812s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[3.856s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[3.857s] running build
+[3.857s] running build_py
+[3.863s] running install
+[3.864s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.864s]   warnings.warn(
+[3.866s] running install_lib
+[3.876s] running install_data
+[3.878s] running install_egg_info
+[3.884s] removing '/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info' (and everything under it)
+[3.911s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info
+[3.928s] running install_scripts
+[3.980s] Installing turtlebot3_obstacle_detection script to /home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.981s] Installing turtlebot3_patrol_client script to /home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.981s] Installing turtlebot3_patrol_server script to /home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.982s] Installing turtlebot3_position_control script to /home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.984s] writing list of installed files to '/home/fssja/turtlebot3_ws/build/turtlebot3_example/install.log'
+[4.039s] Invoked command in '/home/fssja/turtlebot3_ws/src/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums PYTHONPATH=/home/fssja/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/fssja/turtlebot3_ws/build/turtlebot3_example/build install --record /home/fssja/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed

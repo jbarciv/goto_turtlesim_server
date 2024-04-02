@@ -1,0 +1,2 @@
+Invoking command in '/home/fssja/ros2_ws/build/the_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/the_publisher -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/the_publisher
+Invoked command in '/home/fssja/ros2_ws/build/the_publisher' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/the_publisher -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/the_publisher

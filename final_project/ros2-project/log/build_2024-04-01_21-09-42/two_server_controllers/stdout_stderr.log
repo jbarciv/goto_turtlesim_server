@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found custom_interfaces: 0.0.0 (/home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fssja/ros2-project/build/two_server_controllers
+[35m[1mConsolidate compiler generated dependencies of target go_to_goal[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/the_client.dir/src/the_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o[0m
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/the_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/the_client.cpp:24:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   24 |   request->[01;31m[Ka[m[K = atoll(argv[1]);
+      |            [01;31m[K^[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/the_client.cpp:25:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   25 |   request->[01;31m[Kb[m[K = atoll(argv[2]);
+      |            [01;31m[K^[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/the_client.cpp:26:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kc[m[K’
+   26 |   request->[01;31m[Kc[m[K = atoll(argv[3]);
+      |            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/the_client.dir/build.make:76: CMakeFiles/the_client.dir/src/the_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/the_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable go_to_goal[0m
+[ 75%] Built target go_to_goal
+gmake: *** [Makefile:146: all] Error 2

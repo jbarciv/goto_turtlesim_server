@@ -1,0 +1,18 @@
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::go_to(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:43:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_interfaces::srv::Goto_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_interfaces::srv::Goto_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’; did you mean ‘[01m[Ksucces[m[K’?
+   43 |     response->[01;31m[Ksuccess[m[K = true;
+      |               [01;31m[K^~~~~~~[m[K
+      |               [32m[Ksucces[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::move_to_goal()[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:76:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+   76 |         [01;31m[Kspeed[m[K.linear.x = kp_linear * euclidean_distance;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:91:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+   91 |         [01;31m[Kspeed[m[K.linear.x = 0.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:97:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+   97 |       velocity_publisher_->publish([01;31m[Kspeed[m[K);
+      |                                    [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/go_to_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

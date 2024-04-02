@@ -1,0 +1,314 @@
+[0.000000] (-) TimerEvent: {}
+[0.001545] (-) JobUnselected: {'identifier': 'add_two_nums'}
+[0.001669] (-) JobUnselected: {'identifier': 'publish_and_subscribe'}
+[0.001751] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.002017] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.099247] (-) TimerEvent: {}
+[0.145210] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'cmake'}
+[0.146474] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/fssja/ros2_ws/src/robot_controller', '-DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/robot_controller'], 'cwd': '/home/fssja/ros2_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1274'), ('SYSTEMD_EXEC_PID', '1700'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12184'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:31004'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1423,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1423'), ('INVOCATION_ID', '796dc13a40e549dc964873bf6a981f07'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CGQIK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fffc7254-19a3-4713-90cd-ac880a137498'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2_ws/build/robot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.176643] (robot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199364] (-) TimerEvent: {}
+[0.299988] (-) TimerEvent: {}
+[0.401214] (-) TimerEvent: {}
+[0.475451] (robot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.501567] (-) TimerEvent: {}
+[0.543058] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.549698] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.564542] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.592451] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601690] (-) TimerEvent: {}
+[0.632990] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701835] (-) TimerEvent: {}
+[0.781632] (robot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.784698] (robot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801967] (-) TimerEvent: {}
+[0.902560] (-) TimerEvent: {}
+[1.003262] (-) TimerEvent: {}
+[1.060011] (robot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.103401] (-) TimerEvent: {}
+[1.203985] (-) TimerEvent: {}
+[1.304602] (-) TimerEvent: {}
+[1.405189] (-) TimerEvent: {}
+[1.466407] (robot_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.505327] (-) TimerEvent: {}
+[1.605915] (-) TimerEvent: {}
+[1.706394] (-) TimerEvent: {}
+[1.806860] (-) TimerEvent: {}
+[1.907315] (-) TimerEvent: {}
+[1.940014] (robot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.964243] (robot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.967652] (robot_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/fssja/ros2_ws/build/robot_controller\n'}
+[1.982262] (robot_controller) CommandEnded: {'returncode': 0}
+[1.984743] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'build'}
+[1.988102] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/ros2_ws/build/robot_controller', '--', '-j2', '-l2'], 'cwd': '/home/fssja/ros2_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1274'), ('SYSTEMD_EXEC_PID', '1700'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12184'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:31004'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1423,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1423'), ('INVOCATION_ID', '796dc13a40e549dc964873bf6a981f07'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CGQIK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fffc7254-19a3-4713-90cd-ac880a137498'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2_ws/build/robot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.007496] (-) TimerEvent: {}
+[2.093140] (robot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[2.093579] (robot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[2.107754] (-) TimerEvent: {}
+[2.208283] (-) TimerEvent: {}
+[2.308946] (-) TimerEvent: {}
+[2.409436] (-) TimerEvent: {}
+[2.510061] (-) TimerEvent: {}
+[2.610597] (-) TimerEvent: {}
+[2.711700] (-) TimerEvent: {}
+[2.812475] (-) TimerEvent: {}
+[2.913306] (-) TimerEvent: {}
+[3.014066] (-) TimerEvent: {}
+[3.114610] (-) TimerEvent: {}
+[3.215466] (-) TimerEvent: {}
+[3.316308] (-) TimerEvent: {}
+[3.416887] (-) TimerEvent: {}
+[3.517900] (-) TimerEvent: {}
+[3.618951] (-) TimerEvent: {}
+[3.719883] (-) TimerEvent: {}
+[3.820827] (-) TimerEvent: {}
+[3.921646] (-) TimerEvent: {}
+[4.022156] (-) TimerEvent: {}
+[4.122806] (-) TimerEvent: {}
+[4.223910] (-) TimerEvent: {}
+[4.324969] (-) TimerEvent: {}
+[4.425633] (-) TimerEvent: {}
+[4.526280] (-) TimerEvent: {}
+[4.627366] (-) TimerEvent: {}
+[4.728305] (-) TimerEvent: {}
+[4.828942] (-) TimerEvent: {}
+[4.929774] (-) TimerEvent: {}
+[5.030733] (-) TimerEvent: {}
+[5.131340] (-) TimerEvent: {}
+[5.231821] (-) TimerEvent: {}
+[5.333431] (-) TimerEvent: {}
+[5.436226] (-) TimerEvent: {}
+[5.536685] (-) TimerEvent: {}
+[5.637156] (-) TimerEvent: {}
+[5.737601] (-) TimerEvent: {}
+[5.838044] (-) TimerEvent: {}
+[5.938489] (-) TimerEvent: {}
+[6.038934] (-) TimerEvent: {}
+[6.139387] (-) TimerEvent: {}
+[6.239835] (-) TimerEvent: {}
+[6.340299] (-) TimerEvent: {}
+[6.440736] (-) TimerEvent: {}
+[6.541183] (-) TimerEvent: {}
+[6.641677] (-) TimerEvent: {}
+[6.742175] (-) TimerEvent: {}
+[6.842659] (-) TimerEvent: {}
+[6.943141] (-) TimerEvent: {}
+[7.043617] (-) TimerEvent: {}
+[7.144106] (-) TimerEvent: {}
+[7.244547] (-) TimerEvent: {}
+[7.344987] (-) TimerEvent: {}
+[7.445416] (-) TimerEvent: {}
+[7.545863] (-) TimerEvent: {}
+[7.646318] (-) TimerEvent: {}
+[7.746766] (-) TimerEvent: {}
+[7.847212] (-) TimerEvent: {}
+[7.947659] (-) TimerEvent: {}
+[8.048118] (-) TimerEvent: {}
+[8.148552] (-) TimerEvent: {}
+[8.248983] (-) TimerEvent: {}
+[8.349431] (-) TimerEvent: {}
+[8.449877] (-) TimerEvent: {}
+[8.550317] (-) TimerEvent: {}
+[8.650758] (-) TimerEvent: {}
+[8.751208] (-) TimerEvent: {}
+[8.851799] (-) TimerEvent: {}
+[8.952426] (-) TimerEvent: {}
+[9.053004] (-) TimerEvent: {}
+[9.153676] (-) TimerEvent: {}
+[9.254115] (-) TimerEvent: {}
+[9.354548] (-) TimerEvent: {}
+[9.454992] (-) TimerEvent: {}
+[9.555568] (-) TimerEvent: {}
+[9.656015] (-) TimerEvent: {}
+[9.756466] (-) TimerEvent: {}
+[9.856902] (-) TimerEvent: {}
+[9.957346] (-) TimerEvent: {}
+[10.057820] (-) TimerEvent: {}
+[10.158333] (-) TimerEvent: {}
+[10.258817] (-) TimerEvent: {}
+[10.359285] (-) TimerEvent: {}
+[10.459881] (-) TimerEvent: {}
+[10.560488] (-) TimerEvent: {}
+[10.661070] (-) TimerEvent: {}
+[10.761656] (-) TimerEvent: {}
+[10.862252] (-) TimerEvent: {}
+[10.962846] (-) TimerEvent: {}
+[11.063436] (-) TimerEvent: {}
+[11.164028] (-) TimerEvent: {}
+[11.264488] (-) TimerEvent: {}
+[11.364930] (-) TimerEvent: {}
+[11.465376] (-) TimerEvent: {}
+[11.565819] (-) TimerEvent: {}
+[11.666267] (-) TimerEvent: {}
+[11.766708] (-) TimerEvent: {}
+[11.867339] (-) TimerEvent: {}
+[11.967785] (-) TimerEvent: {}
+[12.068242] (-) TimerEvent: {}
+[12.168684] (-) TimerEvent: {}
+[12.269126] (-) TimerEvent: {}
+[12.369572] (-) TimerEvent: {}
+[12.470224] (-) TimerEvent: {}
+[12.570904] (-) TimerEvent: {}
+[12.671513] (-) TimerEvent: {}
+[12.772121] (-) TimerEvent: {}
+[12.872716] (-) TimerEvent: {}
+[12.973150] (-) TimerEvent: {}
+[13.073764] (-) TimerEvent: {}
+[13.174356] (-) TimerEvent: {}
+[13.274817] (-) TimerEvent: {}
+[13.375276] (-) TimerEvent: {}
+[13.475887] (-) TimerEvent: {}
+[13.576486] (-) TimerEvent: {}
+[13.677065] (-) TimerEvent: {}
+[13.777504] (-) TimerEvent: {}
+[13.877947] (-) TimerEvent: {}
+[13.978418] (-) TimerEvent: {}
+[14.078870] (-) TimerEvent: {}
+[14.179342] (-) TimerEvent: {}
+[14.279801] (-) TimerEvent: {}
+[14.380281] (-) TimerEvent: {}
+[14.484281] (-) TimerEvent: {}
+[14.584874] (-) TimerEvent: {}
+[14.685438] (-) TimerEvent: {}
+[14.785879] (-) TimerEvent: {}
+[14.886314] (-) TimerEvent: {}
+[14.986756] (-) TimerEvent: {}
+[15.087445] (-) TimerEvent: {}
+[15.187894] (-) TimerEvent: {}
+[15.288356] (-) TimerEvent: {}
+[15.388791] (-) TimerEvent: {}
+[15.489252] (-) TimerEvent: {}
+[15.589735] (-) TimerEvent: {}
+[15.690193] (-) TimerEvent: {}
+[15.794340] (-) TimerEvent: {}
+[15.894863] (-) TimerEvent: {}
+[15.995315] (-) TimerEvent: {}
+[16.095777] (-) TimerEvent: {}
+[16.130062] (robot_controller) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[16.195927] (-) TimerEvent: {}
+[16.302395] (-) TimerEvent: {}
+[16.403002] (-) TimerEvent: {}
+[16.503601] (-) TimerEvent: {}
+[16.610468] (-) TimerEvent: {}
+[16.710918] (-) TimerEvent: {}
+[16.811426] (-) TimerEvent: {}
+[16.911996] (-) TimerEvent: {}
+[17.012499] (-) TimerEvent: {}
+[17.112948] (-) TimerEvent: {}
+[17.213410] (-) TimerEvent: {}
+[17.226036] (robot_controller) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[17.313586] (-) TimerEvent: {}
+[17.414231] (-) TimerEvent: {}
+[17.514938] (-) TimerEvent: {}
+[17.615553] (-) TimerEvent: {}
+[17.716094] (-) TimerEvent: {}
+[17.816557] (-) TimerEvent: {}
+[17.917028] (-) TimerEvent: {}
+[18.017520] (-) TimerEvent: {}
+[18.118157] (-) TimerEvent: {}
+[18.218774] (-) TimerEvent: {}
+[18.319392] (-) TimerEvent: {}
+[18.420014] (-) TimerEvent: {}
+[18.520532] (-) TimerEvent: {}
+[18.621022] (-) TimerEvent: {}
+[18.721484] (-) TimerEvent: {}
+[18.821953] (-) TimerEvent: {}
+[18.922427] (-) TimerEvent: {}
+[19.022888] (-) TimerEvent: {}
+[19.123342] (-) TimerEvent: {}
+[19.223812] (-) TimerEvent: {}
+[19.324306] (-) TimerEvent: {}
+[19.424764] (-) TimerEvent: {}
+[19.525232] (-) TimerEvent: {}
+[19.625703] (-) TimerEvent: {}
+[19.726167] (-) TimerEvent: {}
+[19.826635] (-) TimerEvent: {}
+[19.927197] (-) TimerEvent: {}
+[20.027663] (-) TimerEvent: {}
+[20.128147] (-) TimerEvent: {}
+[20.228600] (-) TimerEvent: {}
+[20.329052] (-) TimerEvent: {}
+[20.429513] (-) TimerEvent: {}
+[20.529980] (-) TimerEvent: {}
+[20.630448] (-) TimerEvent: {}
+[20.730903] (-) TimerEvent: {}
+[20.831357] (-) TimerEvent: {}
+[20.931795] (-) TimerEvent: {}
+[21.032269] (-) TimerEvent: {}
+[21.132732] (-) TimerEvent: {}
+[21.233194] (-) TimerEvent: {}
+[21.333663] (-) TimerEvent: {}
+[21.434113] (-) TimerEvent: {}
+[21.534584] (-) TimerEvent: {}
+[21.635057] (-) TimerEvent: {}
+[21.735520] (-) TimerEvent: {}
+[21.835980] (-) TimerEvent: {}
+[21.936447] (-) TimerEvent: {}
+[22.036894] (-) TimerEvent: {}
+[22.137346] (-) TimerEvent: {}
+[22.237811] (-) TimerEvent: {}
+[22.338277] (-) TimerEvent: {}
+[22.438738] (-) TimerEvent: {}
+[22.539208] (-) TimerEvent: {}
+[22.639674] (-) TimerEvent: {}
+[22.740155] (-) TimerEvent: {}
+[22.840617] (-) TimerEvent: {}
+[22.941073] (-) TimerEvent: {}
+[23.041536] (-) TimerEvent: {}
+[23.142002] (-) TimerEvent: {}
+[23.242476] (-) TimerEvent: {}
+[23.342955] (-) TimerEvent: {}
+[23.443608] (-) TimerEvent: {}
+[23.544399] (-) TimerEvent: {}
+[23.644902] (-) TimerEvent: {}
+[23.745503] (-) TimerEvent: {}
+[23.846104] (-) TimerEvent: {}
+[23.946706] (-) TimerEvent: {}
+[24.047154] (-) TimerEvent: {}
+[24.147642] (-) TimerEvent: {}
+[24.248269] (-) TimerEvent: {}
+[24.348921] (-) TimerEvent: {}
+[24.449405] (-) TimerEvent: {}
+[24.549907] (-) TimerEvent: {}
+[24.631470] (robot_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[24.650103] (-) TimerEvent: {}
+[24.750804] (-) TimerEvent: {}
+[24.852463] (-) TimerEvent: {}
+[24.953205] (-) TimerEvent: {}
+[25.053871] (-) TimerEvent: {}
+[25.154377] (-) TimerEvent: {}
+[25.254886] (-) TimerEvent: {}
+[25.355367] (-) TimerEvent: {}
+[25.455870] (-) TimerEvent: {}
+[25.492973] (robot_controller) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[25.515587] (robot_controller) CommandEnded: {'returncode': 0}
+[25.555994] (-) TimerEvent: {}
+[25.574319] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'install'}
+[25.594043] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fssja/ros2_ws/build/robot_controller'], 'cwd': '/home/fssja/ros2_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1274'), ('SYSTEMD_EXEC_PID', '1700'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12184'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:31004'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1423,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1423'), ('INVOCATION_ID', '796dc13a40e549dc964873bf6a981f07'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CGQIK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fffc7254-19a3-4713-90cd-ac880a137498'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2_ws/build/robot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[25.610327] (robot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.610717] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/lib/robot_controller/talker\n'}
+[25.613730] (robot_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/fssja/ros2_ws/install/robot_controller/lib/robot_controller/talker" to ""\n'}
+[25.614189] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/lib/robot_controller/listener\n'}
+[25.622081] (robot_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/fssja/ros2_ws/install/robot_controller/lib/robot_controller/listener" to ""\n'}
+[25.622526] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller\n'}
+[25.622825] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller\n'}
+[25.623108] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh\n'}
+[25.623381] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv\n'}
+[25.623616] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/environment/path.sh\n'}
+[25.623863] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/environment/path.dsv\n'}
+[25.624192] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/local_setup.bash\n'}
+[25.624475] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/local_setup.sh\n'}
+[25.624741] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/local_setup.zsh\n'}
+[25.625017] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/local_setup.dsv\n'}
+[25.625292] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/package.dsv\n'}
+[25.625747] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller\n'}
+[25.626079] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake\n'}
+[25.626357] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake\n'}
+[25.626624] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/robot_controller/share/robot_controller/package.xml\n'}
+[25.632468] (robot_controller) CommandEnded: {'returncode': 0}
+[25.656231] (-) TimerEvent: {}
+[25.756802] (-) TimerEvent: {}
+[25.858055] (-) TimerEvent: {}
+[25.959126] (-) TimerEvent: {}
+[26.044527] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[26.046967] (-) EventReactorShutdown: {}

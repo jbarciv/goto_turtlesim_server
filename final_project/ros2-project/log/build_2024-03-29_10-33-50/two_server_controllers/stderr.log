@@ -1,0 +1,104 @@
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:133:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  133 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:9:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    9 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In constructor ‘[01m[KGoToGoal::GoToGoal()[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+   13 |     [01;31m[Kvelocity_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_publishers[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+   15 |     [01;31m[Kpose_subscriber_[m[K = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, std::bind(&GoToGoal::pose_callback, this, _1));
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_subscribers[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   17 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::nanoseconds(10), std::bind(&GoToGoal::go_to_goal, this));
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::pose_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+   33 |     [01;31m[Kx1[m[K = pose->x;
+      |     [01;31m[K^~[m[K
+      |     [32m[Ky1[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:34:8:[m[K [01;31m[Kerror: [m[Kassignment of function ‘[01m[Kdouble y1(double)[m[K’
+   34 |     [01;31m[Ky1 = pose->y[m[K;
+      |     [01;31m[K~~~^~~~~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+   35 |     [01;31m[Ktheta[m[K = pose->theta;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::set_goal()[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:43:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx2[m[K’ was not declared in this scope
+   43 |     std::cin >> [01;31m[Kx2[m[K;
+      |                 [01;31m[K^~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:45:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ky2[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   45 |     std::cin >> [01;31m[Ky2[m[K;
+      |                 [01;31m[K^~[m[K
+      |                 [32m[Kyn[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::go_to_goal()[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist_x[m[K’ was not declared in this scope
+   50 |     [01;31m[Kdist_x[m[K = x2 - x1;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:50:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kx2[m[K’ was not declared in this scope
+   50 |     dist_x = [01;31m[Kx2[m[K - x1;
+      |              [01;31m[K^~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:50:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kx1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+   50 |     dist_x = x2 - [01;31m[Kx1[m[K;
+      |                   [01;31m[K^~[m[K
+      |                   [32m[Ky1[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist_y[m[K’ was not declared in this scope
+   51 |     [01;31m[Kdist_y[m[K = y2 - y1;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:51:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ky2[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   51 |     dist_y = [01;31m[Ky2[m[K - y1;
+      |              [01;31m[K^~[m[K
+      |              [32m[Kyn[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:52:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keuclidean_distance[m[K’ was not declared in this scope
+   52 |     [01;31m[Keuclidean_distance[m[K = sqrt(pow(dist_x, 2) + pow(dist_y, 2));
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_tolerance[m[K’ was not declared in this scope
+   53 |     [01;31m[Kdistance_tolerance[m[K = 0.1;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_tolerance[m[K’ was not declared in this scope
+   54 |     [01;31m[Kangle_tolerance[m[K = 0.01;
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope
+   55 |     [01;31m[Kangle[m[K = atan2(dist_y, dist_x);
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_error[m[K’ was not declared in this scope
+   56 |     [01;31m[Kangle_error[m[K = (angle - theta);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:56:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+   56 |     angle_error = (angle - [01;31m[Ktheta[m[K);
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:72:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+   72 |       [01;31m[Kspeed[m[K.angular.z = kp_angular * angle_error;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+   78 |         [01;31m[Kspeed[m[K.linear.x = kp_linear * my_speed;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+   82 |         [01;31m[Kspeed[m[K.linear.x = 0.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   85 |         [01;31m[Ktimer_[m[K->cancel();
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+   88 |     [01;31m[Kvelocity_publisher_[m[K->publish(speed);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_publishers[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:88:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+   88 |     velocity_publisher_->publish([01;31m[Kspeed[m[K);
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:94:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   94 |   float x1, [01;35m[Ky1[m[K, x2, y2, theta, dist_x, dist_y;
+      |             [01;35m[K^~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K At global scope:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:133:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  133 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

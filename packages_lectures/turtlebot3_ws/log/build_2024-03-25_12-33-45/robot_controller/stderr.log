@@ -1,0 +1,10 @@
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/random.cpp:[m[K In member function ‘[01m[Kvoid RandomPublisher::timer_callback()[m[K’:
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/random.cpp:34:29:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kint[m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator%[m[K’
+   34 |       float random = [32m[Krand()[m[K [01;31m[K%[m[K [34m[K10.0[m[K + 1.0;
+      |                      [32m[K~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~[m[K
+      |                          [32m[K|[m[K    [34m[K|[m[K
+      |                          [32m[Kint[m[K  [34m[Kdouble[m[K
+gmake[2]: *** [CMakeFiles/random.dir/build.make:76: CMakeFiles/random.dir/src/random.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/random.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000587] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000699] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000767] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000827] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000890] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000950] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001005] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001059] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001113] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001169] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001223] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001275] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001327] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001378] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001429] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001486] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.005559] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.099251] (-) TimerEvent: {}
+[0.211784] (-) TimerEvent: {}
+[0.312749] (-) TimerEvent: {}
+[0.413394] (-) TimerEvent: {}
+[0.494125] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'cmake'}
+[0.495913] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'build'}
+[0.497642] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/turtlebot3_ws/build/robot_controller', '--', '-j2', '-l2'], 'cwd': '/home/fssja/turtlebot3_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1274'), ('SYSTEMD_EXEC_PID', '1700'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17796'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:31004'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1423,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1423'), ('INVOCATION_ID', '796dc13a40e549dc964873bf6a981f07'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CGQIK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8e832d06-eb6d-4e61-b868-34b2f89e2e01'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/turtlebot3_ws/build/robot_controller'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.513650] (-) TimerEvent: {}
+[0.614459] (-) TimerEvent: {}
+[0.713608] (robot_controller) StdoutLine: {'line': b'[ 33%] Built target talker\n'}
+[0.715126] (-) TimerEvent: {}
+[0.805083] (robot_controller) StdoutLine: {'line': b'[ 66%] Built target listener\n'}
+[0.815197] (-) TimerEvent: {}
+[0.854981] (robot_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target random\x1b[0m\n'}
+[0.909006] (robot_controller) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/random.dir/src/random.cpp.o\x1b[0m\n'}
+[0.915326] (-) TimerEvent: {}
+[1.016016] (-) TimerEvent: {}
+[1.116628] (-) TimerEvent: {}
+[1.217293] (-) TimerEvent: {}
+[1.317873] (-) TimerEvent: {}
+[1.421052] (-) TimerEvent: {}
+[1.521976] (-) TimerEvent: {}
+[1.623221] (-) TimerEvent: {}
+[1.724123] (-) TimerEvent: {}
+[1.824949] (-) TimerEvent: {}
+[1.925801] (-) TimerEvent: {}
+[2.026732] (-) TimerEvent: {}
+[2.127632] (-) TimerEvent: {}
+[2.228804] (-) TimerEvent: {}
+[2.329681] (-) TimerEvent: {}
+[2.430742] (-) TimerEvent: {}
+[2.532010] (-) TimerEvent: {}
+[2.632868] (-) TimerEvent: {}
+[2.733672] (-) TimerEvent: {}
+[2.834485] (-) TimerEvent: {}
+[2.935325] (-) TimerEvent: {}
+[3.036227] (-) TimerEvent: {}
+[3.137148] (-) TimerEvent: {}
+[3.238185] (-) TimerEvent: {}
+[3.339422] (-) TimerEvent: {}
+[3.440709] (-) TimerEvent: {}
+[3.542029] (-) TimerEvent: {}
+[3.643037] (-) TimerEvent: {}
+[3.743925] (-) TimerEvent: {}
+[3.844712] (-) TimerEvent: {}
+[3.945521] (-) TimerEvent: {}
+[4.046327] (-) TimerEvent: {}
+[4.147500] (-) TimerEvent: {}
+[4.248393] (-) TimerEvent: {}
+[4.349279] (-) TimerEvent: {}
+[4.450370] (-) TimerEvent: {}
+[4.551520] (-) TimerEvent: {}
+[4.652900] (-) TimerEvent: {}
+[4.754093] (-) TimerEvent: {}
+[4.854865] (-) TimerEvent: {}
+[4.955424] (-) TimerEvent: {}
+[5.056449] (-) TimerEvent: {}
+[5.157018] (-) TimerEvent: {}
+[5.257536] (-) TimerEvent: {}
+[5.358177] (-) TimerEvent: {}
+[5.459067] (-) TimerEvent: {}
+[5.559994] (-) TimerEvent: {}
+[5.660702] (-) TimerEvent: {}
+[5.761228] (-) TimerEvent: {}
+[5.861882] (-) TimerEvent: {}
+[5.962396] (-) TimerEvent: {}
+[6.063153] (-) TimerEvent: {}
+[6.163634] (-) TimerEvent: {}
+[6.264276] (-) TimerEvent: {}
+[6.365031] (-) TimerEvent: {}
+[6.465568] (-) TimerEvent: {}
+[6.566033] (-) TimerEvent: {}
+[6.666632] (-) TimerEvent: {}
+[6.767758] (-) TimerEvent: {}
+[6.868387] (-) TimerEvent: {}
+[6.969173] (-) TimerEvent: {}
+[7.069838] (-) TimerEvent: {}
+[7.170698] (-) TimerEvent: {}
+[7.271274] (-) TimerEvent: {}
+[7.372028] (-) TimerEvent: {}
+[7.472538] (-) TimerEvent: {}
+[7.573119] (-) TimerEvent: {}
+[7.673718] (-) TimerEvent: {}
+[7.774486] (-) TimerEvent: {}
+[7.875814] (-) TimerEvent: {}
+[7.976789] (-) TimerEvent: {}
+[8.079340] (-) TimerEvent: {}
+[8.201449] (-) TimerEvent: {}
+[8.302124] (-) TimerEvent: {}
+[8.402671] (-) TimerEvent: {}
+[8.503223] (-) TimerEvent: {}
+[8.603646] (-) TimerEvent: {}
+[8.704117] (-) TimerEvent: {}
+[8.804569] (-) TimerEvent: {}
+[8.905033] (-) TimerEvent: {}
+[9.005732] (-) TimerEvent: {}
+[9.106208] (-) TimerEvent: {}
+[9.206787] (-) TimerEvent: {}
+[9.307610] (-) TimerEvent: {}
+[9.408085] (-) TimerEvent: {}
+[9.508611] (-) TimerEvent: {}
+[9.609248] (-) TimerEvent: {}
+[9.709747] (-) TimerEvent: {}
+[9.810930] (-) TimerEvent: {}
+[9.911524] (-) TimerEvent: {}
+[10.012106] (-) TimerEvent: {}
+[10.122015] (-) TimerEvent: {}
+[10.222755] (-) TimerEvent: {}
+[10.323345] (-) TimerEvent: {}
+[10.423915] (-) TimerEvent: {}
+[10.524461] (-) TimerEvent: {}
+[10.625001] (-) TimerEvent: {}
+[10.725510] (-) TimerEvent: {}
+[10.826334] (-) TimerEvent: {}
+[10.927166] (-) TimerEvent: {}
+[11.027793] (-) TimerEvent: {}
+[11.128373] (-) TimerEvent: {}
+[11.246832] (-) TimerEvent: {}
+[11.347778] (-) TimerEvent: {}
+[11.448428] (-) TimerEvent: {}
+[11.561701] (-) TimerEvent: {}
+[11.662156] (-) TimerEvent: {}
+[11.763166] (-) TimerEvent: {}
+[11.881637] (-) TimerEvent: {}
+[11.982080] (-) TimerEvent: {}
+[12.082594] (-) TimerEvent: {}
+[12.203906] (-) TimerEvent: {}
+[12.304509] (-) TimerEvent: {}
+[12.404987] (-) TimerEvent: {}
+[12.521621] (-) TimerEvent: {}
+[12.622096] (-) TimerEvent: {}
+[12.723340] (-) TimerEvent: {}
+[12.841748] (-) TimerEvent: {}
+[12.942435] (-) TimerEvent: {}
+[13.043060] (-) TimerEvent: {}
+[13.161596] (-) TimerEvent: {}
+[13.262064] (-) TimerEvent: {}
+[13.362949] (-) TimerEvent: {}
+[13.464508] (-) TimerEvent: {}
+[13.565170] (-) TimerEvent: {}
+[13.666006] (-) TimerEvent: {}
+[13.766761] (-) TimerEvent: {}
+[13.867311] (-) TimerEvent: {}
+[13.967975] (-) TimerEvent: {}
+[14.089855] (-) TimerEvent: {}
+[14.190326] (-) TimerEvent: {}
+[14.290880] (-) TimerEvent: {}
+[14.396873] (-) TimerEvent: {}
+[14.498039] (-) TimerEvent: {}
+[14.598875] (-) TimerEvent: {}
+[14.699596] (-) TimerEvent: {}
+[14.800184] (-) TimerEvent: {}
+[14.900903] (-) TimerEvent: {}
+[15.001722] (-) TimerEvent: {}
+[15.102344] (-) TimerEvent: {}
+[15.202866] (-) TimerEvent: {}
+[15.303457] (-) TimerEvent: {}
+[15.404166] (-) TimerEvent: {}
+[15.504650] (-) TimerEvent: {}
+[15.627660] (-) TimerEvent: {}
+[15.728175] (-) TimerEvent: {}
+[15.828772] (-) TimerEvent: {}
+[15.929717] (-) TimerEvent: {}
+[16.031989] (-) TimerEvent: {}
+[16.133213] (-) TimerEvent: {}
+[16.237051] (-) TimerEvent: {}
+[16.350926] (-) TimerEvent: {}
+[16.457926] (-) TimerEvent: {}
+[16.564489] (-) TimerEvent: {}
+[16.671280] (-) TimerEvent: {}
+[16.777675] (-) TimerEvent: {}
+[16.884337] (-) TimerEvent: {}
+[16.991448] (-) TimerEvent: {}
+[17.097679] (-) TimerEvent: {}
+[17.204393] (-) TimerEvent: {}
+[17.311012] (-) TimerEvent: {}
+[17.430828] (-) TimerEvent: {}
+[17.555271] (-) TimerEvent: {}
+[17.670827] (-) TimerEvent: {}
+[17.790960] (-) TimerEvent: {}
+[17.910784] (-) TimerEvent: {}
+[18.030810] (-) TimerEvent: {}
+[18.152829] (-) TimerEvent: {}
+[18.270855] (-) TimerEvent: {}
+[18.371299] (-) TimerEvent: {}
+[18.471816] (-) TimerEvent: {}
+[18.572407] (-) TimerEvent: {}
+[18.675514] (-) TimerEvent: {}
+[18.776757] (-) TimerEvent: {}
+[18.882801] (-) TimerEvent: {}
+[18.983253] (-) TimerEvent: {}
+[19.085280] (-) TimerEvent: {}
+[19.186299] (-) TimerEvent: {}
+[19.290840] (-) TimerEvent: {}
+[19.393538] (-) TimerEvent: {}
+[19.520088] (-) TimerEvent: {}
+[19.624102] (-) TimerEvent: {}
+[19.725473] (-) TimerEvent: {}
+[19.845370] (-) TimerEvent: {}
+[19.946388] (-) TimerEvent: {}
+[20.046989] (-) TimerEvent: {}
+[20.160098] (-) TimerEvent: {}
+[20.260693] (-) TimerEvent: {}
+[20.361652] (-) TimerEvent: {}
+[20.462244] (-) TimerEvent: {}
+[20.562836] (-) TimerEvent: {}
+[20.663455] (-) TimerEvent: {}
+[20.764974] (-) TimerEvent: {}
+[20.875730] (-) TimerEvent: {}
+[20.976453] (-) TimerEvent: {}
+[21.076968] (-) TimerEvent: {}
+[21.178283] (-) TimerEvent: {}
+[21.279512] (-) TimerEvent: {}
+[21.380049] (-) TimerEvent: {}
+[21.485178] (-) TimerEvent: {}
+[21.586107] (-) TimerEvent: {}
+[21.698379] (-) TimerEvent: {}
+[21.788212] (robot_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable random\x1b[0m\n'}
+[21.801573] (-) TimerEvent: {}
+[21.902598] (-) TimerEvent: {}
+[22.003164] (-) TimerEvent: {}
+[22.136533] (-) TimerEvent: {}
+[22.239544] (-) TimerEvent: {}
+[22.340204] (-) TimerEvent: {}
+[22.456970] (-) TimerEvent: {}
+[22.557927] (-) TimerEvent: {}
+[22.662075] (-) TimerEvent: {}
+[22.776519] (-) TimerEvent: {}
+[22.877021] (-) TimerEvent: {}
+[22.908662] (robot_controller) StdoutLine: {'line': b'[100%] Built target random\n'}
+[22.968576] (robot_controller) CommandEnded: {'returncode': 0}
+[22.977193] (-) TimerEvent: {}
+[23.107263] (-) TimerEvent: {}
+[23.135201] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'install'}
+[23.193824] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fssja/turtlebot3_ws/build/robot_controller'], 'cwd': '/home/fssja/turtlebot3_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1274'), ('SYSTEMD_EXEC_PID', '1700'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17796'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:31004'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1423,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1423'), ('INVOCATION_ID', '796dc13a40e549dc964873bf6a981f07'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CGQIK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8e832d06-eb6d-4e61-b868-34b2f89e2e01'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/turtlebot3_ws/build/robot_controller'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[23.207392] (-) TimerEvent: {}
+[23.218902] (robot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.219989] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/talker\n'}
+[23.221789] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/listener\n'}
+[23.223510] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/random\n'}
+[23.227887] (robot_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/fssja/turtlebot3_ws/install/robot_controller/lib/robot_controller/random" to ""\n'}
+[23.228543] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller\n'}
+[23.229248] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller\n'}
+[23.229707] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh\n'}
+[23.230448] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv\n'}
+[23.231320] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/path.sh\n'}
+[23.231889] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/environment/path.dsv\n'}
+[23.259845] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.bash\n'}
+[23.260186] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.sh\n'}
+[23.260378] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.zsh\n'}
+[23.260565] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/local_setup.dsv\n'}
+[23.260749] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/package.dsv\n'}
+[23.260930] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller\n'}
+[23.261112] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake\n'}
+[23.261291] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake\n'}
+[23.261475] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/fssja/turtlebot3_ws/install/robot_controller/share/robot_controller/package.xml\n'}
+[23.266382] (robot_controller) CommandEnded: {'returncode': 0}
+[23.307826] (-) TimerEvent: {}
+[23.408741] (-) TimerEvent: {}
+[23.509424] (-) TimerEvent: {}
+[23.611705] (-) TimerEvent: {}
+[23.712119] (-) TimerEvent: {}
+[23.817908] (-) TimerEvent: {}
+[23.919678] (-) TimerEvent: {}
+[24.022629] (-) TimerEvent: {}
+[24.123141] (-) TimerEvent: {}
+[24.229548] (-) TimerEvent: {}
+[24.250439] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[24.252868] (-) EventReactorShutdown: {}

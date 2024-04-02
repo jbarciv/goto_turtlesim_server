@@ -1,0 +1,399 @@
+[0.000000] (-) TimerEvent: {}
+[0.000766] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000855] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000911] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000964] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001014] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001065] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001114] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001162] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001211] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001260] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001310] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001358] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001408] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001456] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001504] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001557] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.002678] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.099188] (-) TimerEvent: {}
+[0.201072] (-) TimerEvent: {}
+[0.301814] (-) TimerEvent: {}
+[0.311130] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'cmake'}
+[0.347402] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'build'}
+[0.349478] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/turtlebot3_ws/build/robot_controller', '--', '-j2', '-l2'], 'cwd': '/home/fssja/turtlebot3_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1410'), ('SYSTEMD_EXEC_PID', '1742'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4207'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30097'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1555,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1555'), ('INVOCATION_ID', 'f13d515b66bc424ab967cfcaaa1ecda0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2Z9XI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b3580a67-911e-403b-9e4c-b72a9007f629'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/turtlebot3_ws/build/robot_controller'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.411345] (-) TimerEvent: {}
+[0.512268] (-) TimerEvent: {}
+[0.613273] (-) TimerEvent: {}
+[0.714056] (-) TimerEvent: {}
+[0.814725] (-) TimerEvent: {}
+[0.915631] (-) TimerEvent: {}
+[1.016379] (-) TimerEvent: {}
+[1.117532] (-) TimerEvent: {}
+[1.218402] (-) TimerEvent: {}
+[1.319202] (-) TimerEvent: {}
+[1.376248] (robot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.419454] (-) TimerEvent: {}
+[1.520551] (-) TimerEvent: {}
+[1.621346] (-) TimerEvent: {}
+[1.721826] (-) TimerEvent: {}
+[1.822706] (-) TimerEvent: {}
+[1.923396] (-) TimerEvent: {}
+[2.023961] (-) TimerEvent: {}
+[2.124690] (-) TimerEvent: {}
+[2.221863] (robot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.224837] (-) TimerEvent: {}
+[2.325392] (-) TimerEvent: {}
+[2.426139] (-) TimerEvent: {}
+[2.526744] (-) TimerEvent: {}
+[2.627295] (-) TimerEvent: {}
+[2.697757] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.715677] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.727494] (-) TimerEvent: {}
+[2.756812] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.813696] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.827619] (-) TimerEvent: {}
+[2.880505] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.927847] (-) TimerEvent: {}
+[3.028349] (-) TimerEvent: {}
+[3.128977] (-) TimerEvent: {}
+[3.160017] (robot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.184454] (robot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.229117] (-) TimerEvent: {}
+[3.329911] (-) TimerEvent: {}
+[3.430711] (-) TimerEvent: {}
+[3.532002] (-) TimerEvent: {}
+[3.632838] (-) TimerEvent: {}
+[3.733539] (-) TimerEvent: {}
+[3.834229] (-) TimerEvent: {}
+[3.857995] (robot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.934492] (-) TimerEvent: {}
+[4.035104] (-) TimerEvent: {}
+[4.135669] (-) TimerEvent: {}
+[4.236479] (-) TimerEvent: {}
+[4.336918] (-) TimerEvent: {}
+[4.437344] (-) TimerEvent: {}
+[4.537778] (-) TimerEvent: {}
+[4.595672] (robot_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.637991] (-) TimerEvent: {}
+[4.738523] (-) TimerEvent: {}
+[4.839111] (-) TimerEvent: {}
+[4.939574] (-) TimerEvent: {}
+[5.040021] (-) TimerEvent: {}
+[5.140435] (-) TimerEvent: {}
+[5.241287] (-) TimerEvent: {}
+[5.281526] (robot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.341607] (-) TimerEvent: {}
+[5.442659] (-) TimerEvent: {}
+[5.543622] (-) TimerEvent: {}
+[5.644693] (-) TimerEvent: {}
+[5.699998] (robot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[5.704883] (robot_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/fssja/turtlebot3_ws/build/robot_controller\n'}
+[5.744962] (-) TimerEvent: {}
+[5.845512] (-) TimerEvent: {}
+[5.946230] (-) TimerEvent: {}
+[5.947996] (robot_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[6.046558] (-) TimerEvent: {}
+[6.147444] (-) TimerEvent: {}
+[6.230776] (robot_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_cmd.cpp.o\x1b[0m\n'}
+[6.247665] (-) TimerEvent: {}
+[6.348309] (-) TimerEvent: {}
+[6.449219] (-) TimerEvent: {}
+[6.549853] (-) TimerEvent: {}
+[6.650824] (-) TimerEvent: {}
+[6.751677] (-) TimerEvent: {}
+[6.852481] (-) TimerEvent: {}
+[6.953464] (-) TimerEvent: {}
+[7.054402] (-) TimerEvent: {}
+[7.156257] (-) TimerEvent: {}
+[7.257052] (-) TimerEvent: {}
+[7.357850] (-) TimerEvent: {}
+[7.458780] (-) TimerEvent: {}
+[7.560491] (-) TimerEvent: {}
+[7.661647] (-) TimerEvent: {}
+[7.763050] (-) TimerEvent: {}
+[7.864593] (-) TimerEvent: {}
+[7.965393] (-) TimerEvent: {}
+[8.066687] (-) TimerEvent: {}
+[8.167823] (-) TimerEvent: {}
+[8.268784] (-) TimerEvent: {}
+[8.369619] (-) TimerEvent: {}
+[8.470822] (-) TimerEvent: {}
+[8.572231] (-) TimerEvent: {}
+[8.672945] (-) TimerEvent: {}
+[8.773884] (-) TimerEvent: {}
+[8.874828] (-) TimerEvent: {}
+[8.975733] (-) TimerEvent: {}
+[9.076563] (-) TimerEvent: {}
+[9.177577] (-) TimerEvent: {}
+[9.278050] (-) TimerEvent: {}
+[9.378662] (-) TimerEvent: {}
+[9.479402] (-) TimerEvent: {}
+[9.580194] (-) TimerEvent: {}
+[9.681019] (-) TimerEvent: {}
+[9.781900] (-) TimerEvent: {}
+[9.883009] (-) TimerEvent: {}
+[9.983949] (-) TimerEvent: {}
+[10.084783] (-) TimerEvent: {}
+[10.185598] (-) TimerEvent: {}
+[10.286285] (-) TimerEvent: {}
+[10.386780] (-) TimerEvent: {}
+[10.487274] (-) TimerEvent: {}
+[10.587750] (-) TimerEvent: {}
+[10.688236] (-) TimerEvent: {}
+[10.788723] (-) TimerEvent: {}
+[10.889207] (-) TimerEvent: {}
+[10.989733] (-) TimerEvent: {}
+[11.090662] (-) TimerEvent: {}
+[11.191631] (-) TimerEvent: {}
+[11.292177] (-) TimerEvent: {}
+[11.392694] (-) TimerEvent: {}
+[11.493184] (-) TimerEvent: {}
+[11.593675] (-) TimerEvent: {}
+[11.694160] (-) TimerEvent: {}
+[11.794678] (-) TimerEvent: {}
+[11.895189] (-) TimerEvent: {}
+[11.995680] (-) TimerEvent: {}
+[12.096184] (-) TimerEvent: {}
+[12.196881] (-) TimerEvent: {}
+[12.297760] (-) TimerEvent: {}
+[12.398240] (-) TimerEvent: {}
+[12.498731] (-) TimerEvent: {}
+[12.599224] (-) TimerEvent: {}
+[12.699754] (-) TimerEvent: {}
+[12.800268] (-) TimerEvent: {}
+[12.901151] (-) TimerEvent: {}
+[13.001830] (-) TimerEvent: {}
+[13.102521] (-) TimerEvent: {}
+[13.203033] (-) TimerEvent: {}
+[13.303549] (-) TimerEvent: {}
+[13.404037] (-) TimerEvent: {}
+[13.504532] (-) TimerEvent: {}
+[13.605112] (-) TimerEvent: {}
+[13.705761] (-) TimerEvent: {}
+[13.806244] (-) TimerEvent: {}
+[13.906757] (-) TimerEvent: {}
+[14.007237] (-) TimerEvent: {}
+[14.107714] (-) TimerEvent: {}
+[14.208197] (-) TimerEvent: {}
+[14.308690] (-) TimerEvent: {}
+[14.409358] (-) TimerEvent: {}
+[14.510020] (-) TimerEvent: {}
+[14.610520] (-) TimerEvent: {}
+[14.711037] (-) TimerEvent: {}
+[14.811548] (-) TimerEvent: {}
+[14.912063] (-) TimerEvent: {}
+[15.012550] (-) TimerEvent: {}
+[15.113051] (-) TimerEvent: {}
+[15.213542] (-) TimerEvent: {}
+[15.314023] (-) TimerEvent: {}
+[15.414742] (-) TimerEvent: {}
+[15.515383] (-) TimerEvent: {}
+[15.615875] (-) TimerEvent: {}
+[15.716528] (-) TimerEvent: {}
+[15.817189] (-) TimerEvent: {}
+[15.917656] (-) TimerEvent: {}
+[16.018124] (-) TimerEvent: {}
+[16.118624] (-) TimerEvent: {}
+[16.219119] (-) TimerEvent: {}
+[16.319610] (-) TimerEvent: {}
+[16.420100] (-) TimerEvent: {}
+[16.520597] (-) TimerEvent: {}
+[16.621086] (-) TimerEvent: {}
+[16.721583] (-) TimerEvent: {}
+[16.822075] (-) TimerEvent: {}
+[16.922597] (-) TimerEvent: {}
+[17.023079] (-) TimerEvent: {}
+[17.123601] (-) TimerEvent: {}
+[17.224125] (-) TimerEvent: {}
+[17.324656] (-) TimerEvent: {}
+[17.425526] (-) TimerEvent: {}
+[17.526387] (-) TimerEvent: {}
+[17.627246] (-) TimerEvent: {}
+[17.727959] (-) TimerEvent: {}
+[17.828885] (-) TimerEvent: {}
+[17.929750] (-) TimerEvent: {}
+[18.030690] (-) TimerEvent: {}
+[18.131561] (-) TimerEvent: {}
+[18.232423] (-) TimerEvent: {}
+[18.333300] (-) TimerEvent: {}
+[18.434351] (-) TimerEvent: {}
+[18.534834] (-) TimerEvent: {}
+[18.635325] (-) TimerEvent: {}
+[18.735813] (-) TimerEvent: {}
+[18.836285] (-) TimerEvent: {}
+[18.936771] (-) TimerEvent: {}
+[19.037244] (-) TimerEvent: {}
+[19.137721] (-) TimerEvent: {}
+[19.238207] (-) TimerEvent: {}
+[19.338703] (-) TimerEvent: {}
+[19.439159] (-) TimerEvent: {}
+[19.539645] (-) TimerEvent: {}
+[19.640105] (-) TimerEvent: {}
+[19.740602] (-) TimerEvent: {}
+[19.841484] (-) TimerEvent: {}
+[19.942423] (-) TimerEvent: {}
+[20.043365] (-) TimerEvent: {}
+[20.143926] (-) TimerEvent: {}
+[20.244478] (-) TimerEvent: {}
+[20.345179] (-) TimerEvent: {}
+[20.369066] (robot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[20.445421] (-) TimerEvent: {}
+[20.545925] (-) TimerEvent: {}
+[20.646372] (-) TimerEvent: {}
+[20.746935] (-) TimerEvent: {}
+[20.847749] (-) TimerEvent: {}
+[20.948443] (-) TimerEvent: {}
+[21.049107] (-) TimerEvent: {}
+[21.149958] (-) TimerEvent: {}
+[21.251055] (-) TimerEvent: {}
+[21.351599] (-) TimerEvent: {}
+[21.369725] (robot_controller) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[21.439364] (robot_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[21.451719] (-) TimerEvent: {}
+[21.534106] (robot_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_odom.cpp.o\x1b[0m\n'}
+[21.551889] (-) TimerEvent: {}
+[21.652556] (-) TimerEvent: {}
+[21.753000] (-) TimerEvent: {}
+[21.853461] (-) TimerEvent: {}
+[21.954152] (-) TimerEvent: {}
+[22.055163] (-) TimerEvent: {}
+[22.156040] (-) TimerEvent: {}
+[22.256531] (-) TimerEvent: {}
+[22.357098] (-) TimerEvent: {}
+[22.457601] (-) TimerEvent: {}
+[22.558144] (-) TimerEvent: {}
+[22.658684] (-) TimerEvent: {}
+[22.759176] (-) TimerEvent: {}
+[22.859652] (-) TimerEvent: {}
+[22.960161] (-) TimerEvent: {}
+[23.060651] (-) TimerEvent: {}
+[23.161164] (-) TimerEvent: {}
+[23.261638] (-) TimerEvent: {}
+[23.362122] (-) TimerEvent: {}
+[23.462615] (-) TimerEvent: {}
+[23.563086] (-) TimerEvent: {}
+[23.663569] (-) TimerEvent: {}
+[23.764056] (-) TimerEvent: {}
+[23.864532] (-) TimerEvent: {}
+[23.965025] (-) TimerEvent: {}
+[24.065503] (-) TimerEvent: {}
+[24.165993] (-) TimerEvent: {}
+[24.266468] (-) TimerEvent: {}
+[24.366964] (-) TimerEvent: {}
+[24.467434] (-) TimerEvent: {}
+[24.567909] (-) TimerEvent: {}
+[24.668389] (-) TimerEvent: {}
+[24.768881] (-) TimerEvent: {}
+[24.869373] (-) TimerEvent: {}
+[24.969882] (-) TimerEvent: {}
+[25.070371] (-) TimerEvent: {}
+[25.170885] (-) TimerEvent: {}
+[25.271365] (-) TimerEvent: {}
+[25.371862] (-) TimerEvent: {}
+[25.472343] (-) TimerEvent: {}
+[25.573180] (-) TimerEvent: {}
+[25.673653] (-) TimerEvent: {}
+[25.774150] (-) TimerEvent: {}
+[25.874663] (-) TimerEvent: {}
+[25.975135] (-) TimerEvent: {}
+[26.075621] (-) TimerEvent: {}
+[26.176098] (-) TimerEvent: {}
+[26.276601] (-) TimerEvent: {}
+[26.377139] (-) TimerEvent: {}
+[26.477632] (-) TimerEvent: {}
+[26.578126] (-) TimerEvent: {}
+[26.678648] (-) TimerEvent: {}
+[26.779129] (-) TimerEvent: {}
+[26.879615] (-) TimerEvent: {}
+[26.980111] (-) TimerEvent: {}
+[27.080636] (-) TimerEvent: {}
+[27.181133] (-) TimerEvent: {}
+[27.281619] (-) TimerEvent: {}
+[27.345943] (robot_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[27.347401] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[27.348434] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[27.349471] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[27.350516] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[27.351592] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[27.352648] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[27.353696] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[27.354839] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[27.355727] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[27.355934] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[27.356130] (robot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/turtlebot3_ws/src/robot_controller/src/subscriber_odom.cpp:3\x1b[m\x1b[K:\n'}
+[27.356350] (robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/turtlebot3_ws/src/robot_controller/src/subscriber_odom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OdomSubscriber::topic_callback(const Odometry&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[27.356548] (robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/turtlebot3_ws/src/robot_controller/src/subscriber_odom.cpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Odometry\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[27.356742] (robot_controller) StderrLine: {'line': b'   21 |       msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.position.x,\n'}
+[27.356926] (robot_controller) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[27.361582] (robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/turtlebot3_ws/src/robot_controller/src/subscriber_odom.cpp:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Odometry\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[27.361834] (robot_controller) StderrLine: {'line': b'   22 |       msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.position.y,\n'}
+[27.362036] (robot_controller) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[27.362228] (robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/turtlebot3_ws/src/robot_controller/src/subscriber_odom.cpp:23:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Odometry\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[27.362424] (robot_controller) StderrLine: {'line': b'   23 |       msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.position.z);\n'}
+[27.362644] (robot_controller) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[27.381771] (-) TimerEvent: {}
+[27.482294] (-) TimerEvent: {}
+[27.582965] (-) TimerEvent: {}
+[27.683445] (-) TimerEvent: {}
+[27.783918] (-) TimerEvent: {}
+[27.884400] (-) TimerEvent: {}
+[27.984877] (-) TimerEvent: {}
+[28.085355] (-) TimerEvent: {}
+[28.185850] (-) TimerEvent: {}
+[28.286337] (-) TimerEvent: {}
+[28.386837] (-) TimerEvent: {}
+[28.487316] (-) TimerEvent: {}
+[28.587798] (-) TimerEvent: {}
+[28.688271] (-) TimerEvent: {}
+[28.788759] (-) TimerEvent: {}
+[28.889245] (-) TimerEvent: {}
+[28.989739] (-) TimerEvent: {}
+[29.090228] (-) TimerEvent: {}
+[29.190695] (-) TimerEvent: {}
+[29.291181] (-) TimerEvent: {}
+[29.391668] (-) TimerEvent: {}
+[29.492150] (-) TimerEvent: {}
+[29.592634] (-) TimerEvent: {}
+[29.693120] (-) TimerEvent: {}
+[29.793602] (-) TimerEvent: {}
+[29.894082] (-) TimerEvent: {}
+[29.994613] (-) TimerEvent: {}
+[30.095086] (-) TimerEvent: {}
+[30.195571] (-) TimerEvent: {}
+[30.296073] (-) TimerEvent: {}
+[30.396551] (-) TimerEvent: {}
+[30.497041] (-) TimerEvent: {}
+[30.597535] (-) TimerEvent: {}
+[30.698029] (-) TimerEvent: {}
+[30.798519] (-) TimerEvent: {}
+[30.899024] (-) TimerEvent: {}
+[30.999504] (-) TimerEvent: {}
+[31.099996] (-) TimerEvent: {}
+[31.200495] (-) TimerEvent: {}
+[31.300995] (-) TimerEvent: {}
+[31.401486] (-) TimerEvent: {}
+[31.501984] (-) TimerEvent: {}
+[31.602460] (-) TimerEvent: {}
+[31.702956] (-) TimerEvent: {}
+[31.803460] (-) TimerEvent: {}
+[31.903949] (-) TimerEvent: {}
+[32.004443] (-) TimerEvent: {}
+[32.104915] (-) TimerEvent: {}
+[32.205371] (-) TimerEvent: {}
+[32.305854] (-) TimerEvent: {}
+[32.406351] (-) TimerEvent: {}
+[32.506849] (-) TimerEvent: {}
+[32.607321] (-) TimerEvent: {}
+[32.707798] (-) TimerEvent: {}
+[32.765385] (robot_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_odom.cpp.o] Error 1\n'}
+[32.766596] (robot_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[32.766910] (robot_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[32.769449] (robot_controller) CommandEnded: {'returncode': 2}
+[32.807896] (-) TimerEvent: {}
+[32.908651] (-) TimerEvent: {}
+[33.009213] (-) TimerEvent: {}
+[33.110644] (-) TimerEvent: {}
+[33.208889] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 2}
+[33.210706] (-) TimerEvent: {}
+[33.220204] (-) EventReactorShutdown: {}

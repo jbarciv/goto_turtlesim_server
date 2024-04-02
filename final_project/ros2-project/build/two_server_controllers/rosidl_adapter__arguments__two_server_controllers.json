@@ -1,0 +1,6 @@
+{
+  "package_name": "two_server_controllers",
+  "non_idl_tuples": [
+    "/home/fssja/ros2-project/src/two_server_controllers:srv/Goto.srv"
+  ]
+}

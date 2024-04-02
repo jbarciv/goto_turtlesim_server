@@ -1,0 +1,2 @@
+Invoking command in '/home/fssja/ros2_ws/build/publish_and_subscribe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/publish_and_subscribe -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/publish_and_subscribe
+Invoked command in '/home/fssja/ros2_ws/build/publish_and_subscribe' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/publish_and_subscribe -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/publish_and_subscribe

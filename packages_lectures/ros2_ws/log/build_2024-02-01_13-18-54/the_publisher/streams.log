@@ -1,0 +1,7 @@
+[0.170s] Invoking command in '/home/fssja/ros2_ws/build/the_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/the_publisher -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/the_publisher
+[0.186s] [31mCMake Error at CMakeLists.txt:4:
+[0.187s]   Parse error.  Expected "(", got identifier with text "to".
+[0.187s] 
+[0.187s] -- Configuring incomplete, errors occurred!
+[0.187s] [0m
+[0.192s] Invoked command in '/home/fssja/ros2_ws/build/the_publisher' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/the_publisher -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/the_publisher

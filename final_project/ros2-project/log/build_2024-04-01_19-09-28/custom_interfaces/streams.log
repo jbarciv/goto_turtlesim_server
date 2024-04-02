@@ -1,0 +1,20 @@
+[0.042s] Invoking command in '/home/fssja/ros2-project/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/custom_interfaces -- -j2 -l2
+[0.133s] Invoked command in '/home/fssja/ros2-project/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/custom_interfaces -- -j2 -l2
+[0.202s] Invoking command in '/home/fssja/ros2-project/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/fssja/ros2-project/build/custom_interfaces
+[0.222s] -- Install configuration: ""
+[0.223s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[0.223s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[0.224s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[0.224s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[0.224s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[0.224s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[0.224s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[0.225s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[0.225s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[0.225s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[0.225s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/package.dsv
+[0.225s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[0.226s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[0.226s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[0.226s] -- Up-to-date: /home/fssja/ros2-project/install/custom_interfaces/share/custom_interfaces/package.xml
+[0.235s] Invoked command in '/home/fssja/ros2-project/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/fssja/ros2-project/build/custom_interfaces

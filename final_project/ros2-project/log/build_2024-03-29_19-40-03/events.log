@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (two_server_controllers) JobQueued: {'identifier': 'two_server_controllers', 'dependencies': OrderedDict()}
+[0.000844] (two_server_controllers) JobStarted: {'identifier': 'two_server_controllers'}
+[0.023777] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'cmake'}
+[0.025151] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'build'}
+[0.026671] (two_server_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/ros2-project/build/two_server_controllers', '--', '-j2', '-l2'], 'cwd': '/home/fssja/ros2-project/build/two_server_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1240'), ('SYSTEMD_EXEC_PID', '1658'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1999'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:29606'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1386,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1386'), ('INVOCATION_ID', 'bb9f3017690e430ca5dc490a1775708f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YZH5K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6737a060-3d69-45ff-8e5e-2857560ec6d7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2-project/build/two_server_controllers'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.097864] (-) TimerEvent: {}
+[0.122505] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go_to_goal\x1b[0m\n'}
+[0.160871] (two_server_controllers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto.cpp.o\x1b[0m\n'}
+[0.198003] (-) TimerEvent: {}
+[0.298553] (-) TimerEvent: {}
+[0.399125] (-) TimerEvent: {}
+[0.499742] (-) TimerEvent: {}
+[0.600363] (-) TimerEvent: {}
+[0.700994] (-) TimerEvent: {}
+[0.801498] (-) TimerEvent: {}
+[0.901972] (-) TimerEvent: {}
+[1.002465] (-) TimerEvent: {}
+[1.102934] (-) TimerEvent: {}
+[1.203396] (-) TimerEvent: {}
+[1.303884] (-) TimerEvent: {}
+[1.404357] (-) TimerEvent: {}
+[1.504815] (-) TimerEvent: {}
+[1.605285] (-) TimerEvent: {}
+[1.705742] (-) TimerEvent: {}
+[1.806217] (-) TimerEvent: {}
+[1.906672] (-) TimerEvent: {}
+[2.007137] (-) TimerEvent: {}
+[2.107623] (-) TimerEvent: {}
+[2.208097] (-) TimerEvent: {}
+[2.308578] (-) TimerEvent: {}
+[2.409038] (-) TimerEvent: {}
+[2.509496] (-) TimerEvent: {}
+[2.609961] (-) TimerEvent: {}
+[2.710421] (-) TimerEvent: {}
+[2.810881] (-) TimerEvent: {}
+[2.911376] (-) TimerEvent: {}
+[3.011839] (-) TimerEvent: {}
+[3.112290] (-) TimerEvent: {}
+[3.212758] (-) TimerEvent: {}
+[3.313238] (-) TimerEvent: {}
+[3.413693] (-) TimerEvent: {}
+[3.514147] (-) TimerEvent: {}
+[3.614613] (-) TimerEvent: {}
+[3.715074] (-) TimerEvent: {}
+[3.815531] (-) TimerEvent: {}
+[3.915990] (-) TimerEvent: {}
+[4.016462] (-) TimerEvent: {}
+[4.116970] (-) TimerEvent: {}
+[4.217427] (-) TimerEvent: {}
+[4.317887] (-) TimerEvent: {}
+[4.418344] (-) TimerEvent: {}
+[4.518803] (-) TimerEvent: {}
+[4.619255] (-) TimerEvent: {}
+[4.719712] (-) TimerEvent: {}
+[4.820163] (-) TimerEvent: {}
+[4.920608] (-) TimerEvent: {}
+[5.021071] (-) TimerEvent: {}
+[5.121536] (-) TimerEvent: {}
+[5.221993] (-) TimerEvent: {}
+[5.322451] (-) TimerEvent: {}
+[5.422925] (-) TimerEvent: {}
+[5.523387] (-) TimerEvent: {}
+[5.623857] (-) TimerEvent: {}
+[5.724310] (-) TimerEvent: {}
+[5.727874] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGoToGoal::GoToGoal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.728236] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:18:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.728426] (two_server_controllers) StderrLine: {'line': b'   18 |     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(std::chrono::nanoseconds(10), std::bind(&GoToGoal::go_to_goal, this));\n'}
+[5.728602] (two_server_controllers) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.728771] (two_server_controllers) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[5.758553] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GoToGoal::pose_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.758915] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ky1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.759119] (two_server_controllers) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Kx1\x1b[m\x1b[K = pose->x;\n'}
+[5.759296] (two_server_controllers) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.759470] (two_server_controllers) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ky1\x1b[m\x1b[K\n'}
+[5.759643] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:35:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kassignment of function \xe2\x80\x98\x1b[01m\x1b[Kdouble y1(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.759816] (two_server_controllers) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[Ky1 = pose->y\x1b[m\x1b[K;\n'}
+[5.759979] (two_server_controllers) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.767901] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:36:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.768256] (two_server_controllers) StderrLine: {'line': b'   36 |     \x1b[01;31m\x1b[Ktheta\x1b[m\x1b[K = pose->theta;\n'}
+[5.768437] (two_server_controllers) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.776497] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GoToGoal::set_goal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.776851] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:44:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.777117] (two_server_controllers) StderrLine: {'line': b'   44 |     std::cin >> \x1b[01;31m\x1b[Kx2\x1b[m\x1b[K;\n'}
+[5.777303] (two_server_controllers) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.783919] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:46:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kyn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.784281] (two_server_controllers) StderrLine: {'line': b'   46 |     std::cin >> \x1b[01;31m\x1b[Ky2\x1b[m\x1b[K;\n'}
+[5.784491] (two_server_controllers) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.784669] (two_server_controllers) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kyn\x1b[m\x1b[K\n'}
+[5.791287] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble GoToGoal::euclidean_distance(const Pose&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.791967] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:90:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ky1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.792411] (two_server_controllers) StderrLine: {'line': b'   90 |         return sqrt(pow((goal_pose.x - \x1b[01;31m\x1b[Kx1\x1b[m\x1b[K), 2) + pow((goal_pose.y - y1), 2));\n'}
+[5.792827] (two_server_controllers) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.793305] (two_server_controllers) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[Ky1\x1b[m\x1b[K\n'}
+[5.810241] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:90:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst _y_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kdouble(double) noexcept\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.810937] (two_server_controllers) StderrLine: {'line': b'   90 | rn sqrt(pow((goal_pose.x - x1), 2) + pow((\x1b[32m\x1b[Kgoal_pose.y\x1b[m\x1b[K \x1b[01;31m\x1b[K-\x1b[m\x1b[K \x1b[34m\x1b[Ky1\x1b[m\x1b[K), 2));\n'}
+[5.811419] (two_server_controllers) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~\x1b[m\x1b[K\n'}
+[5.811845] (two_server_controllers) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K|\x1b[m\x1b[K   \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[5.812289] (two_server_controllers) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K|\x1b[m\x1b[K   \x1b[34m\x1b[Kdouble(double) noexcept\x1b[m\x1b[K\n'}
+[5.812700] (two_server_controllers) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[Kconst _y_type {aka const float}\x1b[m\x1b[K\n'}
+[5.813232] (two_server_controllers) StderrLine: {'line': b'\n'}
+[5.822830] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble GoToGoal::steering_angle(const Pose&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.823186] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:98:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst _y_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kdouble(double) noexcept\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.823432] (two_server_controllers) StderrLine: {'line': b'   98 |         return atan2(\x1b[32m\x1b[Kgoal_pose.y\x1b[m\x1b[K \x1b[01;31m\x1b[K-\x1b[m\x1b[K \x1b[34m\x1b[Ky1\x1b[m\x1b[K, goal_pose.x - x1);\n'}
+[5.823616] (two_server_controllers) StderrLine: {'line': b'      |                      \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~\x1b[m\x1b[K\n'}
+[5.823797] (two_server_controllers) StderrLine: {'line': b'      |                                \x1b[32m\x1b[K|\x1b[m\x1b[K   \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[5.823971] (two_server_controllers) StderrLine: {'line': b'      |                                \x1b[32m\x1b[K|\x1b[m\x1b[K   \x1b[34m\x1b[Kdouble(double) noexcept\x1b[m\x1b[K\n'}
+[5.824144] (two_server_controllers) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Kconst _y_type {aka const float}\x1b[m\x1b[K\n'}
+[5.824302] (-) TimerEvent: {}
+[5.830222] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:98:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ky1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.830599] (two_server_controllers) StderrLine: {'line': b'   98 |         return atan2(goal_pose.y - y1, goal_pose.x - \x1b[01;31m\x1b[Kx1\x1b[m\x1b[K);\n'}
+[5.830805] (two_server_controllers) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.830981] (two_server_controllers) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[Ky1\x1b[m\x1b[K\n'}
+[5.839028] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble GoToGoal::angular_vel(const Pose&, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.839412] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:102:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.839621] (two_server_controllers) StderrLine: {'line': b'  102 |         return constant * (steering_angle(goal_pose) - \x1b[01;31m\x1b[Ktheta\x1b[m\x1b[K);\n'}
+[5.839804] (two_server_controllers) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.846455] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GoToGoal::go_to_goal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.846844] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:109:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.847043] (two_server_controllers) StderrLine: {'line': b'  109 |         goal_pose.x = \x1b[01;31m\x1b[Kx2\x1b[m\x1b[K;  // Set your x goal\n'}
+[5.847224] (two_server_controllers) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.854579] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:110:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kyn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.854916] (two_server_controllers) StderrLine: {'line': b'  110 |         goal_pose.y = \x1b[01;31m\x1b[Ky2\x1b[m\x1b[K;  // Set your y goal\n'}
+[5.855097] (two_server_controllers) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.855268] (two_server_controllers) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kyn\x1b[m\x1b[K\n'}
+[5.869096] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:134:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.869425] (two_server_controllers) StderrLine: {'line': b'  134 |             \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K->sleep();\n'}
+[5.869614] (two_server_controllers) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.869785] (two_server_controllers) StderrLine: {'line': b'      |             \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[5.870403] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.870677] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:155:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat y1\x1b[m\x1b[K\xe2\x80\x99 redeclared as different kind of entity\n'}
+[5.870868] (two_server_controllers) StderrLine: {'line': b'  155 |   float x1, \x1b[01;31m\x1b[Ky1\x1b[m\x1b[K, x2, y2, theta, dist_x, dist_y;\n'}
+[5.871066] (two_server_controllers) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.871238] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/features.h:486\x1b[m\x1b[K,\n'}
+[5.871407] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39\x1b[m\x1b[K,\n'}
+[5.871572] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586\x1b[m\x1b[K,\n'}
+[5.871736] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:41\x1b[m\x1b[K,\n'}
+[5.871900] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[5.872064] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:1\x1b[m\x1b[K:\n'}
+[5.872227] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:224:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kdouble y1(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.872392] (two_server_controllers) StderrLine: {'line': b'  224 | \x1b[01;36m\x1b[K__MATHCALL\x1b[m\x1b[K (y1,, (_Mdouble_));\n'}
+[5.872575] (two_server_controllers) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.924480] (-) TimerEvent: {}
+[6.025136] (-) TimerEvent: {}
+[6.125782] (-) TimerEvent: {}
+[6.226395] (-) TimerEvent: {}
+[6.327030] (-) TimerEvent: {}
+[6.427485] (-) TimerEvent: {}
+[6.527961] (-) TimerEvent: {}
+[6.628433] (-) TimerEvent: {}
+[6.728909] (-) TimerEvent: {}
+[6.829383] (-) TimerEvent: {}
+[6.929843] (-) TimerEvent: {}
+[7.030290] (-) TimerEvent: {}
+[7.130728] (-) TimerEvent: {}
+[7.231150] (-) TimerEvent: {}
+[7.331589] (-) TimerEvent: {}
+[7.432222] (-) TimerEvent: {}
+[7.533045] (-) TimerEvent: {}
+[7.633623] (-) TimerEvent: {}
+[7.734196] (-) TimerEvent: {}
+[7.834770] (-) TimerEvent: {}
+[7.935353] (-) TimerEvent: {}
+[8.035936] (-) TimerEvent: {}
+[8.136518] (-) TimerEvent: {}
+[8.237088] (-) TimerEvent: {}
+[8.337547] (-) TimerEvent: {}
+[8.438001] (-) TimerEvent: {}
+[8.538440] (-) TimerEvent: {}
+[8.638857] (-) TimerEvent: {}
+[8.739342] (-) TimerEvent: {}
+[8.839765] (-) TimerEvent: {}
+[8.940189] (-) TimerEvent: {}
+[9.040634] (-) TimerEvent: {}
+[9.141037] (-) TimerEvent: {}
+[9.241497] (-) TimerEvent: {}
+[9.341934] (-) TimerEvent: {}
+[9.442390] (-) TimerEvent: {}
+[9.542859] (-) TimerEvent: {}
+[9.643304] (-) TimerEvent: {}
+[9.743751] (-) TimerEvent: {}
+[9.847381] (-) TimerEvent: {}
+[9.947855] (-) TimerEvent: {}
+[10.048329] (-) TimerEvent: {}
+[10.148807] (-) TimerEvent: {}
+[10.249295] (-) TimerEvent: {}
+[10.355259] (-) TimerEvent: {}
+[10.455902] (-) TimerEvent: {}
+[10.556408] (-) TimerEvent: {}
+[10.656875] (-) TimerEvent: {}
+[10.757434] (-) TimerEvent: {}
+[10.857872] (-) TimerEvent: {}
+[10.958330] (-) TimerEvent: {}
+[11.058783] (-) TimerEvent: {}
+[11.159228] (-) TimerEvent: {}
+[11.259679] (-) TimerEvent: {}
+[11.360112] (-) TimerEvent: {}
+[11.460563] (-) TimerEvent: {}
+[11.561045] (-) TimerEvent: {}
+[11.661514] (-) TimerEvent: {}
+[11.761963] (-) TimerEvent: {}
+[11.862593] (-) TimerEvent: {}
+[11.926949] (two_server_controllers) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto.cpp.o] Error 1\n'}
+[11.927742] (two_server_controllers) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to_goal.dir/all] Error 2\n'}
+[11.928560] (two_server_controllers) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.932340] (two_server_controllers) CommandEnded: {'returncode': 2}
+[11.962714] (-) TimerEvent: {}
+[12.011167] (two_server_controllers) JobEnded: {'identifier': 'two_server_controllers', 'rc': 2}
+[12.022466] (-) EventReactorShutdown: {}

@@ -1,0 +1,40 @@
+[0.172s] Invoking command in '/home/fssja/ros2_ws/build/the_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/the_publisher -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/the_publisher
+[0.199s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.538s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.603s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.610s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.625s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.655s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.852s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.122s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.695s] -- Configuring done
+[1.714s] -- Generating done
+[1.717s] -- Build files have been written to: /home/fssja/ros2_ws/build/the_publisher
+[1.736s] Invoked command in '/home/fssja/ros2_ws/build/the_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/the_publisher -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/the_publisher
+[1.737s] Invoking command in '/home/fssja/ros2_ws/build/the_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2_ws/build/the_publisher -- -j2 -l2
+[1.838s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/first_publisher.cpp.o[0m
+[13.017s] [100%] [32m[1mLinking CXX executable talker[0m
+[13.446s] [100%] Built target talker
+[13.469s] Invoked command in '/home/fssja/ros2_ws/build/the_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2_ws/build/the_publisher -- -j2 -l2
+[13.539s] Invoking command in '/home/fssja/ros2_ws/build/the_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fssja/ros2_ws/build/the_publisher
+[13.554s] -- Install configuration: ""
+[13.556s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/lib/the_publisher/talker
+[13.558s] -- Set runtime path of "/home/fssja/ros2_ws/install/the_publisher/lib/the_publisher/talker" to ""
+[13.560s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/ament_index/resource_index/package_run_dependencies/the_publisher
+[13.561s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/ament_index/resource_index/parent_prefix_path/the_publisher
+[13.562s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/environment/ament_prefix_path.sh
+[13.563s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/environment/ament_prefix_path.dsv
+[13.565s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/environment/path.sh
+[13.567s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/environment/path.dsv
+[13.569s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/local_setup.bash
+[13.570s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/local_setup.sh
+[13.573s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/local_setup.zsh
+[13.574s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/local_setup.dsv
+[13.575s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/package.dsv
+[13.576s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/ament_index/resource_index/packages/the_publisher
+[13.578s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/cmake/the_publisherConfig.cmake
+[13.579s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/cmake/the_publisherConfig-version.cmake
+[13.580s] -- Installing: /home/fssja/ros2_ws/install/the_publisher/share/the_publisher/package.xml
+[13.581s] Invoked command in '/home/fssja/ros2_ws/build/the_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fssja/ros2_ws/build/the_publisher

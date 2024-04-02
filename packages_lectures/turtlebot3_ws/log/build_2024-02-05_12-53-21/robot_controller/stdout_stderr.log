@@ -1,0 +1,48 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_cmd.cpp.o[0m
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:34:43:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+   34 |     rclcpp::Publisher<geometry_msgs::msg::[01;31m[KString[m[K>::SharedPtr publisher_;
+      |                                           [01;31m[K^~~~~~[m[K
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:34:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |     rclcpp::Publisher<geometry_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:34:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   34 |     rclcpp::Publisher<geometry_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:34:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   34 | cpp::Publisher<geometry_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~[m[K
+      |                                                       [32m[Krmw_publisher_t[m[K
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:[m[K In constructor ‘[01m[KVelocityPublisher::VelocityPublisher()[m[K’:
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   20 |       [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("topic", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:[m[K In member function ‘[01m[Kvoid VelocityPublisher::timer_callback()[m[K’:
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:29:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   29 |       message.[01;31m[Kdata[m[K = "Hello, world! " + std::to_string(count_++);
+      |               [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:6[m[K:
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:30:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   30 | _INFO(this->get_logger(), "Publishing: '%s'", message.[01;31m[Kdata[m[K.c_str());
+      |                                                       [01;31m[K^~~~[m[K
+
+[01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   31 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_cmd.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

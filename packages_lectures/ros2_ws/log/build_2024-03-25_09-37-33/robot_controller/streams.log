@@ -1,0 +1,39 @@
+[0.298s] Invoking command in '/home/fssja/ros2_ws/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/robot_controller
+[1.528s] -- The C compiler identification is GNU 11.4.0
+[2.163s] -- The CXX compiler identification is GNU 11.4.0
+[2.359s] -- Detecting C compiler ABI info
+[2.924s] -- Detecting C compiler ABI info - done
+[2.943s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.967s] -- Detecting C compile features
+[2.977s] -- Detecting C compile features - done
+[3.011s] -- Detecting CXX compiler ABI info
+[3.279s] -- Detecting CXX compiler ABI info - done
+[3.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.298s] -- Detecting CXX compile features
+[3.299s] -- Detecting CXX compile features - done
+[3.533s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.182s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.663s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.363s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.424s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.506s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.668s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.233s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.274s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.980s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.095s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.409s] -- Looking for pthread.h
+[7.622s] -- Looking for pthread.h - found
+[7.623s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.810s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.812s] -- Found Threads: TRUE  
+[8.451s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.868s] [31mCMake Error at CMakeLists.txt:20 (install):
+[8.868s]   install TARGETS given target "target" which does not exist.
+[8.869s] 
+[8.869s] [0m
+[9.083s] -- Configuring incomplete, errors occurred!
+[9.083s] See also "/home/fssja/ros2_ws/build/robot_controller/CMakeFiles/CMakeOutput.log".
+[9.103s] Invoked command in '/home/fssja/ros2_ws/build/robot_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/robot_controller

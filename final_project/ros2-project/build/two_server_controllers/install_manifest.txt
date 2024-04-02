@@ -1,0 +1,17 @@
+/home/fssja/ros2-project/install/two_server_controllers/lib/two_server_controllers/go_to_goal
+/home/fssja/ros2-project/install/two_server_controllers/lib/two_server_controllers/the_client
+/home/fssja/ros2-project/install/two_server_controllers/share/ament_index/resource_index/package_run_dependencies/two_server_controllers
+/home/fssja/ros2-project/install/two_server_controllers/share/ament_index/resource_index/parent_prefix_path/two_server_controllers
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/environment/ament_prefix_path.sh
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/environment/ament_prefix_path.dsv
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/environment/path.sh
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/environment/path.dsv
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/local_setup.bash
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/local_setup.sh
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/local_setup.zsh
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/local_setup.dsv
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.dsv
+/home/fssja/ros2-project/install/two_server_controllers/share/ament_index/resource_index/packages/two_server_controllers
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/cmake/two_server_controllersConfig.cmake
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/cmake/two_server_controllersConfig-version.cmake
+/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.xml

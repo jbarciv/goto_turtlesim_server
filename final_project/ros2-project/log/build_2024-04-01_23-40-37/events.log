@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.001386] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.001510] (two_server_controllers) JobQueued: {'identifier': 'two_server_controllers', 'dependencies': OrderedDict([('custom_interfaces', '/home/fssja/ros2-project/install/custom_interfaces')])}
+[0.001592] (two_server_controllers) JobStarted: {'identifier': 'two_server_controllers'}
+[0.035556] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'cmake'}
+[0.038206] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'build'}
+[0.041191] (two_server_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/ros2-project/build/two_server_controllers', '--', '-j2', '-l2'], 'cwd': '/home/fssja/ros2-project/build/two_server_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/ros2-project/install/custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1221'), ('SYSTEMD_EXEC_PID', '1558'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22324'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30200'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1363,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1363'), ('INVOCATION_ID', 'a631d89606ba4707a2320f2b7d42e888'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J5EIL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57d7145a-f833-4254-8a10-c1ef715298c7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2-project/build/two_server_controllers'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/ros2-project/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2-project/install/custom_interfaces:/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.098638] (-) TimerEvent: {}
+[0.161204] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go_to_goal\x1b[0m\n'}
+[0.198858] (-) TimerEvent: {}
+[0.242701] (two_server_controllers) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o\x1b[0m\n'}
+[0.298987] (-) TimerEvent: {}
+[0.399638] (-) TimerEvent: {}
+[0.500097] (-) TimerEvent: {}
+[0.601621] (-) TimerEvent: {}
+[0.702020] (-) TimerEvent: {}
+[0.802454] (-) TimerEvent: {}
+[0.902886] (-) TimerEvent: {}
+[1.003330] (-) TimerEvent: {}
+[1.103786] (-) TimerEvent: {}
+[1.204314] (-) TimerEvent: {}
+[1.304835] (-) TimerEvent: {}
+[1.405397] (-) TimerEvent: {}
+[1.505854] (-) TimerEvent: {}
+[1.606327] (-) TimerEvent: {}
+[1.707966] (-) TimerEvent: {}
+[1.808686] (-) TimerEvent: {}
+[1.909127] (-) TimerEvent: {}
+[2.009996] (-) TimerEvent: {}
+[2.110430] (-) TimerEvent: {}
+[2.210892] (-) TimerEvent: {}
+[2.311347] (-) TimerEvent: {}
+[2.411845] (-) TimerEvent: {}
+[2.512323] (-) TimerEvent: {}
+[2.613356] (-) TimerEvent: {}
+[2.714579] (-) TimerEvent: {}
+[2.815305] (-) TimerEvent: {}
+[2.916946] (-) TimerEvent: {}
+[3.019373] (-) TimerEvent: {}
+[3.119844] (-) TimerEvent: {}
+[3.220799] (-) TimerEvent: {}
+[3.323091] (-) TimerEvent: {}
+[3.423932] (-) TimerEvent: {}
+[3.528704] (-) TimerEvent: {}
+[3.629131] (-) TimerEvent: {}
+[3.730525] (-) TimerEvent: {}
+[3.831490] (-) TimerEvent: {}
+[3.931906] (-) TimerEvent: {}
+[4.032382] (-) TimerEvent: {}
+[4.132986] (-) TimerEvent: {}
+[4.233425] (-) TimerEvent: {}
+[4.334613] (-) TimerEvent: {}
+[4.435058] (-) TimerEvent: {}
+[4.535494] (-) TimerEvent: {}
+[4.636012] (-) TimerEvent: {}
+[4.736680] (-) TimerEvent: {}
+[4.840693] (-) TimerEvent: {}
+[4.941105] (-) TimerEvent: {}
+[5.041558] (-) TimerEvent: {}
+[5.141992] (-) TimerEvent: {}
+[5.242440] (-) TimerEvent: {}
+[5.342885] (-) TimerEvent: {}
+[5.443335] (-) TimerEvent: {}
+[5.543907] (-) TimerEvent: {}
+[5.644358] (-) TimerEvent: {}
+[5.744796] (-) TimerEvent: {}
+[5.845261] (-) TimerEvent: {}
+[5.945710] (-) TimerEvent: {}
+[6.046480] (-) TimerEvent: {}
+[6.147079] (-) TimerEvent: {}
+[6.247502] (-) TimerEvent: {}
+[6.347943] (-) TimerEvent: {}
+[6.448408] (-) TimerEvent: {}
+[6.548874] (-) TimerEvent: {}
+[6.649308] (-) TimerEvent: {}
+[6.749740] (-) TimerEvent: {}
+[6.850201] (-) TimerEvent: {}
+[6.950654] (-) TimerEvent: {}
+[7.051111] (-) TimerEvent: {}
+[7.151563] (-) TimerEvent: {}
+[7.252031] (-) TimerEvent: {}
+[7.352507] (-) TimerEvent: {}
+[7.452940] (-) TimerEvent: {}
+[7.553373] (-) TimerEvent: {}
+[7.653806] (-) TimerEvent: {}
+[7.754255] (-) TimerEvent: {}
+[7.854687] (-) TimerEvent: {}
+[7.955132] (-) TimerEvent: {}
+[8.055758] (-) TimerEvent: {}
+[8.156261] (-) TimerEvent: {}
+[8.256811] (-) TimerEvent: {}
+[8.357262] (-) TimerEvent: {}
+[8.457689] (-) TimerEvent: {}
+[8.558202] (-) TimerEvent: {}
+[8.658893] (-) TimerEvent: {}
+[8.759589] (-) TimerEvent: {}
+[8.860118] (-) TimerEvent: {}
+[8.961494] (-) TimerEvent: {}
+[9.061941] (-) TimerEvent: {}
+[9.062426] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GoToGoal::go_to(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.063108] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:38:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KGoToGoal::create_wall_timer(std::chrono::nanoseconds, std::_Bind_helper<false, void (GoToGoal::*)(std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >), GoToGoal*, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.068747] (two_server_controllers) StderrLine: {'line': b'   38 |     timer_ = \x1b[01;31m\x1b[Kthis->create_wall_timer(std::chrono::nanoseconds(10), std::bind(&GoToGoal::move_to_goal, this, response))\x1b[m\x1b[K;\n'}
+[9.068974] (two_server_controllers) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.069193] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.069385] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.069574] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.069755] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[9.069935] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.070123] (two_server_controllers) StderrLine: {'line': b'  238 |   \x1b[01;36m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[9.070301] (two_server_controllers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.070478] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.070657] (two_server_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[9.070831] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.071006] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.071185] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.071386] (two_server_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1\x1b[m\x1b[K:\n'}
+[9.071570] (two_server_controllers) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000000000>; CallbackT = std::_Bind<void (GoToGoal::*(GoToGoal*, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >))(std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.071759] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:38:37:\x1b[m\x1b[K   required from here\n'}
+[9.071938] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.076303] (two_server_controllers) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KNode\x1b[m\x1b[K::create_wall_timer(\n'}
+[9.076568] (two_server_controllers) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.076787] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.076979] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[9.162064] (-) TimerEvent: {}
+[9.262512] (-) TimerEvent: {}
+[9.363051] (-) TimerEvent: {}
+[9.463790] (-) TimerEvent: {}
+[9.564233] (-) TimerEvent: {}
+[9.664778] (-) TimerEvent: {}
+[9.765238] (-) TimerEvent: {}
+[9.865655] (-) TimerEvent: {}
+[9.966112] (-) TimerEvent: {}
+[10.066603] (-) TimerEvent: {}
+[10.167285] (-) TimerEvent: {}
+[10.267986] (-) TimerEvent: {}
+[10.368674] (-) TimerEvent: {}
+[10.469186] (-) TimerEvent: {}
+[10.569804] (-) TimerEvent: {}
+[10.670345] (-) TimerEvent: {}
+[10.770825] (-) TimerEvent: {}
+[10.871296] (-) TimerEvent: {}
+[10.971761] (-) TimerEvent: {}
+[11.072325] (-) TimerEvent: {}
+[11.172806] (-) TimerEvent: {}
+[11.274267] (-) TimerEvent: {}
+[11.374713] (-) TimerEvent: {}
+[11.475205] (-) TimerEvent: {}
+[11.578517] (-) TimerEvent: {}
+[11.679197] (-) TimerEvent: {}
+[11.779674] (-) TimerEvent: {}
+[11.881517] (-) TimerEvent: {}
+[11.981948] (-) TimerEvent: {}
+[12.082405] (-) TimerEvent: {}
+[12.182863] (-) TimerEvent: {}
+[12.283425] (-) TimerEvent: {}
+[12.383947] (-) TimerEvent: {}
+[12.484579] (-) TimerEvent: {}
+[12.585362] (-) TimerEvent: {}
+[12.685778] (-) TimerEvent: {}
+[12.786266] (-) TimerEvent: {}
+[12.886985] (-) TimerEvent: {}
+[12.987758] (-) TimerEvent: {}
+[13.088184] (-) TimerEvent: {}
+[13.188639] (-) TimerEvent: {}
+[13.290338] (-) TimerEvent: {}
+[13.391294] (-) TimerEvent: {}
+[13.492655] (-) TimerEvent: {}
+[13.593623] (-) TimerEvent: {}
+[13.694641] (-) TimerEvent: {}
+[13.795102] (-) TimerEvent: {}
+[13.895760] (-) TimerEvent: {}
+[13.996389] (-) TimerEvent: {}
+[14.097260] (-) TimerEvent: {}
+[14.197926] (-) TimerEvent: {}
+[14.299440] (-) TimerEvent: {}
+[14.400125] (-) TimerEvent: {}
+[14.500775] (-) TimerEvent: {}
+[14.602222] (-) TimerEvent: {}
+[14.703007] (-) TimerEvent: {}
+[14.803991] (-) TimerEvent: {}
+[14.904688] (-) TimerEvent: {}
+[15.005641] (-) TimerEvent: {}
+[15.108238] (-) TimerEvent: {}
+[15.209977] (-) TimerEvent: {}
+[15.310396] (-) TimerEvent: {}
+[15.410913] (-) TimerEvent: {}
+[15.513117] (-) TimerEvent: {}
+[15.613563] (-) TimerEvent: {}
+[15.714037] (-) TimerEvent: {}
+[15.814537] (-) TimerEvent: {}
+[15.915127] (-) TimerEvent: {}
+[16.015631] (-) TimerEvent: {}
+[16.116124] (-) TimerEvent: {}
+[16.217610] (-) TimerEvent: {}
+[16.318045] (-) TimerEvent: {}
+[16.418574] (-) TimerEvent: {}
+[16.519182] (-) TimerEvent: {}
+[16.619699] (-) TimerEvent: {}
+[16.720397] (-) TimerEvent: {}
+[16.796582] (two_server_controllers) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o] Error 1\n'}
+[16.797921] (two_server_controllers) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/go_to_goal.dir/all] Error 2\n'}
+[16.799201] (two_server_controllers) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.800566] (two_server_controllers) CommandEnded: {'returncode': 2}
+[16.820532] (-) TimerEvent: {}
+[16.921810] (-) TimerEvent: {}
+[16.966561] (two_server_controllers) JobEnded: {'identifier': 'two_server_controllers', 'rc': 2}
+[16.974336] (-) EventReactorShutdown: {}

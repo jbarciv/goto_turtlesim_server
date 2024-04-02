@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/Goto.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    struct Goto_Request {
+      float x;
+
+      float y;
+
+      float speed;
+    };
+    struct Goto_Response {
+      int64 succes;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::go_to_goal()[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:85:7:[m[K [01;31m[Kerror: [m[K‘[01m[Krate_[m[K’ was not declared in this scope
+   85 |       [01;31m[Krate_[m[K->sleep();
+      |       [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

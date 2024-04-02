@@ -1,0 +1,108 @@
+[0.039s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target go_to_goal[0m
+[0.211s] [ 50%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto.cpp.o[0m
+[5.728s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:133:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.728s]   133 | }
+[5.728s]       |  [01;31m[K^[m[K
+[5.728s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:9:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.729s]     9 | [01;36m[K{[m[K
+[5.729s]       | [01;36m[K^[m[K
+[5.770s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In constructor ‘[01m[KGoToGoal::GoToGoal()[m[K’:
+[5.771s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[5.771s]    13 |     [01;31m[Kvelocity_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+[5.771s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.771s]       |     [32m[Kcount_publishers[m[K
+[5.795s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+[5.795s]    15 |     [01;31m[Kpose_subscriber_[m[K = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, std::bind(&GoToGoal::pose_callback, this, _1));
+[5.795s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.796s]       |     [32m[Kcount_subscribers[m[K
+[5.914s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[5.915s]    17 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::nanoseconds(10), std::bind(&GoToGoal::go_to_goal, this));
+[5.915s]       |     [01;31m[K^~~~~~[m[K
+[5.915s]       |     [32m[Ktimer_t[m[K
+[5.944s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::pose_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.945s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+[5.945s]    33 |     [01;31m[Kx1[m[K = pose->x;
+[5.945s]       |     [01;31m[K^~[m[K
+[5.945s]       |     [32m[Ky1[m[K
+[5.945s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:34:8:[m[K [01;31m[Kerror: [m[Kassignment of function ‘[01m[Kdouble y1(double)[m[K’
+[5.946s]    34 |     [01;31m[Ky1 = pose->y[m[K;
+[5.946s]       |     [01;31m[K~~~^~~~~~~~~[m[K
+[5.954s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+[5.954s]    35 |     [01;31m[Ktheta[m[K = pose->theta;
+[5.954s]       |     [01;31m[K^~~~~[m[K
+[5.962s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::set_goal()[m[K’:
+[5.963s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:43:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx2[m[K’ was not declared in this scope
+[5.963s]    43 |     std::cin >> [01;31m[Kx2[m[K;
+[5.963s]       |                 [01;31m[K^~[m[K
+[5.971s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:45:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ky2[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[5.971s]    45 |     std::cin >> [01;31m[Ky2[m[K;
+[5.971s]       |                 [01;31m[K^~[m[K
+[5.971s]       |                 [32m[Kyn[m[K
+[5.980s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::go_to_goal()[m[K’:
+[5.980s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist_x[m[K’ was not declared in this scope
+[5.980s]    50 |     [01;31m[Kdist_x[m[K = x2 - x1;
+[5.980s]       |     [01;31m[K^~~~~~[m[K
+[5.987s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:50:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kx2[m[K’ was not declared in this scope
+[5.987s]    50 |     dist_x = [01;31m[Kx2[m[K - x1;
+[5.987s]       |              [01;31m[K^~[m[K
+[5.994s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:50:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kx1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+[5.995s]    50 |     dist_x = x2 - [01;31m[Kx1[m[K;
+[5.995s]       |                   [01;31m[K^~[m[K
+[5.995s]       |                   [32m[Ky1[m[K
+[6.003s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist_y[m[K’ was not declared in this scope
+[6.004s]    51 |     [01;31m[Kdist_y[m[K = y2 - y1;
+[6.004s]       |     [01;31m[K^~~~~~[m[K
+[6.010s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:51:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ky2[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[6.011s]    51 |     dist_y = [01;31m[Ky2[m[K - y1;
+[6.011s]       |              [01;31m[K^~[m[K
+[6.011s]       |              [32m[Kyn[m[K
+[6.030s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:52:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keuclidean_distance[m[K’ was not declared in this scope
+[6.030s]    52 |     [01;31m[Keuclidean_distance[m[K = sqrt(pow(dist_x, 2) + pow(dist_y, 2));
+[6.030s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.049s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_tolerance[m[K’ was not declared in this scope
+[6.049s]    53 |     [01;31m[Kdistance_tolerance[m[K = 0.1;
+[6.050s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.067s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_tolerance[m[K’ was not declared in this scope
+[6.068s]    54 |     [01;31m[Kangle_tolerance[m[K = 0.01;
+[6.068s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.077s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope
+[6.077s]    55 |     [01;31m[Kangle[m[K = atan2(dist_y, dist_x);
+[6.077s]       |     [01;31m[K^~~~~[m[K
+[6.089s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_error[m[K’ was not declared in this scope
+[6.090s]    56 |     [01;31m[Kangle_error[m[K = (angle - theta);
+[6.090s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[6.098s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:56:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+[6.098s]    56 |     angle_error = (angle - [01;31m[Ktheta[m[K);
+[6.099s]       |                            [01;31m[K^~~~~[m[K
+[6.106s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:72:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+[6.107s]    72 |       [01;31m[Kspeed[m[K.angular.z = kp_angular * angle_error;
+[6.107s]       |       [01;31m[K^~~~~[m[K
+[6.115s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+[6.115s]    78 |         [01;31m[Kspeed[m[K.linear.x = kp_linear * my_speed;
+[6.115s]       |         [01;31m[K^~~~~[m[K
+[6.123s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+[6.123s]    82 |         [01;31m[Kspeed[m[K.linear.x = 0.0;
+[6.123s]       |         [01;31m[K^~~~~[m[K
+[6.132s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[6.132s]    85 |         [01;31m[Ktimer_[m[K->cancel();
+[6.132s]       |         [01;31m[K^~~~~~[m[K
+[6.132s]       |         [32m[Ktimer_t[m[K
+[6.154s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[6.154s]    88 |     [01;31m[Kvelocity_publisher_[m[K->publish(speed);
+[6.154s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.154s]       |     [32m[Kcount_publishers[m[K
+[6.160s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:88:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+[6.160s]    88 |     velocity_publisher_->publish([01;31m[Kspeed[m[K);
+[6.161s]       |                                  [01;31m[K^~~~~[m[K
+[6.165s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:94:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.165s]    94 |   float x1, [01;35m[Ky1[m[K, x2, y2, theta, dist_x, dist_y;
+[6.165s]       |             [01;35m[K^~[m[K
+[6.174s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K At global scope:
+[6.174s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:133:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[6.174s]   133 | }
+[6.175s]       |  [01;31m[K^[m[K
+[11.370s] gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto.cpp.o] Error 1
+[11.371s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to_goal.dir/all] Error 2
+[11.372s] gmake: *** [Makefile:146: all] Error 2
+[11.390s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

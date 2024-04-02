@@ -1,0 +1,25 @@
+[0.630s] Invoking command in '/home/fssja/turtlebot3_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/robot_controller -- -j2 -l2
+[0.808s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.442s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.556s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.567s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.596s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.096s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.101s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.299s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.195s] -- Configuring done
+[4.235s] -- Generating done
+[4.241s] -- Build files have been written to: /home/fssja/turtlebot3_ws/build/robot_controller
+[4.426s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[4.481s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_odom.cpp.o[0m
+[6.572s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/subscriber_odom.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/Odometry.hpp: No such file or directory
+[6.572s]     4 | #include [01;31m[K"nav_msgs/msg/Odometry.hpp"[m[K
+[6.572s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.572s] compilation terminated.
+[6.578s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_odom.cpp.o] Error 1
+[6.579s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[6.580s] gmake: *** [Makefile:146: all] Error 2
+[6.586s] Invoked command in '/home/fssja/turtlebot3_ws/build/robot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/robot_controller -- -j2 -l2

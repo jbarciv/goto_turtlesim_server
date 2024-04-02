@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target go_to_goal[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o[0m
+[ 75%] Built target the_client

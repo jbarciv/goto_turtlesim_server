@@ -1,0 +1,2 @@
+Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

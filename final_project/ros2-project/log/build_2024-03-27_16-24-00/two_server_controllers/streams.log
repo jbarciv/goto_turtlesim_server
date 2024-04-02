@@ -1,0 +1,47 @@
+[0.752s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2-project/src/two_server_controllers -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2-project/install/two_server_controllers
+[6.915s] -- The C compiler identification is GNU 11.4.0
+[8.716s] -- The CXX compiler identification is GNU 11.4.0
+[8.862s] -- Detecting C compiler ABI info
+[9.311s] -- Detecting C compiler ABI info - done
+[9.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.376s] -- Detecting C compile features
+[9.385s] -- Detecting C compile features - done
+[9.461s] -- Detecting CXX compiler ABI info
+[10.025s] -- Detecting CXX compiler ABI info - done
+[10.051s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.052s] -- Detecting CXX compile features
+[10.054s] -- Detecting CXX compile features - done
+[12.465s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.512s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[15.404s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[17.051s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[17.134s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[17.203s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[17.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.225s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[18.272s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[19.331s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[19.519s] -- Found FastRTPS: /opt/ros/humble/include  
+[19.667s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.876s] -- Looking for pthread.h
+[20.192s] -- Looking for pthread.h - found
+[20.192s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[20.471s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[20.474s] -- Found Threads: TRUE  
+[21.434s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[22.096s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[22.489s] -- Configuring done
+[22.536s] -- Generating done
+[22.541s] -- Build files have been written to: /home/fssja/ros2-project/build/two_server_controllers
+[22.562s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2-project/src/two_server_controllers -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2-project/install/two_server_controllers
+[22.567s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[22.689s] [ 50%] [32mBuilding CXX object CMakeFiles/go_to.dir/src/go_to.cpp.o[0m
+[26.390s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/go_to.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktwo_servers_controllers/srv/goto.hpp: No such file or directory
+[26.390s]     4 | #include [01;31m[K"two_servers_controllers/srv/goto.hpp"[m[K
+[26.391s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.391s] compilation terminated.
+[26.398s] gmake[2]: *** [CMakeFiles/go_to.dir/build.make:76: CMakeFiles/go_to.dir/src/go_to.cpp.o] Error 1
+[26.401s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to.dir/all] Error 2
+[26.401s] gmake: *** [Makefile:146: all] Error 2
+[26.409s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

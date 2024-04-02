@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000241] (-) JobUnselected: {'identifier': 'the_publisher'}
+[0.000311] (-) EventReactorShutdown: {}

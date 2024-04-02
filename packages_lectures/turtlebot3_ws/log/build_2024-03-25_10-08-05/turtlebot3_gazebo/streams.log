@@ -1,0 +1,86 @@
+[0.476s] Invoking command in '/home/fssja/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/turtlebot3_gazebo -- -j2 -l2
+[0.621s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.113s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.383s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.383s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.383s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.383s]   problems in calling code that expects `find_package` result variables
+[1.383s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.384s] Call Stack (most recent call first):
+[1.384s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.384s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.384s]   CMakeLists.txt:23 (find_package)
+[1.384s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.384s] [0m
+[1.716s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.023s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.106s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.204s] -- Searching for dependencies of ignition-math6
+[2.253s] -- Looking for OGRE...
+[2.276s] -- Found Ogre Ghadamon (1.9.0)
+[2.292s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.340s] -- Looking for OGRE_Paging...
+[2.341s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.342s] -- Looking for OGRE_Terrain...
+[2.343s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.343s] -- Looking for OGRE_Property...
+[2.343s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.343s] -- Looking for OGRE_RTShaderSystem...
+[2.344s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.344s] -- Looking for OGRE_Volume...
+[2.344s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.344s] -- Looking for OGRE_Overlay...
+[2.344s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.915s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.988s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.989s] -- Searching for dependencies of ignition-transport8
+[3.049s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.076s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.087s] -- Checking for module 'libzmq >= 4'
+[3.270s] --   Found libzmq , version 4.3.4
+[3.404s] -- Checking for module 'uuid'
+[3.465s] --   Found uuid, version 2.37.2
+[3.572s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.573s] -- Searching for dependencies of ignition-msgs5
+[3.641s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.671s] -- Checking for module 'tinyxml2'
+[3.726s] --   Found tinyxml2, version 9.0.0
+[3.879s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.886s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.887s] -- Searching for dependencies of ignition-common3
+[3.903s] -- Looking for dlfcn.h - found
+[3.904s] -- Looking for libdl - found
+[3.934s] -- Searching for <ignition-common3> component [graphics]
+[3.936s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.938s] -- Searching for dependencies of ignition-common3-graphics
+[3.939s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.956s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.960s] -- Searching for dependencies of ignition-fuel_tools4
+[4.097s] -- Checking for module 'jsoncpp'
+[4.133s] --   Found jsoncpp, version 1.9.5
+[4.223s] -- Checking for module 'libzip'
+[4.267s] --   Found libzip, version 1.7.3
+[4.340s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.342s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.343s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.429s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[4.430s]   By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this
+[4.430s]   project has asked CMake to find a package configuration file provided by
+[4.430s]   "gazebo_ros_pkgs", but CMake did not find one.
+[4.431s] 
+[4.431s]   Could not find a package configuration file provided by "gazebo_ros_pkgs"
+[4.432s]   with any of the following names:
+[4.432s] 
+[4.432s]     gazebo_ros_pkgsConfig.cmake
+[4.432s]     gazebo_ros_pkgs-config.cmake
+[4.432s] 
+[4.432s]   Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or
+[4.433s]   set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.
+[4.433s]   If "gazebo_ros_pkgs" provides a separate development package or SDK, be
+[4.433s]   sure it has been installed.
+[4.433s] 
+[4.434s] [0m
+[4.435s] -- Configuring incomplete, errors occurred!
+[4.435s] See also "/home/fssja/turtlebot3_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[4.452s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[4.462s] Invoked command in '/home/fssja/turtlebot3_ws/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/turtlebot3_gazebo -- -j2 -l2

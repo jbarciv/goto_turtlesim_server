@@ -1,0 +1,42 @@
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:34:50:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kusing Pose = struct turtlesim::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::msg::Pose_<std::allocator<void> >[m[K’} does not name a type
+   34 |   void pose_callback(const turtlesim::msg::Pose::[01;31m[KSharePtr[m[K pose)
+      |                                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In constructor ‘[01m[Kgo_to::go_to()[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocity_publisher_[m[K’?
+   14 |     [01;31m[Kvelocity_publisher[m[K =
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kvelocity_publisher_[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose_subscriber_[m[K’?
+   17 |     [01;31m[Kpose_subscriber[m[K =
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Kpose_subscriber_[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:18:11:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   18 |     this->[01;31m[Kcreate_subscription<turtlesim::msg:::Pose>[m[K("/turtle1/pose", 10, std::bind(&go_to::pose_callback, this, std::placeholders::_1));
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:18:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgo_to::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (go_to::*)(int), go_to*, const std::_Placeholder<1>&>::type)[m[K’
+   18 |     [01;31m[Kthis->create_subscription<turtlesim::msg:::Pose>("/turtle1/pose", 10, std::bind(&go_to::pose_callback, this, std::placeholders::_1))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:18:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |     [01;31m[Kthis->create_subscription<turtlesim::msg:::Pose>("/turtle1/pose", 10, std::bind(&go_to::pose_callback, this, std::placeholders::_1))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid go_to::pose_callback(int)[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:36:14:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   36 |     x1 = pose[01;31m[K->[m[Kx;
+      |              [01;31m[K^~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:37:14:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   37 |     y1 = pose[01;31m[K->[m[Ky;
+      |              [01;31m[K^~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:38:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   38 |     theta = pose[01;31m[K->[m[Ktheta;
+      |                 [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/go_to.dir/build.make:76: CMakeFiles/go_to.dir/src/goto.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

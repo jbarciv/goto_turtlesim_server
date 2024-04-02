@@ -1,0 +1,4 @@
+[  3%] Built target two_server_controllers__cpp
+[ 12%] Built target two_server_controllers__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_two_server_controllers
+[ 15%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o[0m

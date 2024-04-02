@@ -1,0 +1,25 @@
+[  3%] Built target two_server_controllers__cpp
+[35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_generator_c[0m
+[ 12%] Built target two_server_controllers__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_two_server_controllers
+[35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_cpp[0m
+[ 21%] Built target two_server_controllers__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_fastrtps_c[0m
+[ 30%] Built target two_server_controllers__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_fastrtps_cpp[0m
+[ 39%] Built target two_server_controllers__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_introspection_c[0m
+[ 48%] Built target two_server_controllers__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_c[0m
+[ 57%] Built target two_server_controllers__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_introspection_cpp[0m
+[ 66%] Built target two_server_controllers__rosidl_typesupport_introspection_cpp
+running egg_info
+writing two_server_controllers.egg-info/PKG-INFO
+writing dependency_links to two_server_controllers.egg-info/dependency_links.txt
+writing top-level names to two_server_controllers.egg-info/top_level.txt
+reading manifest file 'two_server_controllers.egg-info/SOURCES.txt'
+writing manifest file 'two_server_controllers.egg-info/SOURCES.txt'
+[ 66%] Built target ament_cmake_python_build_two_server_controllers_egg
+[ 66%] Built target two_server_controllers
+[ 69%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o[0m

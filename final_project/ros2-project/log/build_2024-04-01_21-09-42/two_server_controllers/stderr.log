@@ -1,0 +1,14 @@
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/the_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/the_client.cpp:24:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   24 |   request->[01;31m[Ka[m[K = atoll(argv[1]);
+      |            [01;31m[K^[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/the_client.cpp:25:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   25 |   request->[01;31m[Kb[m[K = atoll(argv[2]);
+      |            [01;31m[K^[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/the_client.cpp:26:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_interfaces::srv::Goto_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kc[m[K’
+   26 |   request->[01;31m[Kc[m[K = atoll(argv[3]);
+      |            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/the_client.dir/build.make:76: CMakeFiles/the_client.dir/src/the_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/the_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/fssja/ros2_ws/build/add_two_nums': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/add_two_nums -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/add_two_nums
+Invoked command in '/home/fssja/ros2_ws/build/add_two_nums' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/add_two_nums -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/add_two_nums

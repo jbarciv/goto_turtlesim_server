@@ -1,0 +1,44 @@
+[0.169s] Invoking command in '/home/fssja/ros2_ws/build/add_two_nums': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/add_two_nums -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/add_two_nums
+[0.636s] -- The C compiler identification is GNU 11.4.0
+[0.761s] -- The CXX compiler identification is GNU 11.4.0
+[0.779s] -- Detecting C compiler ABI info
+[1.120s] -- Detecting C compiler ABI info - done
+[1.133s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.134s] -- Detecting C compile features
+[1.135s] -- Detecting C compile features - done
+[1.142s] -- Detecting CXX compiler ABI info
+[1.316s] -- Detecting CXX compiler ABI info - done
+[1.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.342s] -- Detecting CXX compile features
+[1.343s] -- Detecting CXX compile features - done
+[1.591s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.978s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.245s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.440s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.451s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.470s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.894s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.899s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.181s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.237s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.344s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.406s] -- Looking for pthread.h
+[3.563s] -- Looking for pthread.h - found
+[3.572s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.728s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.728s] -- Found Threads: TRUE  
+[4.279s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.873s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[4.874s]   ament_package_xml() package name 'add_two_nums' in '/package.xml' does not
+[4.875s]   match current PROJECT_NAME 'cpp_srvcli'.  You must call project() with the
+[4.876s]   same package name before.
+[4.877s] Call Stack (most recent call first):
+[4.877s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[4.877s]   CMakeLists.txt:19 (ament_package)
+[4.877s] 
+[4.877s] [0m
+[4.878s] -- Configuring incomplete, errors occurred!
+[4.878s] See also "/home/fssja/ros2_ws/build/add_two_nums/CMakeFiles/CMakeOutput.log".
+[4.890s] Invoked command in '/home/fssja/ros2_ws/build/add_two_nums' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/add_two_nums -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/add_two_nums

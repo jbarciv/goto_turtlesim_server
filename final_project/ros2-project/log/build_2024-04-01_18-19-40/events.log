@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000588] (two_server_controllers) JobQueued: {'identifier': 'two_server_controllers', 'dependencies': OrderedDict()}
+[0.000950] (two_server_controllers) JobStarted: {'identifier': 'two_server_controllers'}
+[0.036777] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'cmake'}
+[0.037889] (two_server_controllers) JobProgress: {'identifier': 'two_server_controllers', 'progress': 'build'}
+[0.039632] (two_server_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/ros2-project/build/two_server_controllers', '--', '-j2', '-l2'], 'cwd': '/home/fssja/ros2-project/build/two_server_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/fssja/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1221'), ('SYSTEMD_EXEC_PID', '1558'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4075'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2-project/install:/home/fssja/turtlebot3_ws/install:/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30200'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1363,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1363'), ('INVOCATION_ID', 'a631d89606ba4707a2320f2b7d42e888'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J5EIL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0259b53c-8a0e-42c9-96a7-8e290ea766d6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2-project/build/two_server_controllers'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fssja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2-project/install/two_server_controllers:/home/fssja/turtlebot3_ws/install/turtlebot3:/home/fssja/turtlebot3_ws/install/turtlebot3_simulations:/home/fssja/turtlebot3_ws/install/turtlebot3_bringup:/home/fssja/turtlebot3_ws/install/turtlebot3_node:/home/fssja/turtlebot3_ws/install/turtlebot3_navigation2:/home/fssja/turtlebot3_ws/install/turtlebot3_fake_node:/home/fssja/turtlebot3_ws/install/turtlebot3_msgs:/home/fssja/turtlebot3_ws/install/turtlebot3_gazebo:/home/fssja/turtlebot3_ws/install/turtlebot3_description:/home/fssja/turtlebot3_ws/install/turtlebot3_cartographer:/home/fssja/turtlebot3_ws/install/robot_controller:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fssja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fssja/turtlebot3_ws/install/dynamixel_sdk:/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/robot_controller:/home/fssja/ros2_ws/install/publish_and_subscribe:/home/fssja/ros2_ws/install/add_two_nums:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.098789] (-) TimerEvent: {}
+[0.103673] (two_server_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198921] (-) TimerEvent: {}
+[0.299326] (-) TimerEvent: {}
+[0.399931] (-) TimerEvent: {}
+[0.432436] (two_server_controllers) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.497733] (two_server_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.500041] (-) TimerEvent: {}
+[0.504325] (two_server_controllers) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.519776] (two_server_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.554198] (two_server_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600216] (-) TimerEvent: {}
+[0.601662] (two_server_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700383] (-) TimerEvent: {}
+[0.761963] (two_server_controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.767835] (two_server_controllers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800523] (-) TimerEvent: {}
+[0.901161] (-) TimerEvent: {}
+[1.001793] (-) TimerEvent: {}
+[1.074348] (two_server_controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101925] (-) TimerEvent: {}
+[1.202601] (-) TimerEvent: {}
+[1.303044] (-) TimerEvent: {}
+[1.403496] (-) TimerEvent: {}
+[1.500952] (two_server_controllers) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.503619] (-) TimerEvent: {}
+[1.604053] (-) TimerEvent: {}
+[1.704505] (-) TimerEvent: {}
+[1.805147] (-) TimerEvent: {}
+[1.850413] (two_server_controllers) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.905282] (-) TimerEvent: {}
+[2.005835] (-) TimerEvent: {}
+[2.012613] (two_server_controllers) StdoutLine: {'line': b'-- Found two_server_controllers: 0.0.0 (/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/cmake)\n'}
+[2.014051] (two_server_controllers) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.105992] (-) TimerEvent: {}
+[2.206492] (-) TimerEvent: {}
+[2.307325] (-) TimerEvent: {}
+[2.408140] (-) TimerEvent: {}
+[2.508557] (-) TimerEvent: {}
+[2.609027] (-) TimerEvent: {}
+[2.658272] (two_server_controllers) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.709201] (-) TimerEvent: {}
+[2.809784] (-) TimerEvent: {}
+[2.910586] (-) TimerEvent: {}
+[3.011237] (-) TimerEvent: {}
+[3.111717] (-) TimerEvent: {}
+[3.212682] (-) TimerEvent: {}
+[3.313358] (-) TimerEvent: {}
+[3.413954] (-) TimerEvent: {}
+[3.415613] (two_server_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.514109] (-) TimerEvent: {}
+[3.614980] (-) TimerEvent: {}
+[3.709763] (two_server_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.715184] (-) TimerEvent: {}
+[3.774733] (two_server_controllers) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.815311] (-) TimerEvent: {}
+[3.830591] (two_server_controllers) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.830940] (two_server_controllers) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.831136] (two_server_controllers) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.878196] (two_server_controllers) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[3.878647] (two_server_controllers) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[3.878851] (two_server_controllers) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[3.879054] (two_server_controllers) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.879234] (two_server_controllers) StderrLine: {'line': b'  CMakeLists.txt:28 (rosidl_target_interfaces)\n'}
+[3.879413] (two_server_controllers) StderrLine: {'line': b'\n'}
+[3.882344] (two_server_controllers) StderrLine: {'line': b'\x1b[0m\n'}
+[3.890080] (two_server_controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.915450] (-) TimerEvent: {}
+[3.979053] (two_server_controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[3.991813] (two_server_controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/fssja/ros2-project/build/two_server_controllers\n'}
+[4.015591] (-) TimerEvent: {}
+[4.079809] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_generator_c\x1b[0m\n'}
+[4.118348] (-) TimerEvent: {}
+[4.125263] (two_server_controllers) StdoutLine: {'line': b'[  3%] Built target two_server_controllers__cpp\n'}
+[4.130089] (two_server_controllers) StdoutLine: {'line': b'[ 12%] Built target two_server_controllers__rosidl_generator_c\n'}
+[4.194011] (two_server_controllers) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_two_server_controllers\n'}
+[4.201870] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.223477] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.223812] (-) TimerEvent: {}
+[4.249038] (two_server_controllers) StdoutLine: {'line': b'[ 21%] Built target two_server_controllers__rosidl_typesupport_fastrtps_c\n'}
+[4.256675] (two_server_controllers) StdoutLine: {'line': b'[ 30%] Built target two_server_controllers__rosidl_typesupport_cpp\n'}
+[4.276291] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.291330] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.307546] (two_server_controllers) StdoutLine: {'line': b'[ 39%] Built target two_server_controllers__rosidl_typesupport_fastrtps_cpp\n'}
+[4.323979] (-) TimerEvent: {}
+[4.329018] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_c\x1b[0m\n'}
+[4.332103] (two_server_controllers) StdoutLine: {'line': b'[ 48%] Built target two_server_controllers__rosidl_typesupport_introspection_c\n'}
+[4.357557] (two_server_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target two_server_controllers__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.375773] (two_server_controllers) StdoutLine: {'line': b'[ 57%] Built target two_server_controllers__rosidl_typesupport_c\n'}
+[4.388206] (two_server_controllers) StdoutLine: {'line': b'[ 66%] Built target two_server_controllers__rosidl_typesupport_introspection_cpp\n'}
+[4.424103] (-) TimerEvent: {}
+[4.433364] (two_server_controllers) StdoutLine: {'line': b'[ 66%] Built target two_server_controllers\n'}
+[4.485686] (two_server_controllers) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o\x1b[0m\n'}
+[4.524224] (-) TimerEvent: {}
+[4.624613] (-) TimerEvent: {}
+[4.725016] (-) TimerEvent: {}
+[4.825682] (-) TimerEvent: {}
+[4.926323] (-) TimerEvent: {}
+[5.026928] (-) TimerEvent: {}
+[5.104829] (two_server_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktwo_servers_controllers/srv/goto.hpp: No such file or directory\n'}
+[5.106102] (two_server_controllers) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"two_servers_controllers/srv/goto.hpp"\x1b[m\x1b[K\n'}
+[5.107223] (two_server_controllers) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.108494] (two_server_controllers) StderrLine: {'line': b'compilation terminated.\n'}
+[5.127057] (-) TimerEvent: {}
+[5.138448] (two_server_controllers) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o] Error 1\n'}
+[5.140303] (two_server_controllers) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/go_to_goal.dir/all] Error 2\n'}
+[5.141623] (two_server_controllers) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.148927] (two_server_controllers) StdoutLine: {'line': b'running egg_info\n'}
+[5.150568] (two_server_controllers) StdoutLine: {'line': b'writing two_server_controllers.egg-info/PKG-INFO\n'}
+[5.152212] (two_server_controllers) StdoutLine: {'line': b'writing dependency_links to two_server_controllers.egg-info/dependency_links.txt\n'}
+[5.153956] (two_server_controllers) StdoutLine: {'line': b'writing top-level names to two_server_controllers.egg-info/top_level.txt\n'}
+[5.161846] (two_server_controllers) StdoutLine: {'line': b"reading manifest file 'two_server_controllers.egg-info/SOURCES.txt'\n"}
+[5.165357] (two_server_controllers) StdoutLine: {'line': b"writing manifest file 'two_server_controllers.egg-info/SOURCES.txt'\n"}
+[5.225995] (two_server_controllers) StdoutLine: {'line': b'[ 69%] Built target ament_cmake_python_build_two_server_controllers_egg\n'}
+[5.227427] (-) TimerEvent: {}
+[5.227957] (two_server_controllers) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.231350] (two_server_controllers) CommandEnded: {'returncode': 2}
+[5.327590] (-) TimerEvent: {}
+[5.403272] (two_server_controllers) JobEnded: {'identifier': 'two_server_controllers', 'rc': 2}
+[5.414382] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+[0.726s] Invoking command in '/home/fssja/turtlebot3_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/robot_controller -- -j2 -l2
+[1.071s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_cmd.cpp.o[0m
+[2.429s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/Twist.hpp: No such file or directory
+[2.429s]     7 | #include [01;31m[K"geometry_msgs/msg/Twist.hpp"[m[K
+[2.430s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.430s] compilation terminated.
+[2.454s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_cmd.cpp.o] Error 1
+[2.454s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[2.455s] gmake: *** [Makefile:146: all] Error 2
+[2.926s] Invoked command in '/home/fssja/turtlebot3_ws/build/robot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/robot_controller -- -j2 -l2

@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.000784] (-) JobUnselected: {'identifier': 'publish_and_subscribe'}
+[0.000899] (add_two_nums) JobQueued: {'identifier': 'add_two_nums', 'dependencies': OrderedDict()}
+[0.001886] (add_two_nums) JobStarted: {'identifier': 'add_two_nums'}
+[0.099873] (-) TimerEvent: {}
+[0.162074] (add_two_nums) JobProgress: {'identifier': 'add_two_nums', 'progress': 'cmake'}
+[0.163475] (add_two_nums) Command: {'cmd': ['/usr/bin/cmake', '/home/fssja/ros2_ws/src/add_two_nums', '-DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/add_two_nums'], 'cwd': '/home/fssja/ros2_ws/build/add_two_nums', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1402'), ('SYSTEMD_EXEC_PID', '1737'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2043'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30927'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1548,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1548'), ('INVOCATION_ID', '9394918ad377421096936c609e186408'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KS82I2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/publish_and_subscribe:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b8761460-cd06-43af-92ac-aff246add404'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2_ws/build/add_two_nums'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/publish_and_subscribe:/opt/ros/humble')]), 'shell': False}
+[0.196144] (add_two_nums) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.201420] (-) TimerEvent: {}
+[0.301844] (-) TimerEvent: {}
+[0.402237] (-) TimerEvent: {}
+[0.502708] (-) TimerEvent: {}
+[0.538853] (add_two_nums) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.602838] (-) TimerEvent: {}
+[0.604442] (add_two_nums) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.610988] (add_two_nums) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.625691] (add_two_nums) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.655435] (add_two_nums) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.697545] (add_two_nums) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.702955] (-) TimerEvent: {}
+[0.803367] (-) TimerEvent: {}
+[0.848064] (add_two_nums) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.850671] (add_two_nums) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.903510] (-) TimerEvent: {}
+[1.004088] (-) TimerEvent: {}
+[1.104552] (-) TimerEvent: {}
+[1.122147] (add_two_nums) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.204685] (-) TimerEvent: {}
+[1.305419] (-) TimerEvent: {}
+[1.406066] (-) TimerEvent: {}
+[1.506526] (-) TimerEvent: {}
+[1.536799] (add_two_nums) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.606669] (-) TimerEvent: {}
+[1.707133] (-) TimerEvent: {}
+[1.807592] (-) TimerEvent: {}
+[1.908037] (-) TimerEvent: {}
+[2.008689] (-) TimerEvent: {}
+[2.049562] (add_two_nums) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.080019] (add_two_nums) StdoutLine: {'line': b'-- Generating done\n'}
+[2.084111] (add_two_nums) StdoutLine: {'line': b'-- Build files have been written to: /home/fssja/ros2_ws/build/add_two_nums\n'}
+[2.104412] (add_two_nums) CommandEnded: {'returncode': 0}
+[2.105391] (add_two_nums) JobProgress: {'identifier': 'add_two_nums', 'progress': 'build'}
+[2.105462] (add_two_nums) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fssja/ros2_ws/build/add_two_nums', '--', '-j2', '-l2'], 'cwd': '/home/fssja/ros2_ws/build/add_two_nums', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1402'), ('SYSTEMD_EXEC_PID', '1737'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2043'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30927'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1548,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1548'), ('INVOCATION_ID', '9394918ad377421096936c609e186408'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KS82I2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/publish_and_subscribe:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b8761460-cd06-43af-92ac-aff246add404'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2_ws/build/add_two_nums'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/publish_and_subscribe:/opt/ros/humble')]), 'shell': False}
+[2.108809] (-) TimerEvent: {}
+[2.205253] (add_two_nums) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[2.207513] (add_two_nums) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[2.208888] (-) TimerEvent: {}
+[2.309537] (-) TimerEvent: {}
+[2.410656] (-) TimerEvent: {}
+[2.511298] (-) TimerEvent: {}
+[2.612194] (-) TimerEvent: {}
+[2.712845] (-) TimerEvent: {}
+[2.813492] (-) TimerEvent: {}
+[2.914145] (-) TimerEvent: {}
+[3.014834] (-) TimerEvent: {}
+[3.115523] (-) TimerEvent: {}
+[3.216226] (-) TimerEvent: {}
+[3.316922] (-) TimerEvent: {}
+[3.424063] (-) TimerEvent: {}
+[3.524549] (-) TimerEvent: {}
+[3.625020] (-) TimerEvent: {}
+[3.725624] (-) TimerEvent: {}
+[3.826110] (-) TimerEvent: {}
+[3.926713] (-) TimerEvent: {}
+[4.027187] (-) TimerEvent: {}
+[4.127774] (-) TimerEvent: {}
+[4.228266] (-) TimerEvent: {}
+[4.335881] (-) TimerEvent: {}
+[4.436387] (-) TimerEvent: {}
+[4.536875] (-) TimerEvent: {}
+[4.637370] (-) TimerEvent: {}
+[4.737853] (-) TimerEvent: {}
+[4.838404] (-) TimerEvent: {}
+[4.938989] (-) TimerEvent: {}
+[5.039478] (-) TimerEvent: {}
+[5.139985] (-) TimerEvent: {}
+[5.240471] (-) TimerEvent: {}
+[5.340949] (-) TimerEvent: {}
+[5.441406] (-) TimerEvent: {}
+[5.541857] (-) TimerEvent: {}
+[5.642318] (-) TimerEvent: {}
+[5.742774] (-) TimerEvent: {}
+[5.843920] (-) TimerEvent: {}
+[5.944378] (-) TimerEvent: {}
+[6.044825] (-) TimerEvent: {}
+[6.145270] (-) TimerEvent: {}
+[6.245720] (-) TimerEvent: {}
+[6.346200] (-) TimerEvent: {}
+[6.446658] (-) TimerEvent: {}
+[6.547152] (-) TimerEvent: {}
+[6.647645] (-) TimerEvent: {}
+[6.748145] (-) TimerEvent: {}
+[6.848863] (-) TimerEvent: {}
+[7.051205] (-) TimerEvent: {}
+[7.151688] (-) TimerEvent: {}
+[7.252177] (-) TimerEvent: {}
+[7.497424] (-) TimerEvent: {}
+[7.597888] (-) TimerEvent: {}
+[7.698362] (-) TimerEvent: {}
+[7.798868] (-) TimerEvent: {}
+[7.899870] (-) TimerEvent: {}
+[8.000713] (-) TimerEvent: {}
+[8.101371] (-) TimerEvent: {}
+[8.202381] (-) TimerEvent: {}
+[8.303671] (-) TimerEvent: {}
+[8.404666] (-) TimerEvent: {}
+[8.505558] (-) TimerEvent: {}
+[8.606467] (-) TimerEvent: {}
+[8.707356] (-) TimerEvent: {}
+[8.808175] (-) TimerEvent: {}
+[8.908803] (-) TimerEvent: {}
+[9.009888] (-) TimerEvent: {}
+[9.110355] (-) TimerEvent: {}
+[9.211459] (-) TimerEvent: {}
+[9.311925] (-) TimerEvent: {}
+[9.412881] (-) TimerEvent: {}
+[9.514370] (-) TimerEvent: {}
+[9.614845] (-) TimerEvent: {}
+[9.715335] (-) TimerEvent: {}
+[9.815823] (-) TimerEvent: {}
+[9.916708] (-) TimerEvent: {}
+[10.017567] (-) TimerEvent: {}
+[10.118832] (-) TimerEvent: {}
+[10.219736] (-) TimerEvent: {}
+[10.328575] (-) TimerEvent: {}
+[10.429445] (-) TimerEvent: {}
+[10.530174] (-) TimerEvent: {}
+[10.634737] (-) TimerEvent: {}
+[10.735438] (-) TimerEvent: {}
+[10.836116] (-) TimerEvent: {}
+[10.936813] (-) TimerEvent: {}
+[11.037540] (-) TimerEvent: {}
+[11.138418] (-) TimerEvent: {}
+[11.239281] (-) TimerEvent: {}
+[11.340150] (-) TimerEvent: {}
+[11.441003] (-) TimerEvent: {}
+[11.541859] (-) TimerEvent: {}
+[11.642721] (-) TimerEvent: {}
+[11.743597] (-) TimerEvent: {}
+[11.844468] (-) TimerEvent: {}
+[11.945318] (-) TimerEvent: {}
+[12.046162] (-) TimerEvent: {}
+[12.147052] (-) TimerEvent: {}
+[12.249876] (-) TimerEvent: {}
+[12.350762] (-) TimerEvent: {}
+[12.451646] (-) TimerEvent: {}
+[12.552520] (-) TimerEvent: {}
+[12.653343] (-) TimerEvent: {}
+[12.754226] (-) TimerEvent: {}
+[12.855089] (-) TimerEvent: {}
+[12.955963] (-) TimerEvent: {}
+[13.056825] (-) TimerEvent: {}
+[13.157698] (-) TimerEvent: {}
+[13.258612] (-) TimerEvent: {}
+[13.372071] (-) TimerEvent: {}
+[13.472690] (-) TimerEvent: {}
+[13.573363] (-) TimerEvent: {}
+[13.674151] (-) TimerEvent: {}
+[13.770488] (add_two_nums) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[13.774275] (-) TimerEvent: {}
+[13.848990] (add_two_nums) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[13.874423] (-) TimerEvent: {}
+[13.975134] (-) TimerEvent: {}
+[14.075690] (-) TimerEvent: {}
+[14.176458] (-) TimerEvent: {}
+[14.277492] (-) TimerEvent: {}
+[14.377950] (-) TimerEvent: {}
+[14.478519] (-) TimerEvent: {}
+[14.579261] (-) TimerEvent: {}
+[14.679889] (-) TimerEvent: {}
+[14.780363] (-) TimerEvent: {}
+[14.881095] (-) TimerEvent: {}
+[14.981749] (-) TimerEvent: {}
+[15.051695] (add_two_nums) StdoutLine: {'line': b'[100%] Built target client\n'}
+[15.068508] (add_two_nums) StdoutLine: {'line': b'[100%] Built target server\n'}
+[15.081878] (-) TimerEvent: {}
+[15.098020] (add_two_nums) CommandEnded: {'returncode': 0}
+[15.164697] (add_two_nums) JobProgress: {'identifier': 'add_two_nums', 'progress': 'install'}
+[15.181809] (add_two_nums) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fssja/ros2_ws/build/add_two_nums'], 'cwd': '/home/fssja/ros2_ws/build/add_two_nums', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fssja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fssja'), ('OLDPWD', '/home/fssja/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1402'), ('SYSTEMD_EXEC_PID', '1737'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2043'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fssja/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fssja'), ('JOURNAL_STREAM', '8:30927'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fssja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fssja-ThinkPad-E520:@/tmp/.ICE-unix/1548,unix/fssja-ThinkPad-E520:/tmp/.ICE-unix/1548'), ('INVOCATION_ID', '9394918ad377421096936c609e186408'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KS82I2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/publish_and_subscribe:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b8761460-cd06-43af-92ac-aff246add404'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fssja/ros2_ws/build/add_two_nums'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fssja/ros2_ws/install/the_publisher:/home/fssja/ros2_ws/install/publish_and_subscribe:/opt/ros/humble')]), 'shell': False}
+[15.183678] (-) TimerEvent: {}
+[15.198034] (add_two_nums) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.199668] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/lib/add_two_nums/server\n'}
+[15.200879] (add_two_nums) StdoutLine: {'line': b'-- Set runtime path of "/home/fssja/ros2_ws/install/add_two_nums/lib/add_two_nums/server" to ""\n'}
+[15.202025] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/lib/add_two_nums/client\n'}
+[15.203287] (add_two_nums) StdoutLine: {'line': b'-- Set runtime path of "/home/fssja/ros2_ws/install/add_two_nums/lib/add_two_nums/client" to ""\n'}
+[15.204597] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/ament_index/resource_index/package_run_dependencies/add_two_nums\n'}
+[15.205677] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/ament_index/resource_index/parent_prefix_path/add_two_nums\n'}
+[15.206712] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/environment/ament_prefix_path.sh\n'}
+[15.220577] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/environment/ament_prefix_path.dsv\n'}
+[15.221986] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/environment/path.sh\n'}
+[15.223184] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/environment/path.dsv\n'}
+[15.224471] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/local_setup.bash\n'}
+[15.225961] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/local_setup.sh\n'}
+[15.227154] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/local_setup.zsh\n'}
+[15.231209] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/local_setup.dsv\n'}
+[15.232202] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/package.dsv\n'}
+[15.232404] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/ament_index/resource_index/packages/add_two_nums\n'}
+[15.232589] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/cmake/add_two_numsConfig.cmake\n'}
+[15.232766] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/cmake/add_two_numsConfig-version.cmake\n'}
+[15.232941] (add_two_nums) StdoutLine: {'line': b'-- Installing: /home/fssja/ros2_ws/install/add_two_nums/share/add_two_nums/package.xml\n'}
+[15.233114] (add_two_nums) CommandEnded: {'returncode': 0}
+[15.283885] (-) TimerEvent: {}
+[15.384489] (-) TimerEvent: {}
+[15.484963] (-) TimerEvent: {}
+[15.586145] (-) TimerEvent: {}
+[15.687227] (-) TimerEvent: {}
+[15.721305] (add_two_nums) JobEnded: {'identifier': 'add_two_nums', 'rc': 0}
+[15.723416] (-) EventReactorShutdown: {}

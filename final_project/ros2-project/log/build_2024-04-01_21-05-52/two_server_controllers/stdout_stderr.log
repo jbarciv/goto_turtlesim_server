@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target go_to_goal[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/the_client.dir/src/the_client.cpp.o[0m
+[ 75%] Built target go_to_goal
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/the_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcustom_interfaces/srv/goto.hpp: No such file or directory
+    2 | #include [01;31m[K"custom_interfaces/srv/goto.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/the_client.dir/build.make:76: CMakeFiles/the_client.dir/src/the_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/the_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

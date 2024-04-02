@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/fssja/ros2-project/src/custom_interfaces:srv/Goto.srv"
+  ]
+}

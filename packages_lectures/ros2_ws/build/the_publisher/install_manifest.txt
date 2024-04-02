@@ -1,0 +1,16 @@
+/home/fssja/ros2_ws/install/the_publisher/lib/the_publisher/talker
+/home/fssja/ros2_ws/install/the_publisher/share/ament_index/resource_index/package_run_dependencies/the_publisher
+/home/fssja/ros2_ws/install/the_publisher/share/ament_index/resource_index/parent_prefix_path/the_publisher
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/environment/ament_prefix_path.sh
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/environment/ament_prefix_path.dsv
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/environment/path.sh
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/environment/path.dsv
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/local_setup.bash
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/local_setup.sh
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/local_setup.zsh
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/local_setup.dsv
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/package.dsv
+/home/fssja/ros2_ws/install/the_publisher/share/ament_index/resource_index/packages/the_publisher
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/cmake/the_publisherConfig.cmake
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/cmake/the_publisherConfig-version.cmake
+/home/fssja/ros2_ws/install/the_publisher/share/the_publisher/package.xml

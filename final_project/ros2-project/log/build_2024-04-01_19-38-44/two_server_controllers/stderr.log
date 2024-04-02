@@ -1,0 +1,613 @@
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:33:20: error: ‘shared_ptr’ does not name a type; did you mean ‘SharedPtr’?
+   33 |   void go_to(const shared_ptr<custom_interfaces::srv::Goto::Request> request,
+      |                    ^~~~~~~~~~
+      |                    SharedPtr
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:33:30: error: expected ‘,’ or ‘...’ before ‘<’ token
+   33 |   void go_to(const shared_ptr<custom_interfaces::srv::Goto::Request> request,
+      |                              ^
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp: In member function ‘void GoToGoal::go_to(int)’:
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:37:10: error: ‘request’ was not declared in this scope
+   37 |     x2 = request->x;
+      |          ^~~~~~~
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:41:5: error: ‘response’ was not declared in this scope
+   41 |     response->succes = move_to_goal();
+      |     ^~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘struct rclcpp::function_traits::function_traits<void (GoToGoal::*)(int)>’:
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:165:8:   required from ‘struct rclcpp::function_traits::same_arguments<void (GoToGoal::*)(int), std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)> >’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:121:10:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:52:40: error: ‘operator()’ is not a member of ‘void (GoToGoal::*)(int)’
+   52 |     typename function_traits<decltype( &FunctionT::operator())>::arguments>::type;
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:52:40: error: ‘operator()’ is not a member of ‘void (GoToGoal::*)(int)’
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:52:40: error: ‘operator()’ is not a member of ‘void (GoToGoal::*)(int)’
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:121:10: error: ‘value’ is not a member of ‘rclcpp::function_traits::same_arguments<void (GoToGoal::*)(int), std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)> >’
+  121 |       >::value)
+      |          ^~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: error: no matching function for call to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrCallback>(void (GoToGoal::*&)(int))’
+  123 |       callback_.template emplace<SharedPtrCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1485:9: note: candidate: ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1485 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1485:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/11/bits/move.h:57,
+                 from /usr/include/c++/11/bits/stl_pair.h:59,
+                 from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/memory:63,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>&]’:
+/usr/include/c++/11/variant:1485:2:   required by substitution of ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; _Args = {void (GoToGoal::*&)(int)}]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/type_traits:2579:11: error: no type named ‘type’ in ‘struct std::enable_if<false, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>&>’
+ 2579 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/variant:1495:9: note: candidate: ‘template<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1495 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1495:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: note:   mismatched types ‘std::initializer_list<_Value>’ and ‘void (GoToGoal::*)(int)’
+  123 |       callback_.template emplace<SharedPtrCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1505:9: note: candidate: ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1505 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1505:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+  123 |       callback_.template emplace<SharedPtrCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrCallback’ {aka ‘std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>’}
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1551:9: note: candidate: ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1551 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1551:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+  123 |       callback_.template emplace<SharedPtrCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrCallback’ {aka ‘std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>’}
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:128:10: error: ‘value’ is not a member of ‘rclcpp::function_traits::same_arguments<void (GoToGoal::*)(int), std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)> >’
+  128 |       >::value)
+      |          ^~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: error: no matching function for call to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrWithRequestHeaderCallback>(void (GoToGoal::*&)(int))’
+  130 |       callback_.template emplace<SharedPtrWithRequestHeaderCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1485:9: note: candidate: ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1485 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1485:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/11/bits/move.h:57,
+                 from /usr/include/c++/11/bits/stl_pair.h:59,
+                 from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/memory:63,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>&]’:
+/usr/include/c++/11/variant:1485:2:   required by substitution of ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>; _Args = {void (GoToGoal::*&)(int)}]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/type_traits:2579:11: error: no type named ‘type’ in ‘struct std::enable_if<false, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>&>’
+ 2579 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/variant:1495:9: note: candidate: ‘template<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1495 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1495:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: note:   mismatched types ‘std::initializer_list<_Value>’ and ‘void (GoToGoal::*)(int)’
+  130 |       callback_.template emplace<SharedPtrWithRequestHeaderCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1505:9: note: candidate: ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1505 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1505:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+  130 |       callback_.template emplace<SharedPtrWithRequestHeaderCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrWithRequestHeaderCallback’ {aka ‘std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>’}
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1551:9: note: candidate: ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1551 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1551:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+  130 |       callback_.template emplace<SharedPtrWithRequestHeaderCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrWithRequestHeaderCallback’ {aka ‘std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>’}
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:135:10: error: ‘value’ is not a member of ‘rclcpp::function_traits::same_arguments<void (GoToGoal::*)(int), std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >’
+  135 |       >::value)
+      |          ^~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: error: no matching function for call to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrDeferResponseCallback>(void (GoToGoal::*&)(int))’
+  137 |       callback_.template emplace<SharedPtrDeferResponseCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1485:9: note: candidate: ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1485 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1485:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/11/bits/move.h:57,
+                 from /usr/include/c++/11/bits/stl_pair.h:59,
+                 from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/memory:63,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>&]’:
+/usr/include/c++/11/variant:1485:2:   required by substitution of ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>; _Args = {void (GoToGoal::*&)(int)}]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/type_traits:2579:11: error: no type named ‘type’ in ‘struct std::enable_if<false, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>&>’
+ 2579 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/variant:1495:9: note: candidate: ‘template<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1495 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1495:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: note:   mismatched types ‘std::initializer_list<_Value>’ and ‘void (GoToGoal::*)(int)’
+  137 |       callback_.template emplace<SharedPtrDeferResponseCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1505:9: note: candidate: ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1505 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1505:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+  137 |       callback_.template emplace<SharedPtrDeferResponseCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrDeferResponseCallback’ {aka ‘std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>’}
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1551:9: note: candidate: ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1551 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1551:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+  137 |       callback_.template emplace<SharedPtrDeferResponseCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrDeferResponseCallback’ {aka ‘std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>’}
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:142:10: error: ‘value’ is not a member of ‘rclcpp::function_traits::same_arguments<void (GoToGoal::*)(int), std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >’
+  142 |       >::value)
+      |          ^~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: error: no matching function for call to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrDeferResponseCallbackWithServiceHandle>(void (GoToGoal::*&)(int))’
+  144 |       callback_.template emplace<SharedPtrDeferResponseCallbackWithServiceHandle>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1485:9: note: candidate: ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1485 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1485:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/11/bits/move.h:57,
+                 from /usr/include/c++/11/bits/stl_pair.h:59,
+                 from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/memory:63,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>&]’:
+/usr/include/c++/11/variant:1485:2:   required by substitution of ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>; _Args = {void (GoToGoal::*&)(int)}]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/type_traits:2579:11: error: no type named ‘type’ in ‘struct std::enable_if<false, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>&>’
+ 2579 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/variant:1495:9: note: candidate: ‘template<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1495 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1495:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: note:   mismatched types ‘std::initializer_list<_Value>’ and ‘void (GoToGoal::*)(int)’
+  144 |       callback_.template emplace<SharedPtrDeferResponseCallbackWithServiceHandle>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1505:9: note: candidate: ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1505 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1505:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+  144 |       callback_.template emplace<SharedPtrDeferResponseCallbackWithServiceHandle>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrDeferResponseCallbackWithServiceHandle’ {aka ‘std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>’}
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1551:9: note: candidate: ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1551 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1551:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+  144 |       callback_.template emplace<SharedPtrDeferResponseCallbackWithServiceHandle>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<custom_interfaces::srv::Goto>::SharedPtrDeferResponseCallbackWithServiceHandle’ {aka ‘std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>’}
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:148:17: error: no match for ‘operator=’ (operand types are ‘std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >’ and ‘void (GoToGoal::*)(int)’)
+  148 |       callback_ = std::forward<CallbackT>(callback);
+      |       ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:1:
+/usr/include/c++/11/variant:1461:9: note: candidate: ‘template<class _Tp> std::enable_if_t<((__exactly_once<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<_Types>&> std::variant<_Types>::operator=(_Tp&&) [with _Tp = _Tp; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1461 |         operator=(_Tp&& __rhs)
+      |         ^~~~~~~~
+/usr/include/c++/11/variant:1461:9: note:   template argument deduction/substitution failed:
+/usr/include/c++/11/variant: In substitution of ‘template<class ... _Types> template<class _Tp, class> using __accepted_type = std::variant<_Types>::__to_type<__accepted_index<_Tp> > [with _Tp = void (GoToGoal::*&&)(int); <template-parameter-2-2> = void; _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’:
+/usr/include/c++/11/variant:1457:14:   required by substitution of ‘template<class _Tp> std::enable_if_t<((__exactly_once<std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >&> std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >::operator=<_Tp>(_Tp&&) [with _Tp = void (GoToGoal::*)(int)]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:148:17:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/variant:1375:15: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+ 1375 |         using __accepted_type = __to_type<__accepted_index<_Tp>>;
+      |               ^~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (GoToGoal::*)(int); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = custom_interfaces::srv::Goto]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = custom_interfaces::srv::Goto; CallbackT = void (GoToGoal::*)(int); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:20:66:   required from here
+/usr/include/c++/11/variant:1398:16: note: candidate: ‘std::variant<_Types>& std::variant<_Types>::operator=(const std::variant<_Types>&) [with _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1398 |       variant& operator=(const variant&) = default;
+      |                ^~~~~~~~
+/usr/include/c++/11/variant:1398:26: note:   no known conversion for argument 1 from ‘void (GoToGoal::*)(int)’ to ‘const std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >&’
+ 1398 |       variant& operator=(const variant&) = default;
+      |                          ^~~~~~~~~~~~~~
+/usr/include/c++/11/variant:1399:16: note: candidate: ‘std::variant<_Types>& std::variant<_Types>::operator=(std::variant<_Types>&&) [with _Types = {std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>}]’
+ 1399 |       variant& operator=(variant&&) = default;
+      |                ^~~~~~~~
+/usr/include/c++/11/variant:1399:26: note:   no known conversion for argument 1 from ‘void (GoToGoal::*)(int)’ to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<custom_interfaces::srv::Goto> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >)> >&&’
+ 1399 |       variant& operator=(variant&&) = default;
+      |                          ^~~~~~~~~
+gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

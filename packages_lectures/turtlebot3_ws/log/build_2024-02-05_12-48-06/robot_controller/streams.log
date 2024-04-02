@@ -1,0 +1,33 @@
+[0.320s] Invoking command in '/home/fssja/turtlebot3_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/robot_controller -- -j2 -l2
+[0.672s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_cmd.cpp.o[0m
+[13.036s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:34:43:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[13.037s]    34 |     rclcpp::Publisher<geometry_msgs::msg::[01;31m[KString[m[K>::SharedPtr publisher_;
+[13.038s]       |                                           [01;31m[K^~~~~~[m[K
+[13.039s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:34:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.040s]    34 |     rclcpp::Publisher<geometry_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[13.041s]       |                                                 [01;31m[K^[m[K
+[13.043s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:34:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[13.043s]    34 |     rclcpp::Publisher<geometry_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[13.043s]       |                                                    [01;31m[K^~~~~~~~~[m[K
+[13.044s]       |                                                             [32m[K;[m[K
+[13.051s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:34:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[13.051s]    34 | cpp::Publisher<geometry_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[13.052s]       |                                                       [01;31m[K^~~~~~~~~~[m[K
+[13.052s]       |                                                       [32m[Krmw_publisher_t[m[K
+[13.071s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:[m[K In constructor ‘[01m[KVelocityPublisher::VelocityPublisher()[m[K’:
+[13.072s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[13.073s]    20 |       [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("topic", 10);
+[13.074s]       |       [01;31m[K^~~~~~~~~~[m[K
+[13.075s]       |       [32m[Krmw_publisher_t[m[K
+[13.119s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:[m[K In member function ‘[01m[Kvoid VelocityPublisher::timer_callback()[m[K’:
+[13.120s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:28:42:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[13.121s]    28 |       auto message = geometry_msgs::msg::[01;31m[KString[m[K();
+[13.123s]       |                                          [01;31m[K^~~~~~[m[K
+[13.138s] [01m[K/home/fssja/turtlebot3_ws/src/robot_controller/src/publisher_cmd.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[13.140s]    31 |       [01;31m[Kpublisher_[m[K->publish(message);
+[13.140s]       |       [01;31m[K^~~~~~~~~~[m[K
+[13.142s]       |       [32m[Krmw_publisher_t[m[K
+[15.334s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_cmd.cpp.o] Error 1
+[15.334s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[15.334s] gmake: *** [Makefile:146: all] Error 2
+[15.337s] Invoked command in '/home/fssja/turtlebot3_ws/build/robot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fssja/turtlebot3_ws/build/robot_controller -- -j2 -l2

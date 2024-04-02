@@ -1,0 +1,11 @@
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/uninstall.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/publish_and_subscribe_uninstall.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/talker.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/listener.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/test.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/edit_cache.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/rebuild_cache.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/list_install_components.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/install.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/install/local.dir
+/home/fssja/ros2_ws/build/publish_and_subscribe/CMakeFiles/install/strip.dir

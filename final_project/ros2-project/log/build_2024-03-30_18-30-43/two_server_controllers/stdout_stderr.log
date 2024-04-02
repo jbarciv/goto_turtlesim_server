@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target go_to_goal[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto.cpp.o[0m
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::set_goal()[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:48:29:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   48 |     kp_linear = (2/((x2-x1)*[01;31m[K*2[m[K + (y2-y1)**2)**0.5)*my_speed;
+      |                             [01;31m[K^~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:48:42:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   48 |     kp_linear = (2/((x2-x1)**2 + (y2-y1)*[01;31m[K*2[m[K)**0.5)*my_speed;
+      |                                          [01;31m[K^~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:48:46:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+   48 |     kp_linear = (2/((x2-x1)**2 + (y2-y1)**2)*[01;31m[K*0.5[m[K)*my_speed;
+      |                                              [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

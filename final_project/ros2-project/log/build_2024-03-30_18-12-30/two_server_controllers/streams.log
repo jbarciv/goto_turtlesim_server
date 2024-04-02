@@ -1,0 +1,12 @@
+[0.037s] Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target go_to_goal[0m
+[0.178s] [ 50%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto.cpp.o[0m
+[7.167s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::go_to_goal()[m[K’:
+[7.167s] [01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto.cpp:59:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_tolerance_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kdistance_tolerance[m[K’?
+[7.168s]    59 |     if (euclidean_distance > [01;31m[Kdistance_tolerance_1[m[K)
+[7.168s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.168s]       |                              [32m[Kdistance_tolerance[m[K
+[15.443s] gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto.cpp.o] Error 1
+[15.444s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_to_goal.dir/all] Error 2
+[15.444s] gmake: *** [Makefile:146: all] Error 2
+[15.448s] Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2

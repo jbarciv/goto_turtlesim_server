@@ -1,0 +1,143 @@
+[3.877s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.878s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x778bc4120ac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x778bc4120670>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x778bc4120670>>)
+[21.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[21.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[21.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[21.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[21.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[21.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[21.048s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fssja/ros2-project'
+[21.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[21.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[21.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[21.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[21.050s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[21.050s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[21.050s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[21.050s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[21.050s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[21.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[21.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[21.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[21.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[21.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[21.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[21.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[21.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[21.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[21.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[21.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[21.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[21.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[21.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[21.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[21.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[21.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[21.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[21.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[21.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[21.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[21.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[21.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[21.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[21.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[21.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[21.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[21.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[21.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_server_controllers) by extensions ['ignore', 'ignore_ament_install']
+[21.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_server_controllers) by extension 'ignore'
+[21.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_server_controllers) by extension 'ignore_ament_install'
+[21.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_server_controllers) by extensions ['colcon_pkg']
+[21.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_server_controllers) by extension 'colcon_pkg'
+[21.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_server_controllers) by extensions ['colcon_meta']
+[21.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_server_controllers) by extension 'colcon_meta'
+[21.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_server_controllers) by extensions ['ros']
+[21.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_server_controllers) by extension 'ros'
+[21.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_server_controllers' with type 'ros.ament_cmake' and name 'two_server_controllers'
+[21.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[21.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[21.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[21.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[21.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[21.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[21.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[22.021s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/fssja/ros2-project/install
+[22.044s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/fssja/turtlebot3_ws/install
+[22.051s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/fssja/ros2_ws/install
+[22.086s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 368 installed packages in /opt/ros/humble
+[22.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[26.886s] Level 5:colcon.colcon_core.verb:set package 'two_server_controllers' build argument 'cmake_args' from command line to 'None'
+[26.886s] Level 5:colcon.colcon_core.verb:set package 'two_server_controllers' build argument 'cmake_target' from command line to 'None'
+[26.886s] Level 5:colcon.colcon_core.verb:set package 'two_server_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[26.886s] Level 5:colcon.colcon_core.verb:set package 'two_server_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[26.886s] Level 5:colcon.colcon_core.verb:set package 'two_server_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[26.886s] Level 5:colcon.colcon_core.verb:set package 'two_server_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[26.886s] Level 5:colcon.colcon_core.verb:set package 'two_server_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[26.886s] Level 5:colcon.colcon_core.verb:set package 'two_server_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[26.887s] Level 5:colcon.colcon_core.verb:set package 'two_server_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[26.887s] DEBUG:colcon.colcon_core.verb:Building package 'two_server_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fssja/ros2-project/build/two_server_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fssja/ros2-project/install/two_server_controllers', 'merge_install': False, 'path': '/home/fssja/ros2-project/src/two_server_controllers', 'symlink_install': False, 'test_result_base': None}
+[26.888s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[26.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[26.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fssja/ros2-project/src/two_server_controllers' with build type 'ament_cmake'
+[26.892s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fssja/ros2-project/src/two_server_controllers'
+[27.022s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[27.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.022s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[57.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2-project/build/two_server_controllers -- -j2 -l2
+[57.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fssja/ros2-project/build/two_server_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/fssja/ros2-project/build/two_server_controllers
+[57.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_server_controllers)
+[57.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fssja/ros2-project/build/two_server_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fssja/turtlebot3_ws/install/turtlebot3_teleop:/home/fssja/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/fssja/ros2-project/build/two_server_controllers
+[57.433s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers' for CMake module files
+[57.455s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers' for CMake config files
+[57.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_server_controllers', 'cmake_prefix_path')
+[57.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/hook/cmake_prefix_path.ps1'
+[57.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/hook/cmake_prefix_path.dsv'
+[57.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/hook/cmake_prefix_path.sh'
+[57.523s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/lib'
+[57.524s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/bin'
+[57.525s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/lib/pkgconfig/two_server_controllers.pc'
+[57.526s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/lib/python3.10/site-packages'
+[57.527s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/bin'
+[57.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.ps1'
+[57.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.dsv'
+[57.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.sh'
+[57.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.bash'
+[57.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.zsh'
+[57.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fssja/ros2-project/install/two_server_controllers/share/colcon-core/packages/two_server_controllers)
+[57.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_server_controllers)
+[57.662s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers' for CMake module files
+[57.663s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers' for CMake config files
+[57.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_server_controllers', 'cmake_prefix_path')
+[57.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/hook/cmake_prefix_path.ps1'
+[57.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/hook/cmake_prefix_path.dsv'
+[57.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/hook/cmake_prefix_path.sh'
+[57.668s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/lib'
+[57.668s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/bin'
+[57.668s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/lib/pkgconfig/two_server_controllers.pc'
+[57.669s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/lib/python3.10/site-packages'
+[57.669s] Level 1:colcon.colcon_core.environment:checking '/home/fssja/ros2-project/install/two_server_controllers/bin'
+[57.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.ps1'
+[57.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.dsv'
+[57.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.sh'
+[57.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.bash'
+[57.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/fssja/ros2-project/install/two_server_controllers/share/two_server_controllers/package.zsh'
+[57.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fssja/ros2-project/install/two_server_controllers/share/colcon-core/packages/two_server_controllers)
+[57.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[57.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[57.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[57.677s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[57.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[57.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[57.790s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[57.850s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[57.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fssja/ros2-project/install/local_setup.ps1'
+[57.893s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fssja/ros2-project/install/_local_setup_util_ps1.py'
+[57.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fssja/ros2-project/install/setup.ps1'
+[57.929s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fssja/ros2-project/install/local_setup.sh'
+[57.931s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fssja/ros2-project/install/_local_setup_util_sh.py'
+[57.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fssja/ros2-project/install/setup.sh'
+[57.937s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fssja/ros2-project/install/local_setup.bash'
+[57.966s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fssja/ros2-project/install/setup.bash'
+[57.971s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fssja/ros2-project/install/local_setup.zsh'
+[57.976s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fssja/ros2-project/install/setup.zsh'

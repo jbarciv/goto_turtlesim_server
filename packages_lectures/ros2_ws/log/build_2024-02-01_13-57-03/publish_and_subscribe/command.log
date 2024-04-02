@@ -1,0 +1,6 @@
+Invoking command in '/home/fssja/ros2_ws/build/publish_and_subscribe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/publish_and_subscribe -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/publish_and_subscribe
+Invoked command in '/home/fssja/ros2_ws/build/publish_and_subscribe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fssja/ros2_ws/src/publish_and_subscribe -DCMAKE_INSTALL_PREFIX=/home/fssja/ros2_ws/install/publish_and_subscribe
+Invoking command in '/home/fssja/ros2_ws/build/publish_and_subscribe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2_ws/build/publish_and_subscribe -- -j2 -l2
+Invoked command in '/home/fssja/ros2_ws/build/publish_and_subscribe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fssja/ros2_ws/build/publish_and_subscribe -- -j2 -l2
+Invoking command in '/home/fssja/ros2_ws/build/publish_and_subscribe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fssja/ros2_ws/build/publish_and_subscribe
+Invoked command in '/home/fssja/ros2_ws/build/publish_and_subscribe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fssja/ros2_ws/build/publish_and_subscribe

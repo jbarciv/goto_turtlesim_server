@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target go_to_goal[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o[0m
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:112:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  112 |   int [01;31m[Kflag[m[K my_flag;
+      |       [01;31m[K^~~~[m[K
+      |           [32m[K;[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:112:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_flag[m[K’ does not name a type
+  112 |   int flag [01;31m[Kmy_flag[m[K;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::go_to(std::shared_ptr<custom_interfaces::srv::Goto_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::Goto_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_flag[m[K’ was not declared in this scope; did you mean ‘[01m[Kflag[m[K’?
+   39 |     [01;31m[Kmy_flag[m[K = 1;
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[Kflag[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::move_to_goal()[m[K’:
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_flag[m[K’ was not declared in this scope; did you mean ‘[01m[Kflag[m[K’?
+   62 |     if ([01;31m[Kmy_flag[m[K = 1 && count_ > 2)
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kflag[m[K
+[01m[K/home/fssja/ros2-project/src/two_server_controllers/src/goto_server.cpp:67:26:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   67 |     else if (my_flag = 0;[01;31m[K)[m[K
+      |                          [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/go_to_goal.dir/build.make:76: CMakeFiles/go_to_goal.dir/src/goto_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/go_to_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
