@@ -1,5 +1,5 @@
 # ROS2 Course: a short introduction
-This GitHub repository is intended to serve as a gentle but `cut to the chase` introduction to ROS2. 
+This GitHub repository is intended to serve as a gentle but straightforward introduction to ROS2. 
 
 These notes and the documents provided come from the `ROS Course`:
 - Professors:
